@@ -1,0 +1,90 @@
+RUN cat /.balena/image-info,3380
+RUN,18
+COPY fluent.conf /fluentd/etc/,18
+COPY plugins /fluentd/plugins/,18
+COPY . /usr/src/app,16
+RUN  DEBIAN_FRONTEND=noninteractive  apt-get update,15
+COPY  .  /tmp,15
+WORKDIR  /tmp,13
+RUN ./install.sh,7
+WORKDIR /tmp,6
+COPY . /app,6
+ADD . /app,6
+COPY ./install.sh install.sh,6
+COPY requirements.txt /usr/src/app/,6
+RUN pip install --no-cache-dir -r requirements.txt,6
+RUN npm install,4
+COPY requirements.txt /app/requirements.txt,4
+RUN echo "Ubuntu 14.04 is no longer supported by ppa:ondrej/php maintainers",4
+RUN yarn install,4
+COPY requirements.txt /tmp/requirements.txt,3
+RUN /entrypoint.sh -r /tmp/requirements.txt,3
+RUN rm -f /requirements.installed,3
+RUN cd /etc/scrapyd,3
+COPY . /tmp,3
+RUN pip install -r requirements.txt,3
+RUN pip3 install -r requirements.txt,3
+COPY package.json /usr/src/app/,3
+COPY Gemfile /usr/src/app/,3
+COPY Gemfile.lock /usr/src/app/,3
+RUN bundle install,3
+RUN RAILS_ENV=production,3
+RUN mv config/credentials config/credentials.bak 2>/dev/null || true,3
+COPY ./requirements.txt /tmp/requirements.txt,2
+RUN pip install -r /tmp/requirements.txt,2
+RUN apt-get update,2
+COPY requirements.txt /usr/src/app/requirements.txt,2
+RUN echo "你把我当成基础镜像了",2
+COPY rebar.config /usr/src/app/,2
+RUN rebar3 update,2
+RUN rebar3 release,2
+COPY composer.json /var/www/html/,2
+RUN composer install,2
+COPY . /var/www/html,2
+COPY assets/ /,2
+USER app,2
+RUN rm -rf node_modules yarn.lock .yarn tmp/cache vendor/bundle test spec app/packs,2
+RUN bundle config --local without 'development test',2
+RUN yarn install --immutable,2
+RUN rm -rf node_modules yarn.lock tmp/cache vendor/bundle test spec app/packs,2
+RUN rm -rf node_modules tmp/cache vendor/bundle test spec app/packs,2
+RUN rm -rf node_modules tmp/cache vendor/bundle test spec app/javascript app/packs,2
+ARG TAG_OR_BRANCH,2
+RUN --mount=type=secret\,id=npmrc\,dst=/root/.npmrc RAILS_ENV=production,2
+RUN rm -rf node_modules tmp/cache vendor/bundle test spec,2
+COPY --from=Builder /usr/local/bundle/ /usr/local/bundle/,2
+RUN bundle install -j4 --retry 3 --without development:test,2
+COPY package.json yarn.lock /app/,2
+RUN yarn install --prod,2
+ADD Gemfile* /app/,2
+ADD . /blog,2
+WORKDIR /blog,2
+EXPOSE 4000,2
+CMD ["jekyll"\, "serve"],2
+COPY ./build.sh /src/build.sh,1
+COPY ./modules.go /src/modules.go,1
+ADD ./*.txt /etc/scrapyd/,1
+RUN  echo "===> Updating TLS certificates...",1
+ADD id_rsa /root/.ssh/id_rsa,1
+RUN touch /root/.ssh/known_hosts,1
+RUN ssh-keyscan -t rsa bitbucket.org >> /root/.ssh/known_hosts,1
+RUN cp /app/config/container/nginx-sites.conf /etc/nginx/sites-enabled/default,1
+COPY ./package.json /app,1
+RUN echo "你把我当作基础镜像了",1
+ENV,1
+RUN bundle exec bootsnap precompile app/ lib/ || true,1
+RUN rm -rf node_modules yarn.lock .yarn vendor/bundle test spec app/packs,1
+RUN --mount=type=secret\,id=bundleconfig\,dst=/root/.bundle/config,1
+RUN if [ ! -f config/importmap.rb ]; then rm -rf app/javascript; fi,1
+ARG COMMIT_VERSION,1
+RUN mv config/credentials.bak config/credentials 2>/dev/null || true,1
+RUN --mount=type=secret\,id=npmrc\,dst=/root/.npmrc,1
+COPY --from=Builder --chown=app:app /usr/local/bundle/ /usr/local/bundle/,1
+RUN mv config/credentials.yml.enc config/credentials.yml.enc.bak 2>/dev/null || true,1
+RUN mv config/credentials.yml.enc.bak config/credentials.yml.enc 2>/dev/null || true,1
+COPY Gemfile* /app/,1
+ARG COMMIT_SHA,1
+ARG COMMIT_TIME,1
+RUN addgroup -g 1000 -S app,1
+COPY --from=Builder --chown=app:app /app /app,1
+COPY . /blog,1

@@ -1,0 +1,35 @@
+SHELL,["cmd"\, "/S"\, "/C"],13
+SHELL,["conda"\, "run"\, "-n"\, "cellpose"\, "python"\, "-m"\,"cellpose"],1
+SHELL,["/bin/bash"\, "-c"],37
+SHELL,["powershell"\, "-Command"\, "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"],91
+SHELL,["powershell"\, "-Command"\, "$ErrorActionPreference = 'Stop';"],19
+SHELL,["/usr/bin/bash"\, "-c"],1
+SHELL,["/bin/bash"\, "-xo"\, "pipefail"\, "-c"],3
+SHELL,["powershell"\, "-Command"\, "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"],1
+SHELL,["/bin/sh"\, "-o"\, "pipefail"\, "-c"],118
+SHELL,["/bin/bash"\, "-l"\, "-euxo"\, "pipefail"\, "-c"],1
+SHELL,["cmd"\, "/C"],1
+SHELL,["/bin/bash"\, "-o"\, "pipefail"\, "-c"],213
+SHELL,["/usr/bin/env bash"\, "-o"\, "pipefail"\, "-c"],2
+SHELL,["/bin/sh"],2
+SHELL,["/bin/bash"\, "-o"\, "pipefail"\, "-c"\, "+e"],2
+SHELL,["C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe"\, "-command"],2
+SHELL,["/bin/bash"\, "--login"\, "-x"\, "-c"],4
+SHELL,["/bin/bash"\, "-eo"\, "pipefail"\, "-c"],1
+SHELL,["/bin/sh"\, "-ceuxo"\, "pipefail"],2
+SHELL,["/bin/bash"\, "-ceuxo"\, "pipefail"],4
+SHELL,/bin/bash,2
+SHELL,["/bin/bash"\, "-eou"\, "pipefail"\, "-c"],1
+SHELL,"/bin/bash" \\,1
+SHELL,["powershell"\, "-command"],1
+SHELL,["/bin/bash"\, "-x"\, "-c"],1
+SHELL,["powershell"\, "-Command"\, "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; $env:chocolateyUseWindowsCompression = 'true'; "],1
+SHELL,["/bin/ash"\, "-eo"\, "pipefail"\, "-c"],54
+SHELL,"/bin/bash"        \\,1
+SHELL,"/bin/bash"  \\,1
+SHELL,/bin/bash \\,1
+SHELL,/bin/bash                                                         \\,1
+SHELL,["/data/data/com.termux/files/usr/bin/sh"\, "-c"],3
+SHELL,["/system/bin/sh"\, "-c"],2
+SHELL,[ "cmd"\, "/S"\, "/C" ],2
+SHELL,["/bin/bash"\, "-o"\, "errtrace"\, "-o"\, "nounset"\, "-o"\, "pipefail"\, "-o"\, "errexit"\, "-c"],2

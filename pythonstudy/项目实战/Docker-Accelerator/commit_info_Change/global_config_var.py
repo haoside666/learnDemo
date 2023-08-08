@@ -1,0 +1,10 @@
+project_name_path="/home/haoside/Desktop/pythonStudy/multiprocessing/project/commit_info_Change/Dataset/temp"
+storage_folder_path = "/home/haoside/Desktop/Docker-Accelerator-data/first"
+repository_path = ""
+output_path = ""
+logs_path = ""
+log_level=""
+output_to_terminal = True
+mysql_server_ip = ""
+mysql_user = ""
+mysql_passwd = ""

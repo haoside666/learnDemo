@@ -1,0 +1,18 @@
+[
+    {
+        "name": "master",
+        "tag_last_pushed": "2021-09-04T03:55:16.208914Z"
+    },
+    {
+        "name": "latest",
+        "tag_last_pushed": "2021-09-02T10:20:53.728248Z"
+    },
+    {
+        "name": "2.5.0",
+        "tag_last_pushed": "2021-09-02T10:20:50.88065Z"
+    },
+    {
+        "name": "amd64",
+        "tag_last_pushed": "2020-08-07T02:15:33.627091Z"
+    }
+]

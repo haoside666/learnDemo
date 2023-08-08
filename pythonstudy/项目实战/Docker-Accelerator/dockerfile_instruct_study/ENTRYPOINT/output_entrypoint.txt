@@ -1,0 +1,889 @@
+["/docker-entrypoint.sh"],7127
+["/entrypoint.sh"],681
+["java","-Xmx1G","-jar", "DynamoDBLocal.jar"],617
+["/usr/bin/entry.sh"],339
+["/bin/bash", "/entrypoint.sh"],319
+["docker-entrypoint.sh"],203
+["/usr/local/sbin/pid1"],159
+[ "/usr/bin/env" ],147
+["dumb-init"],133
+["cypress", "run"],113
+["/bin/entrypoint.sh"],113
+[ "sleep infinity" ],102
+["/ros_entrypoint.sh"],87
+["sync_gateway"],78
+["tini","--", "/bin/entrypoint.sh"],71
+["ffmpeg"],54
+["/bin/cp","-f","-r","/scripts/agent-launcher.sh","/scripts/agent-launcher-lib.sh","/probes/readinessprobe","/probes/probe.sh","/tools", "/opt/scripts/" ],48
+["exec","/usr/local/bin/mongodb-enterprise-operator"],44
+[ "/entrypoint.sh" ],37
+["/usr/local/bin/mvn-entrypoint.sh"],37
+["/sbin/tini","--", "/usr/local/bin/jenkins.sh"],36
+[],35
+["cmd","/k","fluentd","-c", "C:\\\\fluent\\\\conf\\\\fluent.conf"],35
+["/usr/local/bin/entrypoint.sh"],34
+["dockerd-entrypoint.sh"],33
+["entrypoint"],31
+[ "/init" ],30
+["/rails/bin/docker-entrypoint"],30
+[ "dotnet-monitor" ],28
+[ "/run.sh" ],26
+["cmd","/k","fluentd","--config", "C:\\\\fluent\\\\conf\\\\fluent.conf"],26
+["C:\\\\ServiceMonitor.exe", "w3svc"],25
+["/opt/entrypoint.sh"],23
+["/gzserver_entrypoint.sh"],22
+["yarn","theia","start","/home/project", "--hostname=0.0.0.0" ],22
+["docker-upgrade"],21
+["/s6-init"],21
+["powershell.exe","-f", "C:/ProgramData/Jenkins/jenkins.ps1"],20
+["/bin/cp","-f","/scripts/docker-entry-point.sh","/scripts/backup-daemon-liveness-probe.sh","/scripts/mmsconfiguration","/scripts/backup-daemon-readiness-probe", "/opt/scripts/" ],18
+["/init"],17
+["/usr/local/bin/sync_gateway"],16
+["/run.sh"],16
+["docker-php-entrypoint"],16
+["/command/s6-svscan","-t0", "/etc/services.d"],15
+["/opt/confluence/bin/start-confluence.sh", "-fg"],15
+["minio","server", "/export"],14
+["node","/home/theia/src-gen/backend/main.js","/home/project", "--hostname=0.0.0.0" ],14
+["/bin/bash"],13
+["/usr/bin/entrypoint.sh"],13
+["/opt/sonarqube/docker/entrypoint.sh"],12
+["bash","-c", "/usr/bin/supervisord"],11
+["tini","--", "/docker-entrypoint.sh"],11
+["/entrypoint"],11
+["pandoc"],11
+["bash", "/docker-entrypoint.sh"],11
+["./goapp"],11
+["/usr/bin/dumb-init"],10
+[ "uid_entrypoint" ],10
+["/bin/bash","-e", "/init/entrypoint"],10
+["/opt/sonarqube/bin/run.sh"],10
+["bin/run.sh"],10
+["/usr/bin/frps","-c","/etc/frp/frps.ini"],10
+["/usr/bin/protoc", "-I/protobuf"],10
+["./entrypoint.sh"],9
+["bash","-c","bash /root/certbot/run-certbot.sh && sleep infinity"],9
+["bash", "/entrypoint.sh"],9
+["/sbin/tini", "--"],9
+["/bin/bash", "/tmp/entrypoint.sh"],9
+[ "/usr/local/v2ray/entrypoint.sh" ],9
+[ "/bin/bash" ],8
+["dotnet-monitor","collect","--urls","https://+:52323","--metricUrls", "http://+:52325" ],8
+["caddy"],8
+["tini", "--"],8
+["deno"],8
+["s6-svscan","-t0", "/etc/services.d"],8
+["/usr/local/openresty/bin/openresty","-g", "daemon off;"],8
+["sleep infinity"],8
+[ "/docker-entrypoint.sh"],8
+["kubectl"],8
+["/opt/bin/kubectl"],8
+["runpia.sh"],7
+["/usr/bin/dotnet"],7
+["/sbin/tini","-g","--", "/docker-entrypoint.sh"],7
+["/ros2_entrypoint.sh"],7
+["entrypoint.sh"],7
+[ "/docker-entrypoint.sh" ],7
+["/traefik"],6
+["/usr/sbin/apache2ctl","-D", "FOREGROUND"],6
+["thug"],6
+["dotnet","test", "--logger:trx"],6
+["/start.sh"],6
+[ "run.sh" ],6
+["/root/startscript.sh"],6
+["./dotnetapp"],6
+["bash"],6
+["i2pd"],6
+["supernode"],6
+["/ros1_bridge_entrypoint.sh"],6
+[ "tor" ],6
+[ "/start.sh" ],6
+[ "/usr/bin/google-chrome" ],6
+["php"],6
+["bash", "-c" ],6
+["/bin/cp","-f","/scripts/docker-entry-point.sh","/scripts/mmsconfiguration", "/opt/scripts/" ],6
+["rar"],6
+["/opt/java/openjdk/bin/java","-jar","lib/sonarqube.jar","-Dsonar.log.console=true"],6
+["rails"],6
+["/usr/bin/tini", "--" ],6
+["npx","theia","start","/home/project", "--hostname=0.0.0.0" ],6
+["docker-app-entrypoint"],6
+["/entrypoint_setup.sh"],6
+["/usr/bin/protoc-wrapper", "-I/protobuf"],6
+["coregenebuilder"],5
+["danpos.py"],5
+["integron_finder"],5
+["/usr/local/bin/dockerd-entrypoint.sh"],5
+["/usr/bin/supervisord","-n","-c",  "/etc/supervisord.conf"],5
+[ "weechat" ],5
+["coredns", "-log" ],5
+[ "bash" ],5
+[ "/usr/local/bin/entrypoint.sh" ],5
+[ "google-chrome" ],5
+[ "stress" ],5
+["/bin/sh", "/docker-entrypoint.sh"],5
+["deployment/octane/entrypoint.sh"],5
+["bash", "/docker-entrypoint.sh" ],5
+["/usr/bin/entrypoint"],5
+["/usr/local/bin/docker-entrypoint.sh"],5
+["hugo"],5
+["rhc"],5
+["/usr/bin/qb", "hot"],5
+["docker-entrypoint"],5
+["/bin/bash","-c", "cp /plugins/* /target/."],4
+["/usr/bin/dumb-init","bash", "/entrypoint.sh"],4
+["run_ilastik.sh"],4
+["gnatsd"],4
+[ "/bin/sh" ],4
+["/startscript.sh"],4
+["/usr/src/couchdb/dev/run"],4
+["/usr/sbin/squid", "-NYCd1"],4
+["deno","run","--allow-net", "main.ts"],4
+["npm”, “start”],4
+["node", "index.js"],4
+["mono", "/terraria-server/TerrariaServer.exe"],4
+[ "/usr/bin/powershell" ],4
+[ "mitmproxy" ],4
+["weechat"],4
+[ "certbot-auto" ],4
+["mop"],4
+[ "/usr/bin/spotify" ],4
+[ "imagemagick" ],4
+["/usr/local/bin/pandoc"],4
+["supervisord","--nodaemon","--configuration", "/etc/supervisord.conf"],4
+["unitd"],4
+["/opt/zookeeper/bin/zkServer.sh"],4
+[ "/opt/cerebro/bin/cerebro" ],4
+["/usr/local/openresty/nginx/sbin/nginx","-g", "daemon off;"],4
+["/bin/registry"],4
+["start.sh"],4
+["./start.sh"],4
+["jekyll"],4
+["python","/speedtest"],4
+["/opt/sonarqube/docker/run.sh"],4
+["bash","/entrypoint.sh" ],4
+["/usr/bin/frpc","-c","/etc/frp/frpc.ini"],4
+["/usr/bin/tini","--", "/usr/local/bin/jenkins.sh"],4
+["envsubst","<","/etc/nginx/nginx.tpl",">","/etc/nginx/nginx.conf;","nginx","-g","daemon off;"],4
+["cloudflared", "--no-autoupdate"],3
+["/go/bin/botkube"],3
+["/sbin/init"],3
+["bedtools"],3
+["/PhyloCSF/PhyloCSF"],3
+["/start.ps1"],3
+["python", "sqlmap.py" ],3
+[ "nmap" ],3
+["/usr/local/bundle/bin/wpscan"],3
+["/bin/ffmpeg"],3
+[ "entrypoint.sh" ],3
+["geth"],3
+["dotnet", "dotnetapp.dll"],3
+["minio","server","--console-address",":9001", "/export"],3
+["/usr/bin/beanstalkd"],3
+["/bin/tini","--", "/usr/local/bin/jenkins.sh"],3
+["dnsmasq","--no-daemon","--user=dnsmasq", "--group=dnsmasq"],3
+["snort"],3
+["ntopng"],3
+["/ros2_source_entrypoint.sh"],3
+["/terraria-server/TerrariaServer"],3
+["/bin/zsh"],3
+[ "auth_server" ],3
+[ "transfer.sh" ],3
+[ "watchtower" ],3
+[ "/usr/bin/pwsh" ],3
+["/usr/bin/keepass2"],3
+["cloudapp"],3
+["/usr/local/bin/curl"],3
+[ "ansible" ],3
+["gcloud"],3
+[ "cli53" ],3
+["/usr/bin/scudcloud"],3
+[ "vagrant" ],3
+[ "/usr/bin/virtualbox" ],3
+[ "inkscape" ],3
+["mpsyt"],3
+["/opt/jira/bin/start-jira.sh", "-fg"],3
+["fixuid"],3
+["sh", "/usr/local/bin/run"],3
+["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat","&&"],3
+["/docker-entrypoint.composer"],3
+["sh", "/app/laravel-docker/.docker-rootless/docker-entrypoint.sh" ],3
+["sh", "/app/laravel-docker/.docker/docker-entrypoint.sh" ],3
+["sh", "/wait-for-php.sh"],3
+["/app/entry.sh"],3
+["/usr/src/app/docker-entrypoint.sh"],3
+["/usr/local/bin/build"],3
+["cp","termite/termite","termite/termite.desktop","termite/termite.terminfo", "/target/"],3
+["bitcoind"],3
+[ "/usr/sbin/apachectl" ],3
+["cfn-create-or-update"],3
+["figlet"],3
+["nc"],3
+["gawk"],3
+["find"],3
+["sed"],3
+["pwgen"],3
+["nkf"],3
+["curl"],3
+["/usr/games/sl"],3
+["awslogs"],3
+["date"],3
+["ansible-playbook"],3
+["erd"],3
+["java","-jar", "/usr/share/plantuml.jar"],3
+["az"],3
+["ant"],3
+["par2"],3
+[ "seagull" ],3
+["vegeta"],3
+["ionic"],3
+["ab"],3
+["dig"],3
+["host"],3
+["/lanproxy-client/init.sh"],3
+[ "/usr/lib/jvm/zulu17/bin/java" ],3
+[""],3
+["/usr/local/bin/run"],3
+["/home/theia/entrypoint"],3
+[".build/release/MyApplication"],3
+["protoc-wrapper", "-I/usr/include"],3
+["/lib/systemd/systemd"],2
+["powershell"],2
+["dotnet", "whoami.dll"],2
+["../viper/viper.py"],2
+["./viper.py"],2
+["dumb-init","--"],2
+["python", "linkfinder.py" ],2
+["python", "/EyeWitness/EyeWitness.py"],2
+["/usr/bin/python", "/Sublist3r/sublist3r.py"],2
+["go", "/go/bin/hakrawler" ],2
+["java","-jar", "/opt/selenium/selenium-server-standalone.jar"],2
+["java","-jar","/opt/selenium/selenium-server-standalone.jar"],2
+["sh","-c"],2
+[ "/usr/bin/" ],2
+[ "/usr/bin" ],2
+[ "/" ],2
+[ "init" ],2
+["./main"],2
+["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"],2
+["-","provides","command","and","arguments","for","an","executing","container.","Arguments","persist."],2
+["dotnet","test","--logger:trx","--no-restore", "--no-build"],2
+["top", "-b"],2
+["python", "/app/gitbook.py" ],2
+["bash", "docker-entrypoint.sh"],2
+["/usr/bin/dumb-init", "/entrypoint"],2
+["tini","--", "/usr/src/couchdb/dev/run"],2
+["/usr/sbin/squid","--foreground", "-YCd1"],2
+["supervisord","-n","-c", "/etc/supervisord.conf"],2
+["rsyslogd", "-n"],2
+["redis-server","--protected-mode", "no"],2
+["redis-server"],2
+["errbot"],2
+["in.tftpd"],2
+["hass","--config", "/etc/hass"],2
+["sslsplit", "-D"],2
+["/usr/bin/cadvisor", "-logtostderr"],2
+["/usr/sbin/dnsmasq","--no-daemon","--user=dnsmasq", "--group=dnsmasq"],2
+["openvpn"],2
+["./red5.sh"],2
+["/usr/sbin/dnsmasq","--user=dnsmasq", "--group=dnsmasq"],2
+["/webhook"],2
+["etcd"],2
+["bro","-i"],2
+["/crossbuild"],2
+["/ZoneMinder/utils/docker/entrypoint.sh"],2
+["./tf.sh"],2
+["/usr/sbin/php-fpm8"],2
+["/usr/sbin/php-fpm7"],2
+["/usr/local/bin/run.sh"],2
+["./discosrv"],2
+["/discosrv/discosrv"],2
+["npm", "machine"],2
+[ "firefox" ],2
+[ "iceweasel" ],2
+["cfssl"],2
+["linapple", "-1"],2
+[ "/usr/local/bin/startfirefox" ],2
+[ "/usr/bin/firefox" ],2
+[ "sendmail" ],2
+[ "pandoc" ],2
+[ "/usr/local/bin/browsh" ],2
+["/opt/nzbget/nzbget","-s","-o","FlushQueue=no","-o","OutputMode=loggable","-c", "/opt/nzbget/nzbget.conf" ],2
+["skypeforlinux"],2
+[ "coredns" ],2
+["skype"],2
+["/usr/bin/zsh"],2
+["wrk"],2
+[ "wrk" ],2
+["--nolaunch", "--datadir=/data"],2
+["travis"],2
+[ "t" ],2
+[ "/go/bin/micro" ],2
+["slack"],2
+["/usr/src/google-cloud-sdk/bin/gcloud"],2
+[ "/bin/vault" ],2
+[ "/bin/consul" ],2
+[ "yubico-piv-tool" ],2
+[ "beeswithmachineguns" ],2
+[ "/usr/local/bin/consul" ],2
+[ "imagemin" ],2
+[ "/usr/local/bin/gcalcli" ],2
+["/usr/bin/termboy-go"],2
+[ "/usr/bin/google-chrome-beta" ],2
+["/usr/local/bin/znc-shim"],2
+["/home/user/entrypoint.sh"],2
+["/usr/sbin/sshd",  "-D"],2
+["serverless deploy"],2
+["/docker/entrypoint.sh"],2
+["/bin/sh", "/docker/entrypoint.sh"],2
+["/citus-entrypoint.sh"],2
+["/bootstrap.sh"],2
+["node"],2
+["/usr/bin/tini","--", "/usr/sbin/slapd"],2
+["searchsploit"],2
+["/elasticsearch/bin/elasticsearch", "--path.conf=/data/conf"],2
+["/usr/local/bin/dumb-init", "/entrypoint.sh"],2
+["/mopidy.sh"],2
+["/usr/bin/mopidy"],2
+["./deployment/octane/entrypoint.sh"],2
+["/go/bin/linx-server","-bind=0.0.0.0:8080","-filespath=/data/files/", "-metapath=/data/meta/"],2
+["build/build.sh"],2
+["sh", "run"],2
+["run"],2
+["supervisord","--nodaemon","--configuration", "/etc/supervisor/supervisord.conf"],2
+["/usr/local/bin/php","-f","/usr/share/nginx/html/call.weipeiapp.com/start.php"],2
+["/usr/local/bin/php","-f","/usr/share/nginx/html/start.php"],2
+['/usr/local/bin/php','start', '/usr/share/nginx/html/start.php'],2
+['php','start', '/usr/share/nginx/html/start.php'],2
+["./docker-entrypoint.sh"],2
+["mkdocs"],2
+["/usr/bin/p4p"],2
+["/usr/sbin/init"],2
+["flutter"],2
+["/bin/s6-svscan"],2
+["/etc/s6-linux-init/current/bin/init"],2
+["/usr/bin/supervisord","-c","/etc/supervisord.conf"],2
+["./backup_init.sh"],2
+["aws"],2
+["./entrypoint.sh", "/opt/zookeeper/bin/zkServer.sh"],2
+["netcat"],2
+["ncat"],2
+["/opt/logstash/bin/logstash"],2
+["chromium-browser","--headless","--use-gl=swiftshader","--disable-software-rasterizer", "--disable-dev-shm-usage"],2
+["chromedriver","--whitelisted-ips"],2
+["/usr/bin/selenoid","-listen",":4444","-conf", "/etc/selenoid/browsers.json"],2
+["chromium-browser","--headless","--disable-gpu","--disable-software-rasterizer", "--disable-dev-shm-usage"],2
+["chromium-browser","--headless","--disable-gpu", "--disable-software-rasterizer"],2
+["chromium-browser","--headless", "--disable-gpu"],2
+["/etc/init.d/cron", "start"],2
+["litefs","mount","--","su","rails", "/rails/bin/docker-entrypoint"],2
+["/usr/bin/tor"],2
+["tail","-f", "/dev/null"],2
+["powershell.exe", "/entrypoint.ps1" ],2
+[ "google-chrome-stable" ],2
+[ "google-chrome-beta" ],2
+[ "/opt/stickmanventures/chrome-headless/headless_shell" ],2
+["/bin/sh", "-l"],2
+["/tini", "--"],2
+[ "docker-entrypoint.sh" ],2
+["bundle","exec", "jekyll" ],2
+["/bin/registry", "serve"],2
+["./prometheus","-config.file=prometheus.yml"],2
+["/usr/bin/docker-entrypoint.sh"],2
+["/bin/bash","/run.sh"],2
+["./sbin/start-master.sh","&&","tail","-f","logs/*.out"],2
+["cp","termite/termite", "/target/"],2
+["/usr/local/bin/dumb-init", "/usr/bin/wget"],2
+["pygmentize"],2
+["cowsay"],2
+["/usr/local/bin/pocketbase","serve","--http=0.0.0.0:8090", "--dir=/pb_data"],2
+["/opt/zookeeper-3.4.6/bin/zkServer.sh"],2
+["/opt/zookeeper-3.4.5/bin/zkServer.sh"],2
+["alertmanager","-config.file=/etc/alertmanager/config.yml","-storage.path=/alertmanager"],2
+["node_exporter","--path.procfs=/usr/proc","--path.sysfs=/usr/sys"],2
+["bash","/home/linuxgsm/entrypoint.sh" ],2
+["./mini-docker-rust"],2
+["/bin/bash","-c", "/usr/local/bin/run"],2
+[ "npx" ],2
+["java","-jar","/tika-server-1.7.jar","-h","0.0.0.0"],2
+["httpd"],2
+["/opt/rh/httpd24/root/usr/sbin/httpd"],2
+["/usr/sbin/httpd"],2
+["dumb-init", "--"],2
+["/opt/jdk1.8.0_192/jre/bin/java","-jar","-Xms3G","-Xmx3G","-XX:+UseG1GC","-XX:+UnlockExperimentalVMOptions","-XX:MaxGCPauseMillis=100","-XX:+DisableExplicitGC","-XX:TargetSurvivorRatio=90","-XX:G1NewSizePercent=50","-XX:G1MaxNewSizePercent=80","-XX:G1MixedGCLiveThresholdPercent=35","-XX:+AlwaysPreTouch","-XX:+ParallelRefProcEnabled","-Dusing.aikars.flags=mcflags.emc.gs","-Dcom.mojang.eula.agree=true","/opt/minecraft/server/paperspigot.jar"],2
+["sh","/opt/minecraft/server/start.sh"],2
+["ss-server","\\"],2
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-0.14.7.jar"],2
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-0.14.6.jar"],2
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-0.14.4.jar"],2
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-0.13.8.jar"],2
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-0.13.1.jar"],2
+["/usr/bin/java","-jar", "/elasticmq-server-0.12.0.jar"],2
+["/usr/bin/java","-jar", "/elasticmq-server-0.9.3.jar"],2
+["/usr/bin/java","-jar", "/elasticmq-server-0.8.8.jar"],2
+["/usr/local/bin/protoc", "-I/protobuf"],2
+["/usr/local/sbin/mosquitto"],2
+["/usr/sbin/mosquitto"],2
+[ "/bin/thanos" ],1
+["/traefik-forward-auth"],1
+["/sbin/tini","--", "/entrypoint.sh"],1
+["./flagger"],1
+["/bin/bash","-c", "cp -r /plugins/* /target/."],1
+["/usr/lib/kubeyaml/kubeyaml"],1
+["/usr/bin/kured"],1
+["sh", "/entrypoint.sh"],1
+["/home/frappe/start.sh"],1
+["cellprofiler"],1
+["conda","run","-n","cellpose","python","-m", "cellpose"],1
+["/runpia.sh"],1
+["dotnet", "HelloWorld.dll"],1
+[".\\Run-Terraform.ps1"],1
+["terraform.exe"],1
+["AzCopy.exe"],1
+["./openssl"],1
+["/usr/local/bin/cloudflared", "--no-autoupdate" ],1
+[ "/usr/local/bin/cloudflared" ],1
+["/usr/local/bin/ciphey"],1
+["python","app.py"],1
+[ "kr" ],1
+["python", "/smuggler.py/smuggler.py" ],1
+["python", "xss/xsstrike.py" ],1
+[ "gospider" ],1
+["python", "/LinkFinder/linkfinder.py" ],1
+[ "../root/BugBountyScanner/BugBountyAutomator.sh" ],1
+["python", "/Katana/kds.py"],1
+[ "nuclei" ],1
+["python", "ntlmscan/ntlmscan.py" ],1
+["python", "/smuggler/smuggler.py" ],1
+["python", "/viewgen/viewgen" ],1
+[ "urlprobe" ],1
+[ "gf" ],1
+[ "assetfinder" ],1
+["python", "/subscraper/subscraper.py" ],1
+["python", "/EyeWitness/Python/EyeWitness.py"],1
+["/usr/bin/python", "/sublister/sublist3r.py"],1
+["python", "corsy.py" ],1
+[ "crackmapexec" ],1
+[ "enum4linux" ],1
+["python", "paramspider.py" ],1
+[ "getJS" ],1
+[ "httprobe" ],1
+[ "meg" ],1
+[ "subjack" ],1
+[ "pdftotext" ],1
+[ "./findomain-linux" ],1
+["python", "/gmapsapiscanner/maps_api_scanner_python3.py" ],1
+[ "gau" ],1
+[ "hashid" ],1
+[ "sslyze" ],1
+["python", "/crosslinked/crosslinked.py" ],1
+[ "wfuzz" ],1
+[ "./cewl.rb" ],1
+["python", "photon.py" ],1
+["python", "arjun.py" ],1
+[ "gitrob" ],1
+[ "waybackurls" ],1
+[ "hakrawler" ],1
+["python", "/aiodnsbrute/aiodnsbrute/cli.py" ],1
+["ruby", "extract.rb" ],1
+["bash","./wrapper.sh"],1
+["./john"],1
+["python", "osmedeus.py" ],1
+["bash", "./main.sh" ],1
+[ "/masscan/bin/masscan" ],1
+["python", "metagoofil/metagoofil.py" ],1
+["python", "/source/get_ip.py" ],1
+["python", "/source/shodan_info.py" ],1
+[ "curl" ],1
+[ "nikto" ],1
+["python", "/source/ip_info.py" ],1
+["/bin/amass"],1
+[ "gobuster" ],1
+["python", "/knock/knockpy/knockpy.py"],1
+["/usr/local/bin/masscan"],1
+["python", "/parameth/parameth.py"],1
+["python", "sherlock.py"],1
+["/usr/local/bin/python","/theHarvester/theHarvester.py"],1
+["dotnetapp-4.8.1.exe"],1
+["dotnetapp-4.8.exe"],1
+["dotnetapp.exe"],1
+["dotnetapp-4.7.2.exe"],1
+["dotnetapp-3.5.exe"],1
+["dotnetapp-4.6.2.exe"],1
+["dotnetapp-4.7.1.exe"],1
+["dotnetapp-4.7.exe"],1
+["protractor","conf.js"],1
+["/usr/bin/dumb-init","--","java","-jar","/opt/selenium/selenium-server-standalone.jar"],1
+[ "/bin/prometheus" ],1
+["./kube-metrics-adapter"],1
+["awesome-lint"],1
+["caido"],1
+["./cloudreve-main","-c", "/cloudreve/config/conf.ini"],1
+["/cloudreve/main"],1
+["/usr/bin/bazel"],1
+["supervisord", "--nodaemon"],1
+["dotnet","test","--logger:trx", "--no-build"],1
+["dotnetapp"],1
+["./globalapp"],1
+["/update-dependencies/update-dependencies"],1
+["dotnet", "/update-dependencies/update-dependencies.dll"],1
+["dotnet", "complexapp.dll"],1
+["dotnet", "aspnetapp.dll"],1
+["/opt/docker/bin/entrypoint.sh"],1
+[ "/entrypoint" ],1
+["/turnserver.sh"],1
+["sh", "/docker-entrypoint.sh"],1
+["bin/flowgger"],1
+["dnsmasq","--keep-in-foreground","--user=dnsmasq", "--group=dnsmasq"],1
+["bittorrent-tracker"],1
+["dirsearch"],1
+["dnscrypt-proxy"],1
+["dvr-scan"],1
+["registry-cli"],1
+["deface"],1
+["/usr/bin/tini", "--"],1
+["sh", "-c"],1
+["microsocks"],1
+["/usr/bin/dumb-init","--","xvfb-run","--server-args","-screen 0 1280x1024x24 -ac", "editly"],1
+[ "cowrie" ],1
+["bin/rehook"],1
+["wafw00f"],1
+["datax.py"],1
+["bin/control.sh"],1
+["bin/cmak"],1
+["tiddlywiki",".","--listen","host=0.0.0.0", "port=8080"],1
+["dsvpn"],1
+["ludwig"],1
+["nutcracker"],1
+["jsonwire-grid"],1
+["pure-ftpd"],1
+["airflow"],1
+["../scripts/start.sh"],1
+["./freegeoip"],1
+["sleep", "inf"],1
+["/bin/logspout"],1
+["bin/kafka-manager"],1
+["vault"],1
+["drone-scp"],1
+["drone-ssh"],1
+["upload.sh"],1
+["docker-compose"],1
+["flvrec.py"],1
+["piknik"],1
+["server_linux_amd64"],1
+["cadvisor", "-logtostderr"],1
+["/opt/nifi/bin/nifi.sh"],1
+["/app/refine"],1
+["ffserver"],1
+["live555MediaServer"],1
+["openconnect", "--config=/etc/openconnect/openconnect.conf"],1
+["facedetect"],1
+["mysql-proxy"],1
+["json-server"],1
+["/app/rsf.py"],1
+["/bin/delegated"],1
+["clamscan"],1
+["/swarm"],1
+["mosquitto"],1
+["./ngrokd"],1
+["webhook"],1
+["/hugo"],1
+["/etcd"],1
+["casperjs"],1
+["audiowaveform"],1
+["tesseract"],1
+["polipo","proxyAddress=0.0.0.0", "proxyPort=8123"],1
+["ferm", "--remote"],1
+["/usr/bin/crossbuild"],1
+["deno","--allow-net", "main.ts"],1
+["while",":;","do","nc","-l","-p","8080","-e","sh","-c","echo -e HTTP/1.1 200 OK\\n\\n Awesome Cloud Run;","done"],1
+["./csgo.sh"],1
+["/home/tf2/hlserver/tf.sh"],1
+["/usr/sbin/php-fpm81"],1
+["/usr/sbin/nginx"],1
+["java","-Xmx1024M","-jar","/usr/lib/unifi/lib/ace.jar", "start"],1
+["syncthing"],1
+["gollum"],1
+["s6-svscan", "/etc/s6"],1
+["./stdiscosrv"],1
+["/gocv-version"],1
+["node", "machine"],1
+["node", "lab"],1
+["usr/local/bin/lt", "--port"],1
+["/bin/sh", "bootstrap.sh" ],1
+["mono","--server","--gc=sgen","-O=all", "/terraria-server/TerrariaServer.exe"],1
+["aspell"],1
+["zkServer.sh", "start-foreground"],1
+[ "go" ],1
+[ "pomerium" ],1
+[ "openscad" ],1
+[ "kicad" ],1
+["bpftrace"],1
+["qemu-system-arm","-m","256","-M","romulus-bmc","-nographic","-drive","file=/usr/src/openbmc/obmc-phosphor-image-romulus.static.mtd,format=raw,if=mtd","-net","nic","-net","user,hostfwd=:127.0.0.1:2222-:22,hostfwd=:127.0.0.1:2443-:443,hostname=qemu"],1
+[ "nomad" ],1
+[ "packer" ],1
+["./start"],1
+["linapple"],1
+["java","-jar","/mars.jar", "nc"],1
+[ "startfirefox" ],1
+[ "sendemail" ],1
+[ "fleet" ],1
+["osqueryd","--pidfile", "/home/user/osqueryd.pidfile" ],1
+[ "mc" ],1
+[ "browsh" ],1
+["/opt/nzbget/nzbget","-s","-o","FlushQueue=no","-o","OutputMode=loggable","-c", "/config/nzbget.conf" ],1
+[ "viewdocs" ],1
+[ "k8scan" ],1
+[ "htpasswd" ],1
+["wg"],1
+["strace"],1
+[ "perkeepd" ],1
+["run-skype-and-wait-for-exit"],1
+[ "pwsh" ],1
+[ "clisp" ],1
+[ "/usr/src/unixbench/Run" ],1
+["troff"],1
+["gs"],1
+["gnuplot"],1
+[ "radiusd" ],1
+["protocol"],1
+[ "terraform" ],1
+["/usr/bin/firefox"],1
+[ "az" ],1
+["gixy"],1
+[ "/usr/local/bin/start.sh" ],1
+[ "/usr/local/bin/guetzli" ],1
+[ "oauth2_proxy" ],1
+[ "distccd-init" ],1
+[ "clair" ],1
+[ "/usr/bin/start.sh" ],1
+[ "/usr/local/bin/keepassxc" ],1
+[ "lilyterm" ],1
+["/usr/sbin/runit_bootstrap"],1
+[ "certbot" ],1
+["python", "PlexPy.py"],1
+[ "fontpatcher" ],1
+[ "tarsnap" ],1
+["gitsome"],1
+["t"],1
+[ "mop" ],1
+[ "micro" ],1
+[ "checkup" ],1
+["/usr/lib/slack/slack"],1
+[ "./rsf.py" ],1
+["virsh","-c", "qemu:///system" ],1
+["virt-viewer","-c", "qemu:///system"],1
+[ "dcos" ],1
+[ "vault" ],1
+[ "audacity" ],1
+[ "cheese" ],1
+[ "consul" ],1
+[ "netcat" ],1
+[ "wireshark" ],1
+["python","CouchPotato.py", "--debug" ],1
+["python", "SickBeard.py" ],1
+[ "debootstrap" ],1
+[ "john" ],1
+[ "neoman" ],1
+[ "pivman" ],1
+["atom", "--foreground" ],1
+[ "traceroute" ],1
+[ "ricochet" ],1
+["privoxy", "--no-daemon" ],1
+[ "s3cmd" ],1
+[ "rstudio" ],1
+[ "ab" ],1
+[ "masscan" ],1
+[ "bees" ],1
+[ "/usr/sbin/shorewall" ],1
+[ "gcalcli" ],1
+[ "lpass" ],1
+[ "telnet" ],1
+[ "nes" ],1
+["/usr/bin/termboy"],1
+[ "pulseaudio" ],1
+[ "spotify" ],1
+["/usr/lib/x86_64-linux-gnu/notify-osd"],1
+[ "vlc" ],1
+[ "ncmpc" ],1
+[ "pms" ],1
+[ "/usr/local/bin/mpd.sh" ],1
+[ "/usr/bin/plexhometheater.sh" ],1
+[ "/usr/bin/chromium" ],1
+[ "/usr/bin/google-chrome-stable" ],1
+["/usr/bin/transmission-daemon"],1
+["sh","-c", "/usr/src/atd/run.sh" ],1
+[ "/usr/local/bin/mdp" ],1
+[ "libreoffice" ],1
+[ "ulimit" ],1
+[ "glxgears" ],1
+[ "gimp" ],1
+[ "remmina" ],1
+[ "znc" ],1
+[ "rainbowstream" ],1
+[ "geary" ],1
+[ "rdesktop" ],1
+[ "/src/cool-retro-term" ],1
+[ "lynx" ],1
+[ "aws" ],1
+[ "http" ],1
+["/docker/download.sh"],1
+["/usr/bin/supervisord","-n","-c", "/etc/supervisor/supervisord.conf"],1
+["./node"],1
+["/usr/local/bin/akaunting.sh"],1
+["/bin/bash", "/run.sh"],1
+["/cloudflared", "--no-autoupdate"],1
+["./cloudflared", "--no-autoupdate"],1
+["./teamserver"],1
+["./empire"],1
+["./gophish"],1
+["/startup.sh"],1
+["C:\\\\LogMonitor\\\\LogMonitor.exe","C:\\\\ServiceMonitor.exe", "w3svc"],1
+["/elasticsearch/bin/elasticsearch"],1
+[ "elixir" ],1
+["/usr/bin/dumb-init", "/entrypoint.sh"],1
+[ "/app/epusdt" ],1
+["/gunicorn.sh"],1
+["/go/bin/linx-server","-config=/etc/linx/config.ini","-bind=0.0.0.0:8080","-filespath=/data/files/", "-metapath=/data/meta/"],1
+["/customized-entrypoint.sh"],1
+["./usr/local/bin/app"],1
+["npm", "start"],1
+["uvicorn","main:app","--host","0.0.0.0","--port", "3565"],1
+["/bin/nginx"],1
+["/nginx","-g", "daemon off;"],1
+["/usr/local/bin/tini", "--"],1
+["jupyter","notebook","/content/","--allow-root","--NotebookApp.open_browser=False","--no-browser","--NotebookApp.allow_remote_access=True","--NotebookApp.allow_origin='https://colab.research.google.com'","--port=8888","--NotebookApp.port_retries=0", "--ip=0.0.0.0"],1
+["/pandoc"],1
+["vim"],1
+["python","AV_Data_Capture.py"],1
+["/root/entrypoint.sh"],1
+["doctum"],1
+["phpmd"],1
+["phpcpd"],1
+["phploc"],1
+[ "phpdox" ],1
+["sh", "/etc/nginx/docker-entrypoint.sh"],1
+["php-cs-fixer"],1
+["sh","/docker-entrypoint.sh"],1
+["/opt/k8s/kube-nginx/sbin/nginx","-c","/opt/k8s/kube-nginx/conf/kube-nginx.conf","-p","/opt/k8s/kube-nginx"],1
+["/bin/sh","-c"],1
+["/etc/init.d/rc.local"],1
+["bash", "-l"],1
+[ "/opt/bitnami/scripts/postgresql/timescaledb-bitnami-entrypoint.sh" ],1
+["/usr/bin/chia_exporter"],1
+["dotnet", "Microsoft365_E5_Renew_X.dll"],1
+["/entrypoint.sh", "/opt/zookeeper/bin/zkServer.sh"],1
+["chromium-browser", "--headless"],1
+["chromedriver","--allowed-ips=","--allowed-origins=*"],1
+["/usr/bin/selenoid","-listen",":4444","-disable-docker","-conf", "/etc/selenoid/browsers.json"],1
+["dotnet", "App.WorkerService.dll"],1
+["dotnet", "App.CloudService.dll"],1
+["dotnet", "DotNet.Docker.dll"],1
+["/buildroot-v86/build-v86.sh"],1
+["/usr/local/nginx/sbin/nginx"],1
+["/tmp/run.sh"],1
+[ "/traefik" ],1
+["/usr/bin/supervisord", "-n"],1
+["/bin/bash", "/var/run/run_stubby.sh"],1
+["polymer"],1
+["iperf3"],1
+["/usr/bin/iperf3"],1
+["nginx"],1
+[ "jekyll" ],1
+["koel-entrypoint"],1
+["run.sh"],1
+["java","--enable-preview","-jar","/opt/helidon.jar"],1
+["java","-jar","jenkins.war"],1
+["./bin/grafana-server","web"],1
+["./prometheus","--config.file=prometheus.yml"],1
+["nginx","-g","daemon off;"],1
+["haproxy","-V","-f","/etc/haproxy/haproxy.cfg"],1
+["startWebLogic.sh","-Dweblogic.ProductionModeEnabled=false"],1
+["java","-jar","nano.jar"],1
+["dnsmasq", "--no-daemon"],1
+["superset"],1
+[ "/usr/local/bin/run-oo.sh" ],1
+["qemu-system-arm"],1
+["/usr/sbin/smartd", "--debug"],1
+[ "/go/bin/mongodb-multicluster" ],1
+[ "/opt/bin/docker-entrypoint.sh" ],1
+["gunicorn"],1
+["./run"],1
+[ "dot" ],1
+["pywhat"],1
+["/usr/bin/dumb-init", "/usr/bin/wget"],1
+["neuron"],1
+["octodns-compare"],1
+["octodns-dump"],1
+["octodns-report"],1
+["octodns-sync"],1
+["octodns-validate"],1
+["oc"],1
+["cookiecutter"],1
+["pre-commit"],1
+["terraform-docs"],1
+["tflint"],1
+["tfsec"],1
+["drone"],1
+["/usr/local/sbin/bonnie++"],1
+["jfrog"],1
+["/bin/kubeseal"],1
+["yq"],1
+["/usr/local/bin/rar"],1
+["review"],1
+["helm"],1
+["wget"],1
+["lessc"],1
+["mitmproxy"],1
+["proselint"],1
+["/usr/local/bin/cowsay"],1
+["fortune"],1
+["/usr/bin/speedtest"],1
+["socat"],1
+["ag"],1
+["gpg"],1
+["mutt"],1
+["convert"],1
+["lynx"],1
+["npm"],1
+["irssi"],1
+["hg"],1
+["youtube-dl"],1
+["nmap"],1
+["http"],1
+["unrar"],1
+["/usr/local/bin/pocketbase","serve","--http=0.0.0.0:8090","--dir=/pb_data", "--publicDir=/pb_public"],1
+["serverless"],1
+["/lanproxy-server/init.sh"],1
+["run_sync"],1
+["/opt/run_sync"],1
+["php","/opt/www/bin/hyperf.php", "start"],1
+["alertmanager"],1
+["node_exporter","--path.procfs=/usr/proc","--path.sysfs=/usr/sys","\\"],1
+["/usr/local/bin/prometheus","\\"],1
+["/init.sh"],1
+["nginx","-g", "daemon off;"],1
+["/opt/ice/grailsw"],1
+["/mini-docker-rust"],1
+["./foo"],1
+[ "/init.sh" ],1
+[ "/home/theia/ssl/ssl_theia.sh" ],1
+["./bin/run.sh"],1
+["/opt/minecraft/docker-entrypoint.sh"],1
+["/data/data/com.termux/files/usr/bin/login"],1
+["webproc","--config","/etc/dnsmasq.conf","--","dnsmasq","--no-daemon"],1
+["/bin/bash","-c", "/app/entry.sh"],1
+["/usr/bin/java","-Dconfig.file=custom.conf","-jar", "/elasticmq-server-1.3.9.jar"],1
+["/serve"],1
+["/usr/bin/fuse-overlayfs","-f"],1
+["mix","run", "--no-halt"],1
+["python"],1
+["/bin/haproxy"],1
+["/usr/sbin/dnsmasq", "-k"],1
+["dnsmasq", "-k"],1
+["/opt/idea-IC-183.5429.30/bin/idea.sh"],1
+["/opt/eclipse/eclipse"],1
+["/opt/android-studio/bin/studio.sh"],1
+["/usr/local/bin/php","/var/www/html/laravel/artisan","serve", "--host=0.0.0.0"],1
+["/init" ],1
+["wpa_supplicant"],1

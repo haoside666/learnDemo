@@ -1,0 +1,10 @@
+project_name_path = "./Dataset/PartThree/new_project_name_split03_unfinish"
+storage_folder_path = "/home/haoside/Desktop/Docker-Accelerator-data/second"
+repository_path = "/home/haoside/Desktop/Docker-Accelerator-data/second/repository"
+output_path = "/home/haoside/Desktop/Docker-Accelerator-data/second/output"
+logs_path = "/home/haoside/Desktop/Docker-Accelerator-data/log"
+log_level = ""
+output_to_terminal = True
+mysql_server_ip = ""
+mysql_user = ""
+mysql_passwd = ""

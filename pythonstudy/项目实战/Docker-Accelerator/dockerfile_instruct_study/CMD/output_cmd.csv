@@ -1,0 +1,1347 @@
+CMD,grep "Steamworks Server IP discovered" "${STEAMAPPDIR}/entry.log" || exit 1,1
+CMD,["version"],3
+CMD,["/bin/descheduler"\, "--help"],1
+CMD,["--help"],91
+CMD,["install"],1
+CMD,["python"],19
+CMD,python,2
+CMD,["/usr/sbin/init"],5
+CMD,["python"\, "app.py"],3
+CMD,["node"\, "app.js"],1
+CMD,[ "npm"\, "start" ],22
+CMD,["powershell.exe"\, "-nologo"\, "-ExecutionPolicy"\, "Bypass"],12
+CMD,license-server status || exit 1,1
+CMD,license-server status,2
+CMD,[ "/usr/local/bin/license-server"\, "run" ],1
+CMD,[ "/usr/bin/supervisord"\, "-c"\, "/etc/supervisord.conf" ],5
+CMD,["minio"\, "server"\, "/home/dokku/data"\, "--console-address"\, ":9001"],3
+CMD,["server"\, "/home/dokku/data"],4
+CMD,["server"\, "/home/dokku/storage"],2
+CMD,["server /home/dokku/storage"],2
+CMD,server storage,2
+CMD,./minio server storage,1
+CMD,[],361
+CMD,["/usr/bin/supervisord"\, "--nodaemon"\, "--configuration"\, "/etc/supervisor/conf.d/supervisord.conf"],1
+CMD,["/usr/bin/supervisord"],61
+CMD,["/usr/local/bin/entrypoint.sh"],11
+CMD,["/home/$systemUser/$benchFolderName/entrypoint.sh"],2
+CMD,["sudo"\, "mysqld"],2
+CMD,patchwork --help,3
+CMD,["uvicorn"\, "app:app"\, "--host"\, "0.0.0.0"\, "--port"\, "8000"],1
+CMD,["nginx"\, "-g"\, "daemon off;"],372
+CMD,["kast"],2
+CMD,shiny-server,3
+CMD,["gunicorn"\, "--config"\, "gunicorn.py"\, "flaskapp:app"],5
+CMD,["bowtie2"],8
+CMD,["/bin/bash"],56
+CMD,["fastqc"],2
+CMD,["bwa"],6
+CMD,["fastp"],1
+CMD,["rpg"\, "--help"],1
+CMD,["spades-bwa"],1
+CMD,["samtools"],8
+CMD,["bowtie"],3
+CMD,["FRC"],5
+CMD,fastqc,2
+CMD,["cpat.py"],3
+CMD,["bcftools"],7
+CMD,["snpeff"],5
+CMD,["bwa-spades"],5
+CMD,["-h"],22
+CMD,["bamtools"],3
+CMD,["sff_extract"],5
+CMD,["mafft"],5
+CMD,["tabix"],5
+CMD,["raremetal"],5
+CMD,["TPMCalculator"],2
+CMD,["telescoper"],5
+CMD,["PeptideProphet"],3
+CMD,["tophat"],5
+CMD,["shotmap"],11
+CMD,["comet"],9
+CMD,["partitionfinder2"],5
+CMD,["ProteinProphet"],3
+CMD,["runProgressiveCactus.sh"\, "-h"],5
+CMD,["ssaha2"],7
+CMD,["Aliscore.02.2.pl"],5
+CMD,["discovardenovo"],5
+CMD,["sga"],5
+CMD,["bash"],271
+CMD,["velvetg"],5
+CMD,["Corrector_HA"],5
+CMD,["magicblast"],5
+CMD,["/bin/bash"\, "interproscan.sh"],5
+CMD,["GapCloser"],5
+CMD,["gcta64"],5
+CMD,["jellyfish"],5
+CMD,["esearch"],5
+CMD,["Discovar"],5
+CMD,["diffexpIR"],7
+CMD,["GenomeAnalysisTK"],5
+CMD,["/bin/sh"],9034
+CMD,["bedtools"],4
+CMD,["python"\, "-m"\, "SimpleHTTPServer"\, "8000"],3
+CMD,["diffexpip"],2
+CMD,[ "main.handler" ],1
+CMD,[ "test.handler" ],1
+CMD,".\\bin\\elasticsearch.bat",1
+CMD,powershell -command `,3
+CMD,["./init.ps1"],1
+CMD,["-c"\, "gnatsd.conf"],6
+CMD,"c:\\rabbitmq\\sbin\\rabbitmq-server.bat",1
+CMD,start.cmd,2
+CMD,["gogs"\, "web"],1
+CMD,["registry"\, "serve"\, "config.yml"],2
+CMD,["jshell"],2773
+CMD,["/?"],1
+CMD,["-np 1"\, "-n 1000"\, "-ms 16"\, "nats-bench"],1
+CMD,echo 'Hello World',1
+CMD,dig +short @127.0.0.1 -p $TUNNEL_DNS_PORT cloudflare.com A || exit 1,1
+CMD,dig +short @127.0.0.1 -p 5053 cloudflare.com A || exit 1,2
+CMD,["cassandra"\, "-f"],2
+CMD,["apache2-foreground"],23
+CMD,["php-fpm"],25
+CMD,["bundle"\,"exec"\,"jekyll"\,"serve"\,"--force_polling"\,"--host"\,"0.0.0.0"\,"--port"\,"4000"\,"--config"\,"_config.yml\,_config_development.yml"\,"--livereload"],1
+CMD,viper-web,2
+CMD,["r2"],4
+CMD,rekall webconsole --port 8000 --host $HOSTNAME,4
+CMD,["thug"],4
+CMD,./web.py -H $HOSTNAME,2
+CMD,["./thug.py"],2
+CMD,["../viper/viper.py"],2
+CMD,[""],2
+CMD,./jsdetox -l $HOSTNAME 2>/dev/null,1
+CMD,./jsdetox -l $HOSTNAME,2
+CMD,["odoo"],3
+CMD,["--conf"\, "/etc/caddy/Caddyfile"\, "--log"\, "stdout"\, "--agree=true"],7
+CMD,["/usr/bin/caddy"\, "-conf"\, "/etc/Caddyfile"\,"-agree"],6
+CMD,["mysqld"],25
+CMD,["sh"\, "-c"\, "npm run ${NPM_START_SCRIPT}"],1
+CMD,["npm"\, ${NPM_START_SCRIPT}],2
+CMD,["rethinkdb"\, "--bind"\, "all"],6
+CMD,["npm"\, "start"],15
+CMD,["nginx"],18
+CMD,["npm start"],2
+CMD,bash -c 'BEANSTALK_SERVERS=$BEANSTALKD_PORT_11300_TCP_ADDR:11300 php -S 0.0.0.0:2080 -t /source/public',12
+CMD,["/usr/bin/beanstalkd"],7
+CMD,["mongod"],7
+CMD,["memcached"],3
+CMD,["Mailhog"],10
+CMD,["redis-server"],17
+CMD,["postgres"],16
+CMD,/start,3
+CMD,/start && /run.sh,2
+CMD,ls -al,1
+CMD,["java"\,"uygulama"],1
+CMD,["python"\,"app.py"],2
+CMD,curl -f http://localhost/  -> çalışacak komut / localhost'a http üzerinden erişmeye çalışıyorum\, eğer ulaşamazsan process'i öldür ve hata dön (exit 1),1
+CMD,sed -e s/Kullanici/"$KULLANICI"/ index.html > index1.html && sed -e s/Hostname/"$HOSTNAME"/ index1.html > index.html ; rm index1.html; nginx -g 'daemon off;',1
+CMD,["python3"\, "app.py"],1
+CMD,["/root/start_notebook.sh"],1
+CMD,["sh"\, "-c"\, "ansible-playbook $TAGS local.yml"],3
+CMD,["sh"\, "-c"\, "sudo ansible-playbook $TAGS local.yml"],2
+CMD,"gf",1
+CMD,[ "-h" ],1
+CMD,["nginx"\, "-c"\, "/app/conf/nginx.conf"\, "-g"\, "pid /app/tmp/nginx.pid; error_log /dev/stderr;"\, "-p"\, "/app"],3
+CMD,[ "--web.listen-address=127.0.0.1:9090"\, \\,1
+CMD,npm run build:prod:container,2
+CMD,npm run build:prod:docker,2
+CMD,["/usr/bin/php"\, "/var/regex/run-benchmarks.php"],1
+CMD,nginx && janus,1
+CMD,/opt/mssql/bin/sqlservr,20
+CMD,["/opt/mssql/bin/sqlservr"],5
+CMD,/usr/bin/supervisord -n -c /usr/local/etc/supervisord.conf,5
+CMD,["/bin/bash"\, "-c"\, "sleep infinity"],1
+CMD,[ "/opt/mssql/bin/sqlservr" ],5
+CMD,/bin/bash ./entrypoint.sh,27
+CMD,sqlservr,5
+CMD,/opt/mssql/bin/sqlservr.sh,1
+CMD,/bin/bash ./run-me.sh,3
+CMD,["couchbase-server"],76
+CMD,["/etc/sync_gateway/config.json"],76
+CMD,[ "/entrypoint.sh" ],234
+CMD,export CDROM="${CDROM:="$(basename "${CDROM_IMAGE_URL}")"}" \\,1
+CMD,export CDROM="$(basename "${CDROM_IMAGE_URL}")" \\,2
+CMD,sudo touch /dev/kvm /dev/snd "${IMAGE_PATH}" "${BOOTDISK}" "${ENV}" 2>/dev/null || true \\,2
+CMD,./enable-ssh.sh && /bin/bash -c ./Launch.sh,2
+CMD,["thelounge"\, "start"],3
+CMD,["lounge"\, "start"],2
+CMD,["lounge"],2
+CMD,node index.js --home "$LOUNGE_DATA",4
+CMD,node index.js --home $LOUNGE_HOME,1
+CMD,["--no-renderer-sandbox"\, "--listen"\, "0.0.0.0:8080"],1
+CMD,["--listen"\, "0.0.0.0:8080"],2
+CMD,["/sbin/my_init"],14
+CMD,["/usr/sbin/nginx"\,"-g"\,"daemon off;"],3
+CMD,["/usr/local/php/sbin/php-fpm"],3
+CMD,["usr/local/redis/src/redis-server"\,"/usr/local/redis/redis.conf"],3
+CMD,[ "redis-server"\, "/usr/local/etc/redis.conf" ],1
+CMD,["usr/local/redis/redis-server"\,"/usr/local/redis/redis.conf"],2
+CMD,["/opt/redis/src/redis-server"\,"/usr/share/nginx/html/redis.conf"],2
+CMD,["node"\, "server.js"],6
+CMD,["/vlmcsd"\, "-D"\, "-d"\, "-t"\, "3"\, "-e"\, "-v"],1
+CMD,["/vlmcsd"\, "-D"\, "-d"\, "-t"\, "3"],1
+CMD,healthcheck &>/dev/null || exit 1,1
+CMD,curl --fail "http://127.0.0.1:${HEALTH_PORT}${HEALTH_URL}" &>/dev/null || exit 1,118
+CMD,ps aux | grep "joplin" | grep -v "grep" || exit 1,1
+CMD,[[ $(curl -s "http://127.0.0.1:${HEALTH_PORT}${HEALTH_URL}") == *"Invalid"* ]] || exit 1,4
+CMD,["/opt/photoprism/bin/photoprism"\, "start"],2
+CMD,["/opt/photoprism/bin/photoprism" "start"],2
+CMD,curl --fail "http://127.0.0.1:${HEALTH_PORT}${HEALTH_URL}" &>/dev/null || curl --fail http://127.0.0.1:443 || exit 1,9
+CMD,python $MEALIE_HOME/mealie/scripts/healthcheck.py || exit 1,3
+CMD,photoprism status || exit 1,3
+CMD,pgrep qbittorrent || exit 1,3
+CMD,/etc/scripts/healthcheck.sh &>/dev/null || exit 1,3
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT$URL" &>/dev/null || exit 1,72
+CMD,[[ $(curl -s http://127.0.0.1:"$WEBUI_PORT$URL") == *"Invalid"* ]] || exit 1,2
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT$URL" &>/dev/null || curl --fail http://127.0.0.1:443 || exit 1,4
+CMD,pgrep qbittorrent-nox || exit 1,2
+CMD,[ "$(pgrep transmission)" ] || exit 1,2
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT$URL" || curl --fail http://127.0.0.1:443 || exit 1,4
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT$URL" || exit 1,22
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT" || curl --fail http://127.0.0.1:443 || exit 1,4
+CMD,curl --fail http://127.0.0.1:"$WEBUI_PORT" || exit 1,8
+CMD,["-config"\, "/data"\, "-port"\, "34400"],2
+CMD,[ "/run.sh" ],62
+CMD,[ "" ],4
+CMD,["/run.sh"],23
+CMD,[ "/run.sh"],2
+CMD,["/entrypoint.sh"],10
+CMD,[ "ts3server" ],2
+CMD,["-config"\, "data"\, "-port"\, "34400"],2
+CMD,[ "-config"\, "/data" ],6
+CMD,[ "-config"\, "/config/xteve" ],2
+CMD,[ "/run" ],2
+CMD,[ "run.sh" ],2
+CMD,["--root=/"\, "--address=0.0.0.0"\, "--database=/config/filebrowser/filebrowser.db"],2
+CMD,["--root=/data"\, "--address=0.0.0.0"\, "--database=/config/filebrowser/filebrowser.db"],4
+CMD,[ "--joal-conf=/joal" ],8
+CMD,["/bin/zsh"],7
+CMD,["python"\, "-m"\, "nb"\, "run"],1
+CMD,["poetry"\, "run"\, "nb"\, "run"],2
+CMD,["nb"\, "run"],4
+CMD,cp docker-compose-* /dist,1
+CMD,java $JAVA_OPTS -jar /app/application.jar,1
+CMD,/home/build/startup.sh,7
+CMD,/home/cmbuild/startup.sh,2
+CMD,/root/startup.sh,2
+CMD,["/usr/bin/pandoc"],1
+CMD,["/usr/bin/identify"],1
+CMD,["/usr/bin/kcachegrind"],1
+CMD,["/bin/bash"\,"--login"\,"-i"],1
+CMD,["/usr/bin/libreoffice"],1
+CMD,["/usr/sbin/cupsd"\, "-f"],1
+CMD,curl -f http://localhost/ping || exit 1,1
+CMD,["/usr/bin/supervisord"\, "-n"\, "-c"\, "/etc/supervisor/conf.d/supervisord.conf"],2
+CMD,["rabbitmq-server"],4
+CMD,["node"\, "main.js"],3
+CMD,[ "pwsh" ],47
+CMD,["pwsh-preview"],3
+CMD,[ "pwsh-preview" ],5
+CMD,["pwsh.exe"],2
+CMD,["node"\, "src/index.js"],2
+CMD,["-e"\,"android-19"\,"-a"\,"armeabi-v7a"],2
+CMD,["-e"\,"android-19"],2
+CMD,/entrypoint.sh,23
+CMD,["bin/spark-class"\, "org.apache.spark.deploy.master.Master"],1
+CMD,/usr/spark/bin/spark-class org.apache.spark.deploy.master.Master,1
+CMD,[ "collect"\, "--urls"\, "https://+:52323"\, "--metricUrls"\, "http://+:52325" ],28
+CMD,["--info"],7
+CMD,["node /app/bin/server.js start"],5
+CMD,["/bin/bash"\, "/opt/startup.sh"],18
+CMD,["/ssdb/ssdb-server"\, "/ssdb/ssdb.conf"],7
+CMD,["supervisord"],20
+CMD,["mailcatcher"\, "--no-quit"\, "--foreground"\, "--ip=0.0.0.0"],9
+CMD,["neo4j"],9
+CMD,["sh"\,"-c"\,"/start.sh & /usr/bin/caddy -conf /etc/caddy/Caddyfile -agree"],4
+CMD,[ "npm"\, "start"\, "--force" ],3
+CMD,["thumbor"],3
+CMD,["zkServer.sh"\, "start-foreground"],6
+CMD,["zookeeper"],4
+CMD,["php"\,"-S"\,"0.0.0.0:8080"],1
+CMD,["sh"\, "-c"\, "jupyterhub upgrade-db && jupyterhub -f /jupyterhub_config.py"],3
+CMD,["/usr/bin/caddy"\, "-conf"\, "/etc/Caddyfile"],22
+CMD,["mysqld"\, "--init-file=/etc/mysql/startup"],12
+CMD,["redis-server"\, "/usr/local/etc/redis/redis.conf"],3
+CMD,bash -c 'BEANSTALK_SERVERS=$BEANSTALKD_PORT_11300_TCP_ADDR:11300 php -S 0.0.0.0:2080 -t /source',8
+CMD,["/etc/varnish/start.sh"],15
+CMD,["-conf"\, "/etc/Caddyfile"],8
+CMD,["caddy" "-conf"\, "/etc/Caddyfile"],2
+CMD,["/usr/bin/hhvm"\, "-m"\, "server"\, "-c"\, "/etc/hhvm/server.ini"],1
+CMD,[ "redis-server" ],4
+CMD,[ "mongod" ],4
+CMD,["/bin/bash"\, "/entrypoint.sh"],45
+CMD,["start.sh"],10
+CMD,["/root/raumserver/raumsrvDaemon"],2
+CMD,["${APPDIR}/raumsrvDaemon"],2
+CMD,["perl5.36.1"\,"-de0"],8
+CMD,["perl5.36.0"\,"-de0"],8
+CMD,["perl5.37.11"\,"-de0"],8
+CMD,["perl5.37.10"\,"-de0"],8
+CMD,["perl5.34.1"\,"-de0"],8
+CMD,["perl5.20.3"\,"-de0"],4
+CMD,["perl5.22.4"\,"-de0"],4
+CMD,["perl5.24.4"\,"-de0"],4
+CMD,["perl5.32.1"\,"-de0"],4
+CMD,curl --fail --socks5-hostname localhost:9150 -I -L 'https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/' || exit 1,1
+CMD,curl --fail --socks5-hostname localhost:9150 -I -L 'https://www.facebookcorewwwi.onion/' || exit 1,2
+CMD,curl --fail --socks5-hostname localhost:9150 -I -L 'https://facebookcorewwwi.onion/' || exit 1,2
+CMD,curl --fail --socks5-hostname localhost:9150 -I -L 'https://cdnjs.com/' || exit 1,2
+CMD,["/usr/bin/tor"\, "-f"\, "/etc/tor/torrc"],2
+CMD,/usr/bin/tor -f /etc/tor/torrc,1
+CMD,["/usr/bin/supervisord"\, "-c"\, "/etc/supervisor/conf.d/supervisord.conf"],10
+CMD,["entrypoint.sh"],3
+CMD,[ "/bin/bash"\, "/start_services.sh" ],4
+CMD,[ "/bin/bash" ],6
+CMD,[ "/bin/bash"\, "/start.sh" ],2
+CMD,php /configure-db.php && exec s6-svscan /etc/s6/,2
+CMD,php /configure-db.php && s6-svscan /etc/s6/,2
+CMD,["python3"],26
+CMD,[ "/bin/sh" ],3
+CMD,["run"\, "--user=root"\, "--working-directory=/root"],3
+CMD,["run"\, "--user=gitlab-runner"\, "--working-directory=/home/gitlab-runner"],2
+CMD,[ "/init" ],2
+CMD,/usr/local/bin/healthcheck,2
+CMD,[ "/usr/bin/supervisord" ],1
+CMD,echo "This image is deprecated\, outdated and insecure. Please use the official CouchDB image https://hub.docker.com/_/couchdb/" && exit 1,5
+CMD,["couchdb"],8
+CMD,["--with-haproxy"],6
+CMD,["/opt/couchdb/bin/couchdb"],12
+CMD,["tini"\, "--"\, "/usr/src/couchdb/dev/run"\, "--with-haproxy"],2
+CMD,["-public"\, "public"\, "-http"\, ":8080"\, "-internal-server"\, ":8888"\, "-db"\, "data/GeoLite2-City.mmdb.gz"\, "-use-x-forwarded-for"],1
+CMD,["-public"\, "public"\, "-http"\, ":8080"\, "-internal-server"\, ":8888"\, "-db"\, "data/GeoLite2-City.mmdb.gz"],2
+CMD,["etc/flowgger.toml"],1
+CMD,["./bin/frps"\, "-c"\, "./etc/frps.ini"],1
+CMD,["./frps"\, "-c"\, "frps.ini"],2
+CMD,["--port"\, "8000"],1
+CMD,ssservice server -s "$SERVER_ADDR:$SERVER_PORT" \\,2
+CMD,aria2c --conf-path=/etc/aria2/aria2.conf \\,1
+CMD,set -xe \\,20
+CMD,["mpd"\, "--stdout"\, "--no-daemon"\, "/etc/mpd/mpd.conf"],1
+CMD,["mpd"\, "--stdout"\, "--no-daemon"],3
+CMD,["-config"\, "dnscrypt-proxy.toml"],1
+CMD,dnscrypt-proxy --local-address=$LISTEN_ADDR \\,2
+CMD,["gunicorn"\, "--bind"\, "0.0.0.0:8000"\, "httpbin:app"],1
+CMD,["gunicorn"\, "--bind"\, "0.0.0.0:80"\, "httpbin:app"],2
+CMD,php-fpm7 && nginx -g 'daemon off;',3
+CMD,php-fpm8 && nginx -g 'daemon off;',2
+CMD,["./nodebb"\, "--config"\, "config/config.json"\, "start"],1
+CMD,["./nodebb"\, "start"],2
+CMD,["-i"\, "0.0.0.0"\, "-d"\, "/data"],2
+CMD,["/usr/bin/semaphore-wrapper"\, "/usr/bin/semaphore"\, "--config"\, "/etc/semaphore/config.json"],1
+CMD,["python3"\, "-m"\, "mqtt_io"\, "config.yml"],1
+CMD,/opt/app/bin/runLocally.sh,1
+CMD,java -jar employee-rostering-distribution-${APP_VERSION}.jar \\,2
+CMD,["/usr/sbin/sshd"\, "-D"],8
+CMD,["/usr/local/nginx/sbin/nginx"\, "-g"\, "daemon off;"],1
+CMD,["/usr/sbin/sshd"\,"-D"],1
+CMD,["aircast"\, "-Z"],1
+CMD,["node app.js"],1
+CMD,["darkice"\, "-c"\, "/etc/darkice/darkice.cfg"],1
+CMD,["./npm-run-all"\, "--parallel"\, "server"\, "client"],1
+CMD,["icecast"\, "-c"\, "/etc/icecast/icecast.xml"],2
+CMD,["icecast"\, "-c"\, "/etc/icecast.xml"],4
+CMD,["-i"\, "0.0.0.0"\, "-p"\, "1080"],1
+CMD,["tile38-server"\, "-d"\, "/data"],1
+CMD,["-db"\, "var/rehook.db"\, "-http"\, ":9000"\, "-admin"\, ":9001"],1
+CMD,["-db"\, "etc/rehook.db"\, "-http"\, ":9000"\, "-admin"\, ":9001"],2
+CMD,["webdis"\, "/etc/webdis/webdis.json"],1
+CMD,["/etc/pure-ftpd/pure-ftpd.conf"],3
+CMD,["/etc/pure-ftpd/pureftpd.conf"],4
+CMD,["aiosmtpd"\, "-n"\, "-l"\, "0.0.0.0:8025"\, "-c"\, "handler.MessageHandler"],1
+CMD,["-hooks"\, "hooks.json"\, "-hooks"\, "hooks.yaml"\, "-hotreload"\, "-template"\, "-verbose"],1
+CMD,["-hooks"\, "hooks.json"\, "-hotreload"\, "-template"\, "-verbose"],2
+CMD,["-config"\, "/etc/piknik/piknik.toml"\, "-server"],1
+CMD,["-config"\, "/etc/piknik.toml"\, "-server"],2
+CMD,["jruby"\, "-G"\, "-r"\, "jbundler"\, "-S"\, "rackup"\, "-o"\, "0.0.0.0"\, "config.ru"],1
+CMD,[ "start"\, "-n" ],1
+CMD,["bin/cowrie"\, "start"\, "-n"],2
+CMD,["start"],1
+CMD,["python"\, "-c"\, "from ndscheduler.server.server import SchedulerServer; SchedulerServer.run()"],1
+CMD,["-Dconfig.file=conf/application.conf"\, "-Dhttp.port=9000"\, "-Dpidfile.path=/dev/null"],1
+CMD,["-Dconfig.file=conf/application.conf"\, "-Dhttp.port=9000"],3
+CMD,php-fpm5 && nginx -g 'daemon off;',2
+CMD,["-public"\, "public"\, "-http"\, ":8080"\, "-internal-server"\, ":8888"],2
+CMD,["prosody"],1
+CMD,["server"\, "vpn.key"\, "auto"\, "443"],1
+CMD,["server"\, "vpn.key"],2
+CMD,["--help-extra"],1
+CMD,["elastalert"\, "--config"\, "config.yaml"],1
+CMD,nmbd -D && smbd -FS --no-process-group,3
+CMD,nmbd -D && smbd -FS,5
+CMD,php-fpm && nginx,2
+CMD,php /servers-from-env.php && php-fpm && nginx,6
+CMD,["pure-ftpd"\, "--login"\, "puredb:/etc/pure-ftpd/pureftpd.pdb"\, "--createhomedir"],2
+CMD,set -ex \\,6
+CMD,["sleep"\, "inf"],2
+CMD,[                                          \\,6
+CMD,["-l"\, "7654"],6
+CMD,[                                         \\,3
+CMD,ntopng --http-port 0.0.0.0:3000 \\,2
+CMD,["node-red"\, "--userDir"\, "/data"\, "--flowFile"\, "flows.json"],2
+CMD,["node-red"\, "--userDir"\, "/data"],4
+CMD,["node-red"],2
+CMD,["scrapyd"\, "--pidfile="],3
+CMD,["scrapyd"],6
+CMD,${NIFI_BASE_DIR}/scripts/start.sh,2
+CMD,["gunicorn"\, "superset:app"],3
+CMD,["gunicorn"\, "-w"\, "2"\, "--timeout"\, "60"\, "-b"\, "0.0.0.0:8088"\, "--limit-request-line"\, "0"\, "--limit-request-field_size"\, "0"\, "superset:app"],4
+CMD,["-header"\, "Access-Control-Allow-Origin=*"\, "-hooks"\, "hooks.json"\, "-hotreload"\, "-verbose"],2
+CMD,["-header"\, "Access-Control-Allow-Origin=*"\, "-hooks"\, "hooks.json"\, "-verbose"],2
+CMD,["-header"\, "Access-Control-Allow-Origin=*"\, "-hooks"\, "/etc/webhook/hooks.json"\, "-verbose"],2
+CMD,["-help"],7
+CMD,["kismet"\, "--no-ncurses"],1
+CMD,["start-kafka.sh"],1
+CMD,["rinetd"\, "-f"\, "-c"\, "/etc/rinetd/rinetd.conf"],1
+CMD,[ \\,3
+CMD,["minidlnad"\, "-d"\, "-f"\, "/etc/minidlna/minidlna.conf"],2
+CMD,["minidlnad"\, "-d"],4
+CMD,["server"\, "-config=/etc/vault/vault.hcl"],1
+CMD,["vault"\, "server"\, "-config=/etc/vault/vault.hcl"],2
+CMD,["./msfconsole"\, "-r"\, "docker/msfconsole.rc"],1
+CMD,obfsproxy --log-min-severity=$LOG_MIN_SEVERITY \\,2
+CMD,["node"\, "stats.js"\, "config.js"],1
+CMD,php-fpm && nginx -g 'daemon off;',6
+CMD,luigid --logdir $LUIGI_LOG_DIR \\,1
+CMD,["netdata"\, "-D"],2
+CMD,["netdata"\, "-nd"],4
+CMD,python -m glances -C /glances/conf/glances.conf $GLANCES_OPT,2
+CMD,["--protected-mode"\, "no"\, "--save"\, "900 1 300 10"],2
+CMD,["--protected-mode"\, "no"],2
+CMD,["ices"\, "/etc/ices/ices.xml"],1
+CMD,["/opt/hcfg/bin/hcfg"\, "/opt/hcfg/etc/hcfg.conf"],2
+CMD,["help"],2
+CMD,["supervisord"\, "-n"],3
+CMD,ss-server -s "$SERVER_ADDR" \\,1
+CMD,ss-server -s $SERVER_ADDR \\,2
+CMD,["redis-server"\, "/etc/redis.conf"],1
+CMD,["murmurd"\, "-fg"\, "-ini"\, "/etc/murmur/murmur.ini"],1
+CMD,["murmur"\, "-fg"\, "-ini"\, "/etc/murmur/murmur.ini"],3
+CMD,["tinyproxy"\, "-d"],1
+CMD,["-c"\, "/etc/mosquitto/mosquitto.conf"],3
+CMD,["-c"\, "/etc/mosquitto/mosquitto.conf"\, "-p"\, "1883"],2
+CMD,["--verbose"\, "--foreground"\, "--secure"\, "--create"\, "--user"\, "root"\, "/tftpboot"],2
+CMD,["elasticsearch"],30
+CMD,hans -f -c $SERVER -p $PASSWORD,1
+CMD,hans -f -s $NETWORK -p $PASSWORD,1
+CMD,["./sc_serv"\, "sc_serv.conf"],2
+CMD,["/app/start.sh"],1
+CMD,["radiusd"\, "-fl"\, "stdout"],1
+CMD,["radiusd"\, "-f"],2
+CMD,["minidlna"\, "-d"],4
+CMD,["--config"\, "openvpn.conf"],1
+CMD,fteproxy --mode $MODE \\,2
+CMD,["run"],11
+CMD,java -jar /app/reconcile-csv-0.1.2.jar "${CSV_FILE}" "${SEARCH_COLUMN}" "${ID_COLUMN}",1
+CMD,/app/refine -i 0.0.0.0,2
+CMD,["ffserver"],2
+CMD,mkdir -p /run/nginx && php-fpm && nginx -g 'daemon off;',2
+CMD,["vnstatd"\, "-n"],1
+CMD,["haproxy"\, "-f"\, "/etc/haproxy/haproxy.cfg"],1
+CMD,mkdir -p /run/nginx && php /servers-from-env.php && php-fpm && nginx,2
+CMD,["java"\, "-jar"\, "webgoat.jar"],1
+CMD,["python"\, "manage.py"\, "runserver"\, "0.0.0.0:80"],1
+CMD,gosu privoxy privoxy --no-daemon /etc/privoxy/config,2
+CMD,echo "{+block{self}}" >> /etc/privoxy/user.action \\,2
+CMD,["--help-all"],1
+CMD,["node"\, "index"],1
+CMD,["./bin/hubot"\, "--adapter"\, "slack"],1
+CMD,["bin/hubot"\, "--adapter"\, "slack"],2
+CMD,["smbd"\, "--foreground"\, "--log-stdout"],2
+CMD,grafana-server --homepath=/usr/share/grafana \\,1
+CMD,grafana-server --config=$CONF_FILE cfg:default.paths.data=$DATA_DIR cfg:default.paths.logs=$LOG_DIR,2
+CMD,smbd --foreground --log-stdout,2
+CMD,chown -R aria2:aria2 /home/aria2 \\,4
+CMD,ffmpeg -i $RTMP_DEV -f $RTMP_FMT $RTMP_URI,1
+CMD,ffmpeg -f video4linux2 -r ${RTMP_RATE:-24} -i /dev/video0 -f flv ${RTMP_URI},2
+CMD,ffmpeg -f video4linux2 -r 24 -i /dev/video0 -f flv $RTMP_URI,2
+CMD,iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE \\,5
+CMD,["java"\, "-Djava.awt.headless=true"\, "-jar"\, "/usr/share/jenkins/jenkins.war"],1
+CMD,mkdir -p /dev/net \\,2
+CMD,service nginx start; bin/slyd -p 9002 -r /app/slyd/dist,1
+CMD,["nullmailer-send"],1
+CMD,["h2o"\, "-c"\, "/etc/h2o.conf"],2
+CMD,["influxd"\, "-config"\, "/etc/influxdb/influxdb.conf"],1
+CMD,["/opt/influxdb/influxd"\, "-config"\, "/etc/opt/influxdb/influxdb.conf"],2
+CMD,iptables -F \\,1
+CMD,ss-local -s "$SERVER_ADDR" \\,1
+CMD,ssserver -s "$SERVER_ADDR"              \\,1
+CMD,ssserver -s $SERVER_ADDR \\,2
+CMD,sslocal -s "$SERVER_ADDR" \\,1
+CMD,/fteproxy/fteproxy.bin --mode $MODE \\,2
+CMD,["snort"\, "--help"],2
+CMD,chown -R aria2:aria2 /home/aria2                    \\,2
+CMD,["vsftpd"\, "/etc/vsftpd/vsftpd.conf"],1
+CMD,["vsftpd"],2
+CMD,pure-ftpd --login puredb:/etc/pure-ftpd/pureftpd.pdb --createhomedir,2
+CMD,["vault"\, "server"\, "-config"\, "/etc/vault/vault.hcl"],2
+CMD,["vault"\, "server"\, "-config"\, "/etc/vault.hcl"],2
+CMD,rsync --daemon --no-detach --log-file /dev/stdout,1
+CMD,["python"\, "/code/worker.py"],1
+CMD,salt-master --log-level warning --log-file /dev/stdout,1
+CMD,["crond"\, "-f"\, "-L"\, "/dev/stdout"],1
+CMD,["-"],1
+CMD,echo "{+block}" >> /etc/privoxy/user.action \\,2
+CMD,["monit"\, "-Ic"\, "/etc/monitrc"],1
+CMD,["monit"\, "-I"\, "-c"\, "/etc/monit/monitrc"],2
+CMD,["bro"\, "--no-checksums"\, "--iface"\, "eth0"],1
+CMD,["bro"\, "-i"\, "eth0"],2
+CMD,["pdnsd"],1
+CMD,iptables -A INPUT -s 127.0.0.1 -d 127.0.0.1 -j REJECT \\,2
+CMD,iptables -t filter -P OUTPUT DROP \\,2
+CMD,iptables -t nat -A OUTPUT -p tcp --dport 80 -m owner ! --uid-owner privoxy -j REDIRECT --to-ports 8118 \\,2
+CMD,iptables -t nat -A OUTPUT -p tcp --dport 80 ! -m owner --uid-owner privoxy -j REDIRECT --to-ports 8118 \\,2
+CMD,["privoxy"\, "--no-daemon"\, "/etc/privoxy/config"],2
+CMD,["pptpd"\, "--fg"],3
+CMD,iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE && \\,2
+CMD,["taskd"\, "server"],1
+CMD,taskd server,2
+CMD,twistd -n mail --smtp=tcp:25 \\,3
+CMD,twistd -n mail --bounce-to-postmaster \\,2
+CMD,twistd -n mail --esmtp \\,2
+CMD,["collectd"\, "-f"],1
+CMD,["collectd"\, "-f"\, "-C"\, "/etc/collectd/collectd.conf"],2
+CMD,["/opt/bro/bin/bro"\, "-i"\, "eth0"],2
+CMD,${DEVICE:-eth0},2
+CMD,sockd -f $CFGFILE -p $PIDFILE -N $WORKERS,1
+CMD,sockd -f $CFGFILE -p $PIDFILE -N $WORKERS -d $VERBOSE,2
+CMD,danted -f /etc/danted.conf,2
+CMD,tincd --no-detach \\,2
+CMD,sudo -u aria2 aria2c --disable-ipv6            \\,2
+CMD,aria2c --disable-ipv6            \\,2
+CMD,shadowvpn -c /etc/shadowvpn/server.conf,1
+CMD,pure-ftpd --login $PURE_LOGIN \\,2
+CMD,pure-ftpd --login puredb:$PURE_DBFILE \\,2
+CMD,dnscrypt-proxy --local-address $LISTEN_ADDR \\,2
+CMD,supervisord -n -c /etc/supervisor/supervisord.conf,5
+CMD,scrapyd -u scrapy \\,2
+CMD,scrapyd -u scrapy,2
+CMD,supervisord -c /etc/supervisor/supervisord.conf,2
+CMD,ssserver -k $PASSWORD -m $METHOD --workers $WORKERS,2
+CMD,obfsproxy --log-min-severity=$LOG_MIN_SEVERITY --data-dir=$DATA_DIR \\,2
+CMD,/usr/sbin/php5-fpm && /usr/sbin/nginx,2
+CMD,obfsproxy --data-dir=$DATA_DIR scramblesuit --password=$PASSWORD --dest=$DEST_ADDR:$DEST_PORT \\,2
+CMD,/usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf,1
+CMD,["/usr/bin/env"\, "sleep"\, "29m"],1
+CMD,["/sbin/init"],5
+CMD,["/lib/systemd/systemd"],3
+CMD,["/bin/systemd"],1
+CMD,["python"\, "main.py"],1
+CMD,["python"\, "name.py"],2
+CMD,["run"\, "--allow-net"\, "main.ts"],3
+CMD,if [ -n "$TZ" ]; then \\,1
+CMD,/bin/bash,15
+CMD,["-console" "-usercon" "+game_type" "0" "+game_mode" "1" "+mapgroup" "mg_active" "+map" "de_cache"],1
+CMD,["+game_type" "0" "+game_mode" "0" "+mapgroup" "mg_bomb" "+map" "de_dust2"],2
+CMD,["+sv_pure"\, "1"\, "+mapcycle"\, "mapcycle_quickplay_payload.txt"\, "+map"\, "pl_badwater"\, "+maxplayers"\, "24"],6
+CMD,["+sv_pure"\, "1"\, "+mapcycle"\, "mapcycle_quickplay_payload.txt"\, "+map"\, "pl_badwater.bsp"\, "+maxplayers"\, "24"],4
+CMD,["+sv_pure"\, "1"\, "+mapcycle"\, "mapcycle_quickplay_payload.txt"\, "+maxplayers"\, "24"],2
+CMD,["+sv_pure"\, "1"\, "+map"\, "pl_badwater.bsp"\, "+maxplayers"\, "24"],1
+CMD,SCRIPT_NAME=/status SCRIPT_FILENAME=/status REQUEST_METHOD=GET cgi-fcgi -bind -connect 127.0.0.1:9000 || exit 1,5
+CMD,SCRIPT_NAME=/health SCRIPT_FILENAME=/health REQUEST_METHOD=GET cgi-fcgi -bind -connect 127.0.0.1:9000 || exit 1,1
+CMD,["gitbook"\, "serve"\, "."],2
+CMD,rcindex,1
+CMD,/bin/bash -c "envsubst '\\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf" && nginx -g 'daemon off;',6
+CMD,["gzserver"],22
+CMD,gzserver --verbose & npm start,35
+CMD,./root/gzweb/start_gzweb.sh && gzserver,13
+CMD,["python3"\, "/usr/local/bin/webapp.py"],1
+CMD,["/opt/Jackett/jackett"\, "--NoUpdates"],1
+CMD,["/opt/Jackett/jackett"],2
+CMD,["mono"\, "--debug"\, "/usr/lib/sonarr/bin/Sonarr.exe"\, "-nobrowser"\, "-data=/config"],1
+CMD,["mono"\, "--debug"\, "/opt/NzbDrone/NzbDrone.exe"\, "-nobrowser"\, "-data=/config"],2
+CMD,["mono"\, "/opt/Jackett/JackettConsole.exe"\, "--NoUpdates"],2
+CMD,["/opt/Radarr/Radarr"\, "-nobrowser"\, "-data=/config"],1
+CMD,["mono"\, "/opt/Radarr/Radarr.exe"\, "-nobrowser"\, "-data=/config"],2
+CMD,wget --no-verbose --tries=1 --spider https://api.ipify.org || exit 1,1
+CMD,["miniflux"],1
+CMD,["-home=/config"\, "-gui-address=0.0.0.0:8384"],1
+CMD,["sabnzbdplus"\, "--server"\, "0.0.0.0:8080"\, "--config-file"\, "/config/"],1
+CMD,["/start.sh"],13
+CMD,["/syncthing"\, "-home=/config"],1
+CMD,["sabnzbdplus"\, "-f"\, "/config"],1
+CMD,["/discosrv/discosrv"],1
+CMD,/usr/sbin/httpd -DFOREGROUND,1
+CMD,sh /start.sh,4
+CMD,/start.sh,11
+CMD,Xvfb :0 -screen 0 1024x768x24 & \\,1
+CMD,["/opt/ssh.sh"],6
+CMD,["./digits-devserver"],3
+CMD,["/root/digits/digits-devserver"],12
+CMD,["/opt/vnc.sh"],5
+CMD,["/root/digits/digits-server"],8
+CMD,["/root/torch/install/bin/th"],4
+CMD,vncserver :1 -geometry 1280x800 -depth 24 && tail -F /root/.vnc/*.log,8
+CMD,["neon"],4
+CMD,["th"\, "-i"],2
+CMD,vncserver :1 -geometry 1280x800 -depth 24 || tail -F /root/.vnc/*.log,6
+CMD,["/usr/sbin/smbd"\, "-FS"],1
+CMD,["sshd"\, "-D"],2
+CMD,["sonar-scanner"\, "-Dsonar.projectBaseDir=/usr/src"],1
+CMD,sonar-runner -Dsonar.projectBaseDir=./src,1
+CMD,["/go/bin/websocket"],1
+CMD,["./websocket"],1
+CMD,curl --fail http://127.0.0.1:12345/ping || exit 1,2
+CMD,["/opt/jboss/wildfly/bin/standalone.sh"\, "-b"\, "0.0.0.0"\, "-bmanagement"\, "0.0.0.0"],2
+CMD,["catalina.sh"\, "run"],31
+CMD,bash,7
+CMD,["goreleaser"\, "-v"],6
+CMD,[ "node" ],24
+CMD,["brok"],1
+CMD,[ "bash" ],8
+CMD,["cura-lulzbot"],1
+CMD,["virt-manager"\, "--no-fork"],1
+CMD,["libvirtd"],2
+CMD,[ "weechat" ],2
+CMD,[ "--help" ],22
+CMD,["-1"\, "/usr/src/games/quest1.dsk"],1
+CMD,["/usr/src/games/Frogger.dsk"],2
+CMD,[ "--config_path=/etc/osquery/osquery.conf"\, "--verbose"\, "--docker_socket=/var/run/docker.sock"\, "--host_identifier=hostname"\, "--disable_distributed=false"\, "--distributed_plugin=tls" ],1
+CMD,[ "k8scan" ],2
+CMD,[ "/config/auth_config.yml" ],3
+CMD,["gunicorn"\, "-b"\, "0.0.0.0:8080"\, "requestbin:app"\, "-k"\, "gevent"],1
+CMD,["gunicorn"\, "-b"\, "0.0.0.0:8080"\, "requestbin:app"\, "--worker-class"\, "gevent"],2
+CMD,["gunicorn"\, "-b"\, "0.0.0.0:8080"\, "httpbin:app"\, "-k"\, "gevent"],1
+CMD,["gunicorn"\, "-b"\, "0.0.0.0:80"\, "httpbin:app"\, "-k"\, "gevent"],2
+CMD,[ "wg"\, "--help" ],1
+CMD,[ "wg" ],1
+CMD,[ "./zoom" ],3
+CMD,[ "fontforge" ],1
+CMD,[ "hackbench" ],1
+CMD,[ "-xx"\,"-f" ],1
+CMD,["java"\, "-Xmx1024M"\, "-jar"\, "/usr/lib/unifi/lib/ace.jar"\, "start"],1
+CMD,[ "ykman"\, "--help" ],1
+CMD,[ "lkp" ],1
+CMD,["/usr/local/bin/nnp"],1
+CMD,[ "start.sh" ],1
+CMD,[ "/usr/local/bin/Browser/start-tor-browser"\, "--log"\, "/dev/stdout" ],6
+CMD,[ "/usr/local/bin/Browser/start-tor-browser" ],7
+CMD,["/usr/local/bin/pop"],1
+CMD,[ "distccd-init"\, "start" ],2
+CMD,[ "wrk" ],1
+CMD,["mitmproxy"],1
+CMD,["--nolaunch"\, "--datadir=/data"],1
+CMD,["python"\, "PlexPy.py"],2
+CMD,["/usr/bin/keepass2"],4
+CMD,[ "tarsnap"\, "--help" ],2
+CMD,["shellcheck"],1
+CMD,[ "curl" ],4
+CMD,["/usr/src/sublime_text/sublime_text"\, "-w"],2
+CMD,["python"\, "PlexPy.py"\, "--nolaunch"\, "--datadir=/data"],2
+CMD,[ "wargames" ],1
+CMD,["/buttslock.py"],1
+CMD,/buttslock.py,2
+CMD,["/usr/sbin/sshd"\, "-D"\, "-e"\, "-f"\, "/etc/ssh/sshd_config"],1
+CMD,["mutt"\, "-F"\, "~/.mutt/muttrc"],1
+CMD,["mutt-patched"\, "-F"\, "~/.mutt/muttrc"],2
+CMD,[ "virsh" ],2
+CMD,[ "/home/mitm/mitmproxy/bin/python"\, "/home/mitm/mitmproxy/bin/mitmproxy" ],2
+CMD,[ "mitmproxy" ],2
+CMD,[ "-f"\, "/etc/tor/torrc.default" ],4
+CMD,[ "--data_dir"\, "/data" ],1
+CMD,[ "--datadir"\, "/data" ],1
+CMD,[ "ykpersonalize"\, "--help" ],1
+CMD,[ "yubico-piv-tool"\, "--help" ],1
+CMD,/usr/local/bin/atom --foreground --log-file /var/log/atom.log && tail -f /var/log/atom.log,2
+CMD,[ "/etc/privoxy/config" ],1
+CMD,[ "--user-data-dir=/data" ],5
+CMD,[ "--user-data-dir=/data"\, "--no-sandbox" ],5
+CMD,[ "shorewall" ],2
+CMD,[ "imagemin"\, "--help" ],1
+CMD,[ "/usr/bin/python"\, "/bin/reset-cache.py" ],1
+CMD,[ "reset-cache" ],1
+CMD,[ "echo"\, "Use one of the following commands [ animate | compare | composite | conjure | convert | display | identify | import | mogrify | montage | stream ]" ],1
+CMD,[ "imagemagick" ],4
+CMD,[ "--log-level=4"\, "--log-target=stderr"\, "-v" ],1
+CMD,[ "stress" ],2
+CMD,[ "apt-file" ],2
+CMD,[ "-stylesheet=/home/spotify/spotify-override.css" ],1
+CMD,[ "hollywood" ],1
+CMD,[ "htop" ],1
+CMD,["irssi"],1
+CMD,[ "wine"\, "/usr/src/SpotifySetup.exe" ],4
+CMD,[ "pms" ],2
+CMD,["/usr/src/sublime_text_3/sublime_text"\, "-w"],2
+CMD,["/usr/bin/chromium"\, "--no-sandbox"\, "--user-data-dir=/data"],2
+CMD,["/usr/bin/evince"],1
+CMD,["/usr/bin/transmission-gtk"],3
+CMD,[ "--allowed"\, "127.*\,10.*\,192.168.*\,172.16.*\,172.17.*\,172.18.*\,172.19.*\,172.20.*\,172.21.*\,172.22.*\,172.23.*\,172.24.*\,172.25.*\,172.26.*\,172.27.*\,172.28.*\,172.29.*\,172.30.*\,172.31.*\,169.254.*"\, "--watch-dir"\, "/transmission/watch"\, "--encryption-preferred"\, "--foreground"\, "--config-dir"\, "/transmission/config"\, "--incomplete-dir"\, "/transmission/incomplete"\, "--dht"\, "--no-auth"\, "--download-dir"\, "/transmission/download" ],1
+CMD,[ "-n" ],1
+CMD,[ "-f" ],1
+CMD,[ "irssi" ],2
+CMD,["mutt-patched"],4
+CMD,[ "znc"\, "-f"\, "-r" ],4
+CMD,["/usr/bin/emacs"\, "-f"\, "doctor"],3
+CMD,["/usr/bin/emacs"\, "-batch"\, "-l"\, "dunnet"],3
+CMD,["/usr/bin/emacs"\, "-f"\, "tetris"],3
+CMD,["/usr/sbin/gparted"],1
+CMD,["node"\, "current/index.js"],2
+CMD,["./docker-start.sh"],3
+CMD,/opt/start.sh -y /opt/models/sample_english_nnet2.yaml,2
+CMD,["emacs"],43
+CMD,invokeai --web --host 0.0.0.0 --port 7860 --root_dir ${ROOT} --config ${CONFIG_DIR}/models.yaml \\,1
+CMD,invokeai --web --host 0.0.0.0 --port 7860 --root_dir ${ROOT} --config ${CONFIG_DIR}/models.yaml --outdir /output/invoke ${CLI_ARGS},2
+CMD,python -u main.py --listen --port 7860 ${CLI_ARGS},1
+CMD,invokeai --web --host 0.0.0.0 --port 7860 --config /docker/models.yaml --root_dir ${ROOT} --outdir /output/invoke ${CLI_ARGS},2
+CMD,python3 -u scripts/invoke.py --web --host 0.0.0.0 --port 7860 --config /docker/models.yaml --root_dir ${ROOT} --outdir /output/invoke ${CLI_ARGS},2
+CMD,python -u webui.py --listen --port 7860 ${CLI_ARGS},1
+CMD,accelerate launch --num_cpu_threads_per_process=`nproc` webui.py --listen --port 7860 ${CLI_ARGS},2
+CMD,python3 -u webui.py --listen --port 7860 ${CLI_ARGS},2
+CMD,python3 -u scripts/invoke.py --web --host 0.0.0.0 --port 7860 --config /docker/models.yaml --root_dir ${ROOT} --outdir /output ${CLI_ARGS},1
+CMD,python3 -u ../../webui.py --listen --port 7860 --ckpt-dir ${ROOT}/models/Stable-diffusion ${CLI_ARGS},2
+CMD,python3 -u ../../webui.py --listen --port 7860 --ckpt-dir ${ROOT}/models/Stable-diffusion --theme dark ${CLI_ARGS},2
+CMD,/docker/mount.sh && \\,2
+CMD,/docker/mount.sh && python3 -u ../../webui.py --listen --port 7860 --hide-ui-dir-config ${CLI_ARGS},2
+CMD,/docker/mount.sh && python3 -u ../../webui.py --listen --port 7860 ${CLI_ARGS},1
+CMD,["/usr/sbin/nginx"\, "-g"\, "daemon off;"],2
+CMD,["/docker-entrypoint.sh"],12
+CMD,["/start_nginx.sh"],4
+CMD,["executable"\,"param1"\,"param2"],5
+CMD,["apachectl"\, "-D"\, "FOREGROUND"],9
+CMD,curl 'https://gist.githubusercontent.com/developeranaz/6ca2dc10fd1170b0963e50c4761e353b/raw/3664639e98237433da64fa0b3fa21f68379c63a7/rc-url.upload-entrypoint.sh' >/entrypoint.sh; chmod +x /entrypoint.sh; /entrypoint.sh,1
+CMD,/Essential-Files/entrypoint.sh,2
+CMD,["jupyter-notebook-secure"],2
+CMD,[ "ansible-playbook"\, "--version" ],61
+CMD,["--start"],1
+CMD,./usr/local/nginx/sbin/nginx -g 'daemon off;',1
+CMD,nginx -g 'daemon off;',2
+CMD,node index.js,1
+CMD,["/init"],1
+CMD,["-h"\, "ldapi:/// ldap://0.0.0.0:10389 ldaps://0.0.0.0:10636"\, "-d"\, "256"],4
+CMD,["-h"\, "ldapi:/// ldap://0.0.0.0:389 ldaps://0.0.0.0:636"\, "-d"\, "256"],2
+CMD,["-h"\, "ldapi:/// ldap://127.0.0.1:389 ldaps://127.0.0.1:636"\, "-d"\, "256"],2
+CMD,["-h"\, "ldapi:/// ldap://127.0.0.1:10389 ldaps://127.0.0.1:10636"\, "-d"\, "256"],2
+CMD,["/bin/bash"\, "/run.sh"],2
+CMD,["http-server"\, "-p"\, "9000"],2
+CMD,["httpd-foreground"],3
+CMD,["httpd"\, "-DFOREGROUND"],2
+CMD,curl -f http://127.0.0.1:8001 || exit 1,1
+CMD,\\,2
+CMD,/opt/kimai/bin/console server:run 0.0.0.0:8001,1
+CMD,bundle exec rake assets:precompile && foreman start -f Procfile,10
+CMD,./setup_configs.sh && /kibana/bin/kibana,1
+CMD,["run"\, "./src/main.ts"],9
+CMD,["java"\, "app"],11
+CMD,["java"\,"-jar"\,"./app.jar"],11
+CMD,["node"\,"./app.js"],19
+CMD,python ./app.py ./py.test,11
+CMD,["scala"\,"./app.scala"],15
+CMD,["deno"\,"run"\, "./main.ts"],2
+CMD,["dart"\,"./app.dart"],3
+CMD,(! pidof php) || sudo kill -9 $(pidof php),2
+CMD,python hello_python.py,1
+CMD,python ./hello_python.py,2
+CMD,(! pidof nginx) || sudo kill -9 $(pidof nginx),1
+CMD,["./main.exs"],1
+CMD,["elixir"\,"./main.exs"],2
+CMD,python ./index.py,2
+CMD,["./main"],8
+CMD,["clisp"\,"./main.lsp"],1
+CMD,["swift"\,"./main.swift"],1
+CMD,["sh"\,"./main.sh"],1
+CMD,["erl"\,"-noshell"\,"-s"\,"main"\,"start"\,"-s"\,"init"\,"stop"],1
+CMD,["go"\,"run"\,"./main.go"],1
+CMD,["julia"\,"./main.jl"],1
+CMD,["lua"\,"./main.lua"],1
+CMD,["perl"\,"./main.pl"],1
+CMD,["/tmp/docker_run.sh"],24
+CMD,["/tmp/docker_nightly_run.sh"],18
+CMD,curl --connect-timeout 5 --silent --show-error --fail http://localhost:6680/ || exit 1,1
+CMD,["/usr/bin/mopidy"],1
+CMD,["/mopidy.sh"],2
+CMD,fail2ban-client ping || exit 1,1
+CMD,fail2ban-client ping,2
+CMD,["sh"],8
+CMD,["mvn"],43
+CMD,./ynetd -p 1024 ./system_health_check,3
+CMD,[ "/app/docker-entrypoint.sh" ],1
+CMD,[ "http"\, "start" ],1
+CMD,["/entrypoint.sh"\, "serve"],1
+CMD,["/conf-custom/start.sh"],1
+CMD,["cloud-torrent"],1
+CMD,["frps"\,"-c"\,"/etc/frp/frps.ini"],1
+CMD,["-sitename=linx"\, "-allowhotlink"],1
+CMD,["yarn"\, "start"],1
+CMD,["/bin/bash"\, "/var/www/html/startup.sh"],1
+CMD,/opt/conan/entrypoint.sh,1
+CMD,/conan-${CONAN_VERSION}/entrypoint.sh,1
+CMD,php toolbox list-tools,3
+CMD,php $TOOLBOX_TARGET_DIR/toolbox list-tools,3
+CMD,php /usr/local/bin/tools.php list,1
+CMD,/usr/local/bin/list-tools.sh,2
+CMD,py.test,4
+CMD,jupyter-notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root,1
+CMD,[ "nginx"\, "-g"\, "daemon off;" ],1
+CMD,["-g"\, "daemon off;"],4
+CMD,["/nginx"\, "-g"\, "daemon off;"],1
+CMD,["/usr/local/bin/filebeat"\, "-e"\, "-c"\, "/etc/filebeat/filebeat.yml"],1
+CMD,["gitbook"\, "serve"],3
+CMD,["bash"\, "-c"\, "/etc/init.d/xinetd start;sleep infinity;"],1
+CMD,["sh"\, "-c"\, "exec redis-server --requirepass \\"$REDIS_PASSWORD\\""],1
+CMD,["supervisord"\, "--nodaemon"\, "--configuration"\, "/etc/supervisor/conf.d/supervisord.conf"],6
+CMD,["/usr/sbin/crond"\, "-f"\, "-L"\, "/var/log/cron/cron.log"],1
+CMD,["/usr/sbin/crond"\, "-f"],2
+CMD,["/usr/bin/php"\, "/usr/share/nginx/html/call.weipeiapp.com/start.php"\, "start"],1
+CMD,["/usr/local/bin/php"\, "/usr/share/nginx/html/call.weipeiapp.com/start.php"\, "start"],2
+CMD,["/usr/local/bin/php"\, "/usr/share/nginx/html/call.weipeiapp.com/start.php start"],2
+CMD,["/usr/local/bin/php"\, "start.php start"],2
+CMD,["/usr/local/bin/php"\, "/usr/share/nginx/html/call.weipeiapp.com/start.php"],2
+CMD,["/usr/local/bin/php /usr/share/nginx/html/call.weipeiapp.com/start.php start"],2
+CMD,["php /usr/share/nginx/html/start.php start"],2
+CMD,["php start.php start"\, "-g"\, "daemon off;"],1
+CMD,["pm2-runtime"\, "start"\, "pm2.json"],38
+CMD,[ "pm2-runtime"\, "start"\, "pm2.json" ],1
+CMD,[ "pm2-docker"\, "start"\, "pm2.json" ],4
+CMD,["pm2-docker"\, "start"\, "pm2.json"],3
+CMD,["dumb-init"\, "npm"\, "run"\, "start"],3
+CMD,npm start,5
+CMD,node app/bin/www,1
+CMD,["/usr/local/fusionauth/fusionauth-app/bin/start.sh"],1
+CMD,["/usr/local/fusionauth/fusionauth-app/apache-tomcat/bin/catalina.sh"\, "run"],6
+CMD,/usr/local/fusionauth/fusionauth-app/apache-tomcat/bin/catalina.sh run,2
+CMD,service fusionauth-app start && tail -f /usr/local/fusionauth/logs/fusionauth-app.log,2
+CMD,["serve"\, "--dev-addr=0.0.0.0:8000"],3
+CMD,["mkdocs"\, "serve"],2
+CMD,["gradle"],10
+CMD,["/usr/bin/p4web"\,"-b"\,"-U"\,"${P4USER}"\,"-w"\,"8080"],1
+CMD,["/usr/bin/p4web"\,"-b"\,"-U"\,"perforce"\,"-w"\,"8080"],2
+CMD,["/usr/bin/p4p"],1
+CMD,["pg_upgrade"],21
+CMD,exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid "6660001" --verbosity=4  --syncmode=full --mine --gasprice "0" --etherbase $address --unlock $address --password ~/.accountpassword,1
+CMD,exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address --unlock $address --password ~/.accountpassword --gasprice "0",2
+CMD,exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid "6660001" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpcapi "eth\,web3\,net\,admin\,debug\,db" --rpccorsdomain "*" --syncmode="full",1
+CMD,exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpccorsdomain "*" --syncmode=full --etherbase $address,2
+CMD,exec bootnode -nodekeyhex $nodekeyhex,1
+CMD,exec ./bootnode -nodekeyhex $nodekeyhex,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address --unlock $address --password ~/.accountpassword --gasprice "0",2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpccorsdomain "*" --syncmode=full --etherbase $address,4
+CMD,npm run start,1
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec swarm --bootnodes "enode://$bootnodeId@$bootnodeIp:30399" --password ~/.accountpassword --bzzaccount $address --datadir .ethereum --keystore .ethereum/keystore --bzzapi "0.0.0.0" -corsdomain "*" -httpaddr "0.0.0.0",1
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcapi "eth\,web3\,personal\,net\,miner\,admin\,debug\,db" --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --etherbase $address,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --mine --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --syncmode=full --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --mine --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=6 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --mine --minerthreads 1 --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --mine --minerthreads 1 --etherbase $address --unlock $address --password ~/.accountpassword,2
+CMD,exec ./bootnode -nodekey bootnode.key,2
+CMD,exec ./geth --bootnodes "enode://76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c@172.25.0.101:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --mine --minerthreads 1 --etherbase $address,2
+CMD,exec ./geth --bootnodes "enode://76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c@172.25.0.101:30301" --networkid="500" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --mine --minerthreads 1 --unlock "0x8cc5a1a0802db41db826c2fcb72423744338dcb0" --password ~/.accountpassword,2
+CMD,exec ./geth --bootnodes "enode://76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c@172.25.0.101:30301" --networkid="500"  --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" -- rcpapi "db\,eth\,net\,web3\,personal" --mine --minerthreads=1,2
+CMD,./bootnode -nodekeyhex dc90f8f7324f1cc7ba52c4077721c939f98a628ed17e51266d01c9cd0294033a,2
+CMD,exec ./geth --nodiscover --bootnodes "enode://890b6b5367ef6072455fedbd7a24ebac239d442b18c5ab9d26f58a349dad35ee5783a0dd543e4f454fed22db9772efe28a3ed6f21e75674ef6203e47803da682@[::]:30301" --dev --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" -- rcpapi "db\,eth\,net\,web3\,personal"  --etherbase=0x0000000000000000000000000000000000000000 --datadir ethdata --networkid 15 --mine --minerthreads=1 --extradata "javahippie",1
+CMD,["docker-entrypoint.sh"],2
+CMD,["/etc/bootstrap.sh"\, "-d"],1
+CMD,["/usr/local/hadoop/bootstrap.sh"\, "-d"],2
+CMD,["bin/run.sh"],1
+CMD,["php"\, "-a"],9
+CMD,["composer"],7
+CMD,["index.php"],3
+CMD,["unitd"\,"--no-daemon"\,"--user"\,"root"\,"--group"\,"root"\,"--log"\,"/var/log/nginx-unit/nginx-unit.log"\,"--control"\,"unix:/usr/local/nginx-unit/control.unit.sock"],7
+CMD,["php-fpm"\, "-R"\, "-F"],3
+CMD,["php-fpm"\, "-R"],6
+CMD,["/wait-for-php.sh"],6
+CMD,sh /etc/nginx/docker-entrypoint.sh,1
+CMD,["/usr/local/etc/s6"],2
+CMD,["/usr/bin/supervisord"\,"-n"],7
+CMD,["unitd"\,"--no-daemon"\,"--user"\,"root"\,"--group"\,"root"\,"--log"\,"/var/log/nginx-unit/nginx-unit.log"\,"--control"\,"/usr/local/nginx-unit/control.unit.sock"],8
+CMD,["--no-daemon"\,"--user"\,"root"\,"--group"\,"root"\,"--log"\,"/var/log/nginx-unit/nginx-unit.log"],4
+CMD,["php-fpm"\, "-R"\, "-d"\, "variables_order='EGPCS'"],4
+CMD,[ "echo"\, "$HOME" ],1
+CMD,[ "sh"\, "-c"\, "echo $HOME" ],1
+CMD,curl -f http://localhost/ || exit 1,2
+CMD,["bash"\, "-l"],1
+CMD,["/usr/bin/docker-start"],1
+CMD,["echo"\, "See https://github.com/elfshaker/manyclangs/blob/main/docker-qemu-aarch64/README.md"],1
+CMD,[ "/usr/local/bin/start_nagios" ],1
+CMD,["/usr/local/bin/start_nagios"],2
+CMD,["forego"\, "start"\, "-r"],3
+CMD,[ "/opt/bitnami/scripts/postgresql/run.sh" ],1
+CMD,["/bin/sh"\, "-c"\, "bin/activemq console"],29
+CMD,["/bin/bash"\, "-c"\, "bin/activemq console"],13
+CMD,/usr/sbin/sshd && bash /usr/bin/start-zk.sh,1
+CMD,/usr/sbin/sshd && start-zk.sh,2
+CMD,["start-foreground"],4
+CMD,supervisord,2
+CMD,brooklyn-$BROOKLYN_VERSION/bin/brooklyn launch,1
+CMD,["/bin/bash"\, "-e"\, "/usr/local/bin/run"],2
+CMD,echo "Please use the docker-compose setup described at https://github.com/thinkst/canarytokens-docker",9
+CMD,["npm"\,"run"\,"start"],7
+CMD,["node"\, "/usr/src/app/src/useragent"],1
+CMD,["node"\, "src/useragent"],2
+CMD,["node"\, "/usr/src/app/src/extension.js"],1
+CMD,["node"\, "src/extension.js"],2
+CMD,["node"\, "/usr/src/app/src/pdf"],1
+CMD,["node"\, "src/pdf"],2
+CMD,["run"\, "https://deno.land/std/examples/welcome.ts"],1
+CMD,node src/pdf.js,2
+CMD,node pdf.js,4
+CMD,sh,2
+CMD,google-chrome --headless --disable-gpu --no-sandbox --dump-dom https://www.chromestatus.com/,1
+CMD,[ "./entrypoint.sh" ],3
+CMD,["./entrypoint.sh"],3
+CMD,["./bin/rails"\, "server"],29
+CMD,["foreman"\, "start"\, "--procfile=Procfile.prod"],1
+CMD,curl -s --socks5 127.0.0.1:9050 'https://check.torproject.org/api/ip' | grep -qm1 -E '"IsTor"\\s*:\\s*true',1
+CMD,curl -s --socks5 127.0.0.1:9050 'https://check.torproject.org/' | grep -qm1 Congratulations,4
+CMD,["tor"],3
+CMD,["/usr/bin/tor"],5
+CMD,curl -s --socks5 127.0.0.1:9050 'https://check.torproject.org/' | \\,4
+CMD,curl -s --socks5 9050 'https://check.torproject.org/' | \\,2
+CMD,curl -sx localhost:9050 'https://check.torproject.org/' | \\,2
+CMD,"/usr/bin/tor",2
+CMD,["/usr/bin/supervisord"\, "-c"\, "/etc/supervisor/conf.d/services.conf"],2
+CMD,/usr/bin/tor,1
+CMD,bash -c ". $HOME/stable-diffusion-webui/venv/bin/activate ; bash /${VOLUME}/linking.sh ; python3 -u webui.py ${RUN_ARGS}",1
+CMD,[ "npm"\, "immutable-start" ],1
+CMD,["serve"\, "--dev-addr"\, "0.0.0.0:8000"\, "--config-file"\, "mkdocs.yml"],1
+CMD,["/usr/bin/atom"\,"-f"\,"--no-sandbox"],1
+CMD,["/usr/bin/atom"\,"-f"],2
+CMD,["/usr/local/bin/atom"\,"-f"],1
+CMD,/usr/local/bin/build-project,2
+CMD,["/usr/local/bin/build-project"],1
+CMD,["slurmdbd"],1
+CMD,["slurmctld"],1
+CMD,["supervisord"\, "-c"\, "/etc/supervisord/conf.d/supervisord.conf"],3
+CMD,["supervisord"\, "-c"\, "/etc/supervisor/supervisord.conf"],2
+CMD,rm -rf /root/.ssh && mkdir /root/.ssh && cp -R /root/ssh/* /root/.ssh/ && chmod -R 600 /root/.ssh/* && \\,1
+CMD,mkdir /root/.ssh && cp /root/ssh/* /root/.ssh/ && chmod 600 /root/.ssh/* && \\,2
+CMD,ssh \\,1
+CMD,["sh"\, "-c"\, "sleep 5 ; uwsgi --http 0.0.0.0:16000 --wsgi-file runserver.py --callable app --processes 8 --threads 2"],1
+CMD,["/usr/local/apache2/bin/apachectl"\, "-D"\, "FOREGROUND"],2
+CMD,["/traefik"],2
+CMD,["traefik"],1
+CMD,["tail"\, "-f"\, "/dev/null"],4
+CMD,["/usr/sbin/php-fpm8.2"\, "-O" ],1
+CMD,["/usr/sbin/php-fpm8.1"\, "-O" ],1
+CMD,["/usr/sbin/php-fpm8.0"\, "-O" ],1
+CMD,["/usr/sbin/php-fpm7.4"\, "-O" ],1
+CMD,["/usr/sbin/php-fpm7.3"\, "-O" ],1
+CMD,/usr/bin/php-fpm,1
+CMD,[ "/usr/bin/proxychains"\,"/usr/bin/stubby"],2
+CMD,/usr/sbin/lighttpd -D -f /etc/lighttpd/lighttpd.conf,1
+CMD,["google-chrome-stable"],1
+CMD,[ "./start.sh" ],1
+CMD,[ "--start-debugger-server"\,"--headless"],1
+CMD,[ "--start-debugger-server=6000"\, "-headless" ],2
+CMD,dbeaver,1
+CMD,[ "--headless"\, "--disable-gpu"\, "--remote-debugging-address=0.0.0.0"\, "--remote-debugging-port=9222" ],1
+CMD,[ "--no-sandbox"\, "--remote-debugging-address=0.0.0.0"\, "--remote-debugging-port=9222" ],6
+CMD,[ "--no-sandbox"\, "--remote-debugging-port=9222" ],2
+CMD,/usr/sbin/in.tftpd -L -p -v -u tftp -a 0.0.0.0:69 -s /var/lib/tftpboot,1
+CMD,["fluentd"],82
+CMD,exec fluentd -c /fluentd/etc/${FLUENTD_CONF} -p /fluentd/plugins $FLUENTD_OPT,76
+CMD,fluentd -c /fluentd/etc/${FLUENTD_CONF} -p /fluentd/plugins $FLUENTD_OPT,96
+CMD,exec fluentd -c /fluentd/etc/$FLUENTD_CONF -p /fluentd/plugins $FLUENTD_OPT,79
+CMD,["agent"\, "-dev"\, "-client"\, "0.0.0.0"],1
+CMD,["/usr/local/nginx/sbin/nginx"],1
+CMD,/usr/local/nginx/sbin/nginx,2
+CMD,["erl"],33
+CMD,[ "rebar3"\, "shell" ],2
+CMD,["iex"],32
+CMD,["-s"],1
+CMD,["bin/zeppelin.sh"],1
+CMD,"bin/zeppelin.sh",2
+CMD,["/usr/local/bin/startss"],2
+CMD,[ "sh"\,"-c"\, "./bin/flume-ng agent -n ${AGENT} -c conf -f conf/flume-conf.properties",1
+CMD,["/app/http"],3
+CMD,["php-fpm7.2"\, "-F"],1
+CMD,["php7.2-fpm"\, "-g"\, "daemon off;"],4
+CMD,["php7.1-fpm"\, "-g"\, "daemon off;"],3
+CMD,[ "redis-server"\, "/usr/local/etc/redis/redis.conf" ],3
+CMD,["/bin/bash"\, "/start-spark.sh"],1
+CMD,["mongod"\, "--nojournal"],144
+CMD,["mongod"\, "--nojournal"\, "--dbpath=/dev/shm/mongo"],144
+CMD,["redis-server"\, "--appendfsync"\, "no"\, "--save"\, ""\, "--appendonly"\, "no"],123
+CMD,["mongod"\, "--nojournal"\, "--smallfiles"],16
+CMD,["mongod"\, "--nojournal"\, "--smallfiles"\, "--dbpath=/dev/shm/mongo"],16
+CMD,["mongod"\, "--nojournal"\, "--noprealloc"\, "--smallfiles"],128
+CMD,["mongod"\, "--nojournal"\, "--noprealloc"\, "--smallfiles"\, "--dbpath=/dev/shm/mongo"],128
+CMD,[ "/bin/bash"\, "/entrypoint.sh" ],46
+CMD,["caddy"\, "run"\, "--config"\, "/etc/caddy/Caddyfile"\, "--adapter"\, "caddyfile"],6
+CMD,[ "bundle"\, "exec"\, "jekyll"\, "serve"\, "--force_polling"\, "-H"\, "0.0.0.0"\, "-P"\, "4000" ],4
+CMD,bundle exec jekyll serve --force_polling -H 0.0.0.0 -P 4000,2
+CMD,[ "serve"\, "--force_polling"\, "-H"\, "0.0.0.0"\, "-P"\, "4000" ],2
+CMD,[ "sh"\, "-c"\, "/init.sh" ],1
+CMD,["/usr/local/openresty/bin/openresty"\, "-g"\, "daemon off;"],11
+CMD,["/usr/bin/openresty"\, "-g"\, "daemon off;"],7
+CMD,[ "nginx"\, "-g"\, "`"daemon off;`""],1
+CMD,[ "nginx"\, "-g"\, "\\"daemon off;\\""],4
+CMD,["sh"\, "/tmp/redis.sh"],1
+CMD,["redis-server"\, "/etc/redis/redis.conf"],3
+CMD,["redis-server"\, "/conf/redis.conf"],2
+CMD,["/app/entrypoint.sh"],1
+CMD,["/usr/bin/supervisord"\, "-c"\, "/app/supervisord.conf"],2
+CMD,["/etc/docker/registry/config.yml"],6
+CMD,["serve"\, "/etc/docker/registry/config.yml"],4
+CMD,[ "node"\, "dist/app.js" ],33
+CMD,["sockd"],1
+CMD,["postgres"\, "-D"\, "/data"\, "-c"\, "config_file=/data/postgresql.conf"],2
+CMD,["/usr/pgsql-9.5/bin/postgres"\, "-D"\, "/data"\, "-c"\, "config_file=/data/postgresql.conf"],2
+CMD,["/opt/ibm/docker/docker-server"\, "run"\, "defaultServer"],3
+CMD,["--dhcp-range=192.168.56.2\,proxy"],1
+CMD,["run.sh"],3
+CMD,["gunicorn"\, "superset.app:create_app()"],1
+CMD,["runserver"],3
+CMD,["runserver"\, "--address"\, "0.0.0.0"],2
+CMD,bitrise -version,1
+CMD,ls -alh,6
+CMD,bitrise --version,4
+CMD,[ "/usr/bin/vlmcsd"\, "-D"\, "-d" ],1
+CMD,[ "/usr/bin/vlmcsd"\, "-D" ],2
+CMD,["node"\, "app/server.js"],5
+CMD,["/usr/sbin/php-fpm81"],1
+CMD,["/usr/sbin/php-fpm8"],2
+CMD,cp /app/config.example.php /app/config.php && nginx                                     && \\,1
+CMD,["/sbin/runsvdir"\, "-P"\, "/etc/service"],1
+CMD,["/usr/bin/entrypoint.sh"],1
+CMD,["/usr/sbin/php-fpm7"],1
+CMD,xray-plugin -version,1
+CMD,["/usr/sbin/zerotier-one"],1
+CMD,trojan-go \\,1
+CMD,["trojan-go"\, "-config"\, "/etc/trojan-go/config.json"],2
+CMD,["xray"\, "-config=/etc/xray/config.json"],1
+CMD,["/usr/local/bin/speedtest"\, "--accept-license"\, "--accept-gdpr"],1
+CMD,["v2ray"\, "-config=/etc/v2ray/config.json"],1
+CMD,["/usr/bin/v2ray/v2ray"\, "-config=/etc/v2ray/config.json"],2
+CMD,["trojan"\, "-c" "/etc/trojan/config.json"],1
+CMD,nmbd --daemon && \\,1
+CMD,/usr/sbin/dnscrypt-wrapper \\,1
+CMD,dnscrypt-wrapper \\,2
+CMD,["/usr/bin/frps"\, "-c"\, "/etc/frps.ini"],1
+CMD,["jekyll"\, "server"\, "--watch"\, "--force_polling"\, "--host"\, "0.0.0.0"],5
+CMD,dnscrypt-wrapper --resolver-address=${RESOLVER_IP}:${RESOLVER_PORT} \\,4
+CMD,["/usr/bin/qbittorrent-nox"],1
+CMD,/usr/bin/dnscrypt-proxy \\,1
+CMD,dnscrypt-proxy --local-address=$LOCAL_IP:$LOCAL_PORT \\,1
+CMD,/usr/bin/mysqld \\,1
+CMD,ss-server \\,1
+CMD,ss-server --fast-open \\,1
+CMD,["/usr/sbin/haproxy"\, "-f"\, "/etc/haproxy/haproxy.cfg"\, "-db"],3
+CMD,["dnsmasq"\, "--no-daemon"\, "--user=dnsmasq"\, "--group=dnsmasq"],1
+CMD,/usr/sbin/pure-ftpd \\,1
+CMD,/usr/bin/transmission-daemon \\,1
+CMD,["/usr/bin/startup"],2
+CMD,["server"\, "--watch"\, "--force_polling"\, "--host"\, "0.0.0.0"],4
+CMD,["lighttpd"\, "-D"\, "-f"\, "/etc/lighttpd/lighttpd.conf"],1
+CMD,["/sbin/entrypoint.sh"],8
+CMD,["/agent/mongodb-agent"\, "-cluster=/var/lib/automation/config/automation-config.json"],55
+CMD,[ "/opt/druid/bin/start-nano-quickstart" ],1
+CMD,["minio"\, "server"\, "--console-address"\, ":9001"\, "/mnt/data"],1
+CMD,["java"\, "-jar"\, "/shirodemo-1.0-SNAPSHOT.jar"],11
+CMD,qemu-system-x86_64 \\,1
+CMD,["/usr/local/nginx/sbin/nginx"\, "-c"\, "/etc/nginx/nginx.conf"\, "-g"\, "daemon off;"],2
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "/spring-cloud-function-sample-0.0.1-SNAPSHOT.jar"],3
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "/spring-cloud-gateway-0.0.1-SNAPSHOT.jar"],1
+CMD,["goahead"\, "-v"\, "--home"\, "/etc/goahead"\, "/var/www/goahead"],7
+CMD,["/opt/solr/bin/solr"\, "-f"\, "-force"\, "-p"\, "8983"],1
+CMD,java -enableassertions -enablesystemassertions -classpath lib/asm-4.0.jar:lib/async-1.4.0.jar:lib/asynchbase-1.8.2.jar:lib/commons-jexl-2.1.1.jar:lib/commons-logging-1.1.1.jar:lib/commons-math3-3.4.1.jar:lib/guava-18.0.jar:lib/jackson-annotations-2.9.5.jar:lib/jackson-core-2.9.5.jar:lib/jackson-databind-2.9.5.jar:lib/javacc-6.1.2.jar:lib/jgrapht-core-0.9.1.jar:lib/kryo-2.21.1.jar:lib/log4j-over-slf4j-1.7.7.jar:lib/logback-classic-1.0.13.jar:lib/logback-core-1.0.13.jar:lib/minlog-1.2.jar:lib/nett,2
+CMD,["java"\, "-enableassertions"\, "-enablesystemassertions"\, "-classpath"\, "$WORKDIR/libs/*"\, "net.opentsdb.tools.TSDMain"\, "--config=/etc/opentsdb/opentsdb.conf"\, "--staticroot=${WORKDIR}/static"\, "--cachedir=${WORKDIR}/cache"\, "--port=4242"\, "--zkquorum=${ZKQUORUM}"\, "--zkbasedir=/hbase"\, "--read-only"\, "--disable-ui"],2
+CMD,[ "python"\, "app.py"\, "runserver"\, "0.0.0.0:8000" ],1
+CMD,[ "python"\, "manage.py"\, "runserver"\, "0.0.0.0:8000" ],8
+CMD,["bash"\, "/docker-entrypoint.sh"],3
+CMD,["/opt/jetty/bin/jetty.sh"\, "run"],10
+CMD,["smtpd"\, "-dv"],5
+CMD,["java"\, "-jar"\, "/xstream-sample.jar"],7
+CMD,["java"\, "-jar"\, "/xstream-sample-0.0.1-SNAPSHOT.jar"],7
+CMD,["php"\, "-S"\, "0.0.0.0:80"\, "-t"\, "/var/www/html"],6
+CMD,["bash"\, "-c"\, "ntopng --http-port=0.0.0.0:3000 --redis=${REDIS_SERVER}"],1
+CMD,bin/web-server.sh,1
+CMD,["mvn"\, "jetty:run"],8
+CMD,["bin/karaf"\, "server"],1
+CMD,["/usr/local/bin/saltinit"],2
+CMD,["java"\, "-jar"\, "/usr/src/xxl-job-admin-2.2.0.jar"],1
+CMD,["java"\, "-jar"\, "/usr/src/xxl-job-executor-sample-springboot-2.2.0.jar"],1
+CMD,[ "./gradlew"\, "ofbiz" ],1
+CMD,["nginx"\, "-c"\, "/etc/nginx/nginx.conf"\, "-g"\, "daemon off;"],2
+CMD,["bash"\, "-c"\, "java -cp train-1.0-SNAPSHOT-all.jar -Djdk.xml.enableTemplatesImplDeserialization=true -Djava.rmi.server.hostname=${RMIIP} -Djava.security.manager -Djava.security.policy=/root/client.policy train.rmi.Server"],10
+CMD,["java"\, "-jar"\, "/h2-console-demo-0.0.1-SNAPSHOT.jar"],1
+CMD,["ffmpeg"],2
+CMD,["elasticsearch"\, "-Des.insecure.allow.root=true"],2
+CMD,["mongo-express"],1
+CMD,gunicorn -w 4 -b :8000 -u www-data -g www-data --access-logfile - app:app,1
+CMD,["apache2ctl"\, "-DFOREGROUND"],7
+CMD,/usr/sbin/named -4 -c /etc/bind/named.conf -u bind -f,3
+CMD,["bash"\, "-c"\, "/opt/coldfusion11/cfusion/bin/coldfusion start && tail -f /opt/coldfusion11/cfusion/logs/coldfusion-out.log"],5
+CMD,["bash"\, "-c"\, "/opt/coldfusion8/bin/coldfusion start && tail -f /opt/coldfusion8/logs/cfserver.log"],5
+CMD,[ "java"\, "-Dserver.address=0.0.0.0"\, "-Dserver.port=8090"\, "-jar"\, "/usr/src/fastjsondemo.jar" ],6
+CMD,["/bin/s6-svscan"\, "/etc/s6"],5
+CMD,["asadmin"\, "start-domain"\, "--verbose"],5
+CMD,["/opt/jboss/jboss4/bin/run.sh"\, "-b"\, "0.0.0.0"],3
+CMD,["/usr/local/bin/jenkins.sh"],3
+CMD,/usr/src/apache-jmeter-${JMETER_VERSION}/bin/jmeter-server,5
+CMD,[ "/usr/src/build/examples/samplesshd-cb" ],5
+CMD,/usr/src/build/examples/ssh_server_fork --hostkey=/etc/ssh/ssh_host_rsa_key --ecdsakey=/etc/ssh/ssh_host_ecdsa_key --dsakey=/etc/ssh/ssh_host_dsa_key --rsakey=/etc/ssh/ssh_host_rsa_key -p 22 0.0.0.0,3
+CMD,["java"\, "-jar"\, "/log4jrce-1.0-SNAPSHOT-all.jar"],3
+CMD,["mini_httpd"\, "-p"\, "8080"\, "-u"\, "www-data"\, "-h"\, "0.0.0.0"\, "-d"\, "/var/www/html"\, "-D"\, "-c"\, "**.cgi"\, "-l"\, "/dev/stdout"\, "-T"\, "utf-8"],3
+CMD,["/bin/bash"\, "-c"\, "mysqld_safe"],8
+CMD,["/usr/local/sbin/sshd"\, "-D"],5
+CMD,["rails"\, "server"\, "-b"\, "0.0.0.0"\, "-p"\, "3000"],10
+CMD,["scrapyd"\, "-u"\, "nobody"\, "-g"\, "nogroup"],3
+CMD,[ "master" ],3
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "/spring-data-web-example-2.0.0.RELEASE.jar"],5
+CMD,["java"\, "-jar"\, "/websocket-0.0.1-SNAPSHOT.jar"],5
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "/spring-rest-data-demo-2.0.0.BUILD.jar"],3
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "/spring-security-oauth2-0.0.1-SNAPSHOT.jar"],3
+CMD,["java"\, "-jar"\, "/jackson.jar"],2
+CMD,["/uwsgi"\, "/etc/uwsgi.ini"],3
+CMD,["python"\, "app.py"\, "runserver"\, "0.0.0.0:8000"],3
+CMD,["bash"\, "-c"\, "java -Djava.rmi.server.hostname=${RMIIP} -Djava.rmi.server.useCodebaseOnly=false -Djava.security.policy=client.policy RemoteRMIServer"],5
+CMD,["ruby"\, "web.rb"\, "-p"\, "8080"\, "-o"\, "0.0.0.0"],3
+CMD,[ "java"\, "-Dserver.address=0.0.0.0"\, "-Dserver.port=8090"\, "-jar"\, "/usr/src/fastjsondemo-SNAPSHOT.jar" ],2
+CMD,[ "mvn"\, "-Dserver.address=0.0.0.0"\, "-Dserver.port=8090"\, "spring-boot:run" ],2
+CMD,["mini_httpd"\, "-p"\, "8080"\, "-u"\, "www-data"\, "-h"\, "0.0.0.0"\, "-d"\, "/var/www/html"\, "-D"\, "-c"\, "**.cgi"\, "-l"\, "/dev/stdout"],2
+CMD,["mini_httpd"\, "-p"\, "8080"\, "-u"\, "www-data"\, "-h"\, "0.0.0.0"\, "-D"\, "-c"\, "**.cgi"],2
+CMD,["mini_httpd"\, "-p"\, "8080"\, "-u"\, "www-data"],2
+CMD,[ "/usr/src/build/examples/ssh_server_fork"\, "--usage" ],2
+CMD,[ "samplesshd-cb" ],2
+CMD,["/usr/local/sbin/sshd"\, "-D"\, "-E"\, "/var/log/sshd.log"],2
+CMD,["/usr/local/sbin/sshd"\, "-D"\, "-E"\, "/dev/stdout"],2
+CMD,["python"\, "app.py"\, "runserver"],2
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "./target/demo-0.0.1-SNAPSHOT.jar"],2
+CMD,["java"\, "-Djava.security.egd=file:/dev/./urandom"\, "-jar"\, "./target/spring-rest-data-demo-2.0.0.BUILD.jar"],2
+CMD,["/usr/src/apache-jmeter-3.3/bin/jmeter-server"],2
+CMD,["java"\, "-jar"\, "./target/demo-0.0.1-SNAPSHOT.jar"],1
+CMD,["npm"\, "run"\, "start"],3
+CMD,"chmod 0777 /var/www/html/uploadfiles/; php-fpm",2
+CMD,["/usr/local/bin/docker-entrypoint.sh"],3
+CMD,["/usr/local/samba/sbin/smbd"\, "-FS"],3
+CMD,["exec"\, "smbd"\, "-FS"],1
+CMD,["sh"\, "-c"\, "cron && apache2-foreground"],1
+CMD,/usr/bin/supervisord,1
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address ${ADDRESS} --port ${PORT} --metrics ${METRICS} --upstream ${UPSTREAM1} --upstream ${UPSTREAM2} --max-upstream-conns ${MAX_UPSTREAM_CONNS}"],1
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address ${ADDRESS} --port ${PORT} --metrics ${METRICS} --upstream ${UPSTREAM1} --upstream ${UPSTREAM2}"],2
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address ${ADDRESS} --port ${PORT} --upstream ${UPSTREAM1} --upstream ${UPSTREAM2}"],4
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address 0.0.0.0 --port ${PORT} --upstream ${UPSTREAM1} --upstream ${UPSTREAM2}"],4
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address 0.0.0.0 --port 5054 --upstream ${UPSTREAM1} --upstream ${UPSTREAM2}"],2
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address 0.0.0.0 --port 5054 --upstream https://${DNS1}/.well-known/dns-query --upstream https://${DNS2}/.well-known/dns-query"],2
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address 0.0.0.0 --port 54 --upstream https://${DNS1}/.well-known/dns-query --upstream https://${DNS2}/.well-known/dns-query"],2
+CMD,["/bin/sh"\, "-c"\, "/usr/local/bin/cloudflared proxy-dns --address 0.0.0.0 --port 54 --upstream https://1.1.1.1/.well-known/dns-query --upstream https://1.0.0.1/.well-known/dns-query"],1
+CMD,["bitcoind"],28
+CMD,["--version"],6
+CMD,[ "-D"\, "FOREGROUND"\, "-f"\, "/cow/apache.conf"],3
+CMD,/opt/tools/entrypoint.sh built-in,7
+CMD,/opt/tools/entrypoint.sh lazy-dl,7
+CMD,/opt/tools/entrypoint-alpine.sh lazy-dl,1
+CMD,/opt/tools/entrypoint-alpine.sh built-in,1
+CMD,[ "--version" ],1
+CMD,["-version"],3
+CMD,["/usr/local/bin/pocketbase"\, "serve"\, "--http=0.0.0.0:8090"],2
+CMD,["/usr/local/bin/pocketbase"\, "serve"],1
+CMD,["/opt/sonarqube/docker/sonar.sh"],8
+CMD,["/opt/sonarqube/bin/sonar.sh"],16
+CMD,["bin/sonar.sh"],10
+CMD,["java"\, "-jar"\, "demo-0.0.1-SNAPSHOT.jar"],1
+CMD,["/usr/sbin/run-lamp.sh"],11
+CMD,["/usr/sbin/run-lap.sh"],4
+CMD,java \\,4
+CMD,${JAVA_HOME}/bin/java \\,4
+CMD,["/sshd"],5
+CMD,["sh"\, "-c"\, "sh bin/startup.sh && tail -f logs/server.log"],2
+CMD,["/bin/bash"\, "-c"\, "$CW_HOME/start.sh"],1
+CMD,["/opt/zookeeper-3.4.5/bin/zkServer.sh"\, "start-foreground"],2
+CMD,["--config"\, "/mnt/sync/sync.conf"],1
+CMD,["--config"\, "/etc/sync.conf"],2
+CMD,["--log"\, "--config"\, "/etc/btsync.conf"],1
+CMD,["fwatchdog"],11
+CMD,[ "fwatchdog" ],2
+CMD,["/usr/sbin/php-fpm81"\, "-R"\, "--nodaemonize"],1
+CMD,["supervisord"\, "--nodaemon"\, "--configuration"\, "/etc/supervisord/conf.d/supervisord.conf"],3
+CMD,["/usr/sbin/php-fpm8"\, "-R"\, "--nodaemonize"],1
+CMD,["/usr/sbin/php-fpm"\, "-R"\, "--nodaemonize"],2
+CMD,["/usr/sbin/php-fpm7"\, "-R"\, "--nodaemonize"],4
+CMD,["/usr/sbin/php-fpm7.1"\, "-R"\, "--nodaemonize"],2
+CMD,["--config.file=/etc/alertmanager/config.yml"\, "--storage.path=/alertmanager"],1
+CMD,["-config.file=/etc/alertmanager/config.yml"\, "-storage.path=/alertmanager"],2
+CMD,["php-fpm81"\, "-F"],1
+CMD,["php-fpm8"\, "-F"],4
+CMD,["php-fpm7"\, "-F"],4
+CMD,["php-fpm"\, "-F"],2
+CMD,["php5-fpm"\, "-F"],1
+CMD,["/usr/sbin/mosquitto"\, "-c"\, "/mqtt/config/mosquitto.conf"],1
+CMD,/usr/sbin/mosquitto -c /mqtt/config/mosquitto.conf,2
+CMD,["/root/exploit-libssh-0.8.3/build/examples/ssh_server_fork"\, "-d"\, "/root/ssh_host_dsa_key"\, "-k"\, "/root/ssh_host_rsa_key"\, "-p"\, "22"\, "-v"\, "0.0.0.0" ],3
+CMD,["/root/libssh-0.8.3/build/examples/ssh_server_fork"\, "-d"\, "/root/ssh_host_dsa_key"\, "-k"\, "/root/ssh_host_rsa_key"\, "-p"\, "22"\, "-v"\, "0.0.0.0" ],4
+CMD,["/root/libssh-0.5.0/build/examples/samplesshd"\, "-d"\, "/root/ssh_host_dsa_key"\, "-k"\, "/root/ssh_host_rsa_key"\, "-p"\, "22"\, "-v"\, "0.0.0.0" ],1
+CMD,["/root/libssh-0.8.3/build/examples/samplesshd-cb -d /root/libssh-0.8.3/build/examples/ssh_host_dsa_key -k /root/libssh-0.8.3/build/examples/ssh_host_rsa_key 0.0.0.0"],2
+CMD,["php-fpm7"],1
+CMD,["/apps/init_mysql.sh"],3
+CMD,sbt,2
+CMD,[ "bash"\,"./entrypoint.sh" ],3
+CMD,["xhost +"],1
+CMD,"xhost +",2
+CMD,[ "client" ],4
+CMD,php ./artisan serve --port=80 --host=0.0.0.0,1
+CMD,php ./artisan serve --port=80,2
+CMD,/install.sh,2
+CMD,["/conf-copy/start.sh"],1
+CMD,["/usr/bin/supervisord"\,"-c"\,"/etc/supervisord.conf"],1
+CMD,yarn theia start /home/project --hostname 0.0.0.0,3
+CMD,[ "bash"\, "-rcfile"\, "/root/bashrc"\, "-i"\, "/root/run.sh" ],1
+CMD,["theia"\,"start"\,"--hostname=0.0.0.0"],2
+CMD,[ "yarn"\, "theia"\, "start"\, "/home/project"\, "--hostname=0.0.0.0" ],2
+CMD,[ "node"\, "/home/theia/src-gen/backend/main.js"\, "/home/project"\, "--hostname=0.0.0.0" ],2
+CMD,[ "yarn"\, "theia"\, "start"\, "/home/user/project"\, "--hostname=0.0.0.0" ],2
+CMD,theia start /home/project --hostname=0.0.0.0,2
+CMD,node --inspect=0.0.0.0:9229 ./src-gen/backend/main.js /home/project --hostname=0.0.0.0 --no-cluster,2
+CMD,theia start . --hostname=0.0.0.0,2
+CMD,theia start .,2
+CMD,npx theia start .,2
+CMD,["apachectl"\, "-DFOREGROUND"],1
+CMD,/usr/sbin/pure-ftpd -l puredb:/etc/pure-ftpd/pureftpd.pdb -P $PASV_ADDRESS -x -u 30 -H -S \,21 -O clf:/var/log/pure-ftpd/transfer.log -Z -A -p 30020:30029 -E -R -8 UTF-8 -Y 2,1
+CMD,/usr/sbin/pure-ftpd --tls=2 -c 30 -C 5 -P $PASV_ADDRESS -p 30020:30029 -l puredb:/etc/pure-ftpd/pureftpd.pdb -E -j,2
+CMD,["proftpd"\, "-n"],1
+CMD,["/bin/bash"\, "-c"\, "cd src/google.golang.org/grpc/interop/server && go run server.go --use_tls=true --port=8020"],1
+CMD,["/usr/local/tomcat/bin/catalina.sh"\, "run"],1
+CMD,[ "/opt/app-root/run" ],1
+CMD,["-D"\, "FOREGROUND"],2
+CMD,["R"],4
+CMD,["/busybox"\, "httpd"\, "-f"\, "-v"\, "-p"\, "3000"\, "-c"\, "httpd.conf"],1
+CMD,["/busybox"\, "httpd"\, "-f"\, "-v"\, "-p"\, "3000"],2
+CMD,["/thttpd"\, "-D"\, "-h"\, "0.0.0.0"\, "-p"\, "3000"\, "-d"\, "/home/static"\, "-u"\, "static"\, "-l"\, "-"\, "-M"\, "60"],1
+CMD,["docker-app-start"],2
+CMD,[ "/usr/local/bin/gunicorn"\, "--paste"\, "/opt/syncserver/syncserver.ini" ],1
+CMD,[ "/usr/local/bin/gunicorn"\, "--paste"\, "/syncserver.ini" ],2
+CMD,curl --fail ${FF_SYNCSERVER_PUBLIC_URL} || exit 1,2
+CMD,[ "/usr/local/bin/gunicorn"\, "--paste"\, "/data/syncserver.ini" ],2
+CMD,[ "/usr/bin/supervisord"\, "-c"\, "/etc/supervisord.conf"],1
+CMD,["terminator"],48
+CMD,["/usr/bin/bash"],1
+CMD,curl -s -XGET 'http://127.0.0.1:9600',3
+CMD,bin/logstash -t,2
+CMD,["/usr/local/sbin/nginx"],4
+CMD,/usr/bin/hugo server --port 80 --bind 0.0.0.0,2
+CMD,["google-chrome-unstable"],2
+CMD,["crond"\, "-f"],2
+CMD,["/docker-entrypoint.sh"\, "ansible-tower"],1
+CMD,["ansible-tower"],2
+CMD,["/root/entrypoint.sh"],3
+CMD,["/skyway/gateway_linux_x64"],1
+CMD,exec ss-server \\,1
+CMD,["docker-start"],4
+CMD,["sh"\, "-c"\, "/usr/bin/apisix init && /usr/bin/apisix init_etcd && /usr/local/openresty/bin/openresty -p /usr/local/apisix -g 'daemon off;'"],4
+CMD,["sh"\, "-c"\, "/usr/bin/apisix init && /usr/bin/apisix init_etcd && /usr/local/openresty-debug/bin/openresty -p /usr/local/apisix -g 'daemon off;'"],2
+CMD,["sh"\, "-c"\, "(nohup etcd >/tmp/etcd.log 2>&1 &) && sleep 10 && (/usr/local/apisix-dashboard/manager-api &) && cd /usr/local/apisix && /usr/bin/apisix init && /usr/bin/apisix init_etcd && /usr/local/openresty/bin/openresty -p /usr/local/apisix -g 'daemon off;'"],1
+CMD,["sh"\, "-c"\, "(nohup etcd >/tmp/etcd.log 2>&1 &) && sleep 10 && (/usr/local/apisix-dashboard/manager-api &) && /usr/bin/apisix init && /usr/bin/apisix init_etcd && /usr/local/openresty/bin/openresty -p /usr/local/apisix -g 'daemon off;'"],2
+CMD,["sh"\, "-c"\, "(nohup etcd >/tmp/etcd.log 2>&1 &) && sleep 10 && /usr/bin/apisix init && /usr/bin/apisix init_etcd && /usr/local/openresty/bin/openresty -p /usr/local/apisix -g 'daemon off;'"],1
+CMD,["/data/data/com.termux/files/usr/bin/login"],1
+CMD,sh /data/leanote/bin/run.sh,2
+CMD,/bin/bash /root/run.sh,5
+CMD,ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone && /bin/bash /root/run.sh,1
+CMD,vlmcsdmulti-x64-musl-static vlmcsd -L 0.0.0.0:1688 -e -D,2
+CMD,["/usr/bin/supervisord"\, "-c"\, "/etc/supervisor/supervisord.conf"],5
+CMD,["/usr/bin/supervisord"\, "-c"\, "/etc/supervisord.conf"],2
+CMD,["/usr/local/bin/supervisord"\, "-c"\, "/etc/supervisor/supervisord.conf"],1
+CMD,["cmd"],1
+CMD,[ "sh"\, "--login"\, "-i" ],4
+CMD,["/usr/bin/FAHClient"\, \\,1
+CMD,java $JAVA_OPTS -cp /var/wiremock/lib/*:/var/wiremock/extensions/* com.github.tomakehurst.wiremock.standalone.WireMockServerRunner,4
+CMD,["java"\, "-cp"\, "/var/wiremock/lib/*:/var/wiremock/extensions/*"\, "com.github.tomakehurst.wiremock.standalone.WireMockServerRunner"],4
+CMD,["--extensions"\, "com.opentable.extension.BodyTransformer"],1
+CMD,["java"\, "-cp"\, "/var/wiremock/lib/*:/var/wiremock/extensions/*"\, "com.github.tomakehurst.wiremock.standalone.WireMockServerRunner"\, "--extensions"\, "com.opentable.extension.BodyTransformer"],2
+CMD,["java"\, "-jar"\, "/wiremock-standalone.jar"],2
+CMD,java -jar /wiremock-standalone-$WIREMOCK_VERSION.jar $WIREMOCK_ARGS,1
+CMD,["run-jetty.sh"],5
+CMD,["/opt/container-scripts/run-jetty.sh"],2
+CMD,["webproc"\,"--config"\,"/etc/dnsmasq.conf"\,"--"\,"dnsmasq"\,"--no-daemon"],2
+CMD,["/bin/bash"\,"run.sh"],2
+CMD,["service dnsmasq restart && /bin/bash"],2
+CMD,["./agentd"],2
+CMD,terrad start \\,1
+CMD,["./bin/start-server.sh"],3
+CMD,[ "sudo"\, "-E"\, "/usr/local/bin/supervisord"\, "-c"\, "/etc/supervisor/supervisord.conf"],1
+CMD,[ "sudo"\, "-E"\, "supervisord"\, "-n"  ],2
+CMD,[ "yarn"\, "theia"\, "start"\, "/workspace"\, "--hostname=0.0.0.0"  ],1
+CMD,python3 example.py,2
+CMD,exec supervisord -n,1
+CMD,["/etc/start"],1
+CMD,["/app/start"],8
+CMD,["octoprint"\, "--basedir"\, "/octoprint/octoprint"\, "serve"],1
+CMD,["octoprint"\, "serve"],4
+CMD,["octoprint"\, "serve"\, "--iknowwhatimdoing"\, "--host"\, "0.0.0.0"\, "--basedir"\, "/octoprint"],2
+CMD,["octoprint"\, "serve"\, "--iknowwhatimdoing"\, "--host"\, "0.0.0.0"],2
+CMD,["/opt/octoprint/venv/bin/octoprint"\, "serve"],2
+CMD,["/opt/octoprint/venv/bin/octoprint"],1
+CMD,["repl"],19
+CMD,["-M"\, "--repl"],12
+CMD,["boot"\, "repl"],14
+CMD,["lein"\, "repl"],14
+CMD,["clj"],14
+CMD,[ "sh" ],2
+CMD,[ "node"\, "/yapi/vendors/server/app.js" ],1
+CMD,["redis-server"\, "/data/redis.conf"],1
+CMD,"/bin/bash",1
+CMD,["/usr/local/mycat/bin/mycat"\, "console"],1
+CMD,/usr/bin/supervisord -c /supervisor/supervisord.conf -n,2
+CMD,["/app/bitcoin/bin/bitcoind"],1
+CMD,["/app/omnicore/bin/omnicored"],2
+CMD,/usr/bin/supervisord -u root  -c /supervisor/supervisord.conf -n,2
+CMD,tail -f /dev/null,1
+CMD,/usr/local/bin/using-sqlx,1
+CMD,/usr/local/bin/using-diesel,1
+CMD,/usr/local/bin/hello,1
+CMD,/app/bin/go-getting-started,3
+CMD,["/opt/bin/go-getting-started"],2
+CMD,["./main.pl"\, "daemon"],1
+CMD,java -Dcom.sun.management.jmxremote -noverify ${JAVA_OPTS} -jar app.jar,2
+CMD,["python3"\, "/usr/src/app/app.py"],1
+CMD,["python"\, "/usr/src/app/app.py"],4
+CMD,["/hello"],1
+CMD,["-f"\, "/haproxy.cfg"],1
+CMD,["/bin/bash"\, "/start.sh"],1
+CMD,cat $TARGET_DIR/howto.txt,2
+CMD,["mosquitto"],1
+CMD,["/opt/eclipse/eclipse"],2
+CMD,["/opt/android-studio/bin/studio.sh"],2
+CMD,["/your/program"\, "-and"\, "-its"\, "arguments"],1
+CMD,["prometheus"\, "--config.file=/opt/prometheus/prometheus.yml"\, "--storage.tsdb.path=/opt/prometheus/data"\, "--web.console.libraries=/opt/prometheus/console_libraries"\, "--web.console.templates=/opt/prometheus/consoles"],2
+CMD,["tailscaled"],1
+CMD,["docker-desktop"],1
+CMD,["com.docker.backend"\, "--with-frontend"],1
+CMD,["duplicity"\, "--help"],1
+CMD,["java"\, "-jar"\, "/usr/share/jenkins/jenkins.war"],5
+CMD,["java"\, "-jar"\, "/usr/share/java/jenkins.war"],4
+CMD,["rtl_433"],1
+CMD,["vultr-cli"\, "--help"],1
+CMD,["microsoft-edge"],3
+CMD,["firefox"],1
+CMD,["signal-desktop"],1
+CMD,["weechat"],1
+CMD,["ghb"],1
+CMD,["zoom"],1
+CMD,["lutris"],1
+CMD,["speedtest"],1
+CMD,["speedtest-cli"],2
+CMD,["non-root-containerd.sh"],1
+CMD,["Plex Media Server"],1
+CMD,["/usr/lib/plexmediaserver/Plex Media Server"],2
+CMD,["exim"\, "-bd"\, "-v"],3
+CMD,["tini"\, "--"\, "exim"\, "-bd"\, "-v"],2
+CMD,["mutt"],3
+CMD,["b2"\, "--help"],1
+CMD,["blackbox_exporter"],1
+CMD,["prometheus"],2
+CMD,["bash"\, "--login"\, "-i"],2
+CMD,["slack"],1
+CMD,["diffoscope"],1
+CMD,["makemkv"],1
+CMD,["node_exporter"],1
+CMD,["jekyll"\, "serve"\, "--host"\, "0.0.0.0"],1
+CMD,["beet"],1
+CMD,["/sleeping-beauty"],1
+CMD,["/true"],1
+CMD,["steam"],1
+CMD,["rtorrent"],1
+CMD,subconverter,1
+CMD,./subconverter/subconverter,4
+CMD,./subconverter,2
+CMD,/base/subconverter,2
+CMD,curl -k -f https://127.0.0.1/ping/ || exit 1,1
+CMD,graphql-engine \\,4
+CMD,HASURA_GRAPHQL_METADATA_DATABASE_URL=$DATABASE_URL graphql-engine \\,1
+CMD,raven \\,3
+CMD,tail -f -n0 /etc/hosts,2
+CMD,["echo"\,"'No CMD command was set in Dockerfile! Details about CMD command could be found in Dockerfile Guide section in our Docs. Here's the link: https://balena.io/docs"],137208

@@ -1,0 +1,2046 @@
+-------------------------------------------------------
+project_name:BioContainers/containers
+dockerfile instruction is abnormal:
+found invalid directive about.tags="Proteomics"
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive [whitelist]
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive prefix
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive source
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive export
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive test
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:gitpod-io/workspace-images
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile parse is abnormal:ENV must have two arguments
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile parse is abnormal:ENV must have two arguments
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive {{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :RUN
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive ^else
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :RUN
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive }}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive {{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :RUN
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive ^else
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :RUN
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive }}EXPOSE
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive {{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive :
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:microsoft/dotnet-framework-docker
+dockerfile instruction is abnormal:
+found invalid directive }}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:voocel/docker-lnmp
+dockerfile instruction is abnormal:
+found invalid directive &&
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:voocel/docker-lnmp
+dockerfile instruction is abnormal:
+found invalid directive &&
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive run
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive copy
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive ENtrypoint
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive run
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive copy
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive ENtrypoint
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive run
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive copy
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:oxsecurity/megalinter
+dockerfile instruction is abnormal:
+found invalid directive ENtrypoint
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive {{
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive cat(ARCH_VERSIONED,
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive when(isDebian,
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive cat(ARCH_VERSIONED,
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive when(isUbuntu,
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "ubuntu.azurecr.io/ubuntu",
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive when(isMariner,
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "mcr.microsoft.com/cbl-mariner/base/core",
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "<NOT-IMPLEMENTED>"))))
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}{{
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}FROM
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive [
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "url-suffix":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "filename":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "is-internal":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ],
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive {{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive {{
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive {{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive [
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "files":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive [
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "filename":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ]
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ],
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "srcStage":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "destination":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ])}}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}{{InsertTemplate("Dockerfile.install-runtime-deps-pkg",
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive [
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "skip-download":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "url-suffix":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "filename":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ])}}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}{{if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive [
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "name":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "uid":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "gid":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "append-cmd":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ])}}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive }}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive {{InsertTemplate("../Dockerfile.common-dotnet-envs",
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive "uid":
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:dotnet/dotnet-docker
+dockerfile instruction is abnormal:
+found invalid directive ])}}
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive rm
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive rm
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive phpize81
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive ./configure
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive make
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive make
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:crazy-max/docker-rtorrent-rutorrent
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive fuse
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhcrypto4-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimntlm0-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimbase1-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libasn1-8-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libgssapi3-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhx509-5-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libroken18-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libwind0-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libksba8 
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libmlx4-1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libmlx4-1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive ENV CONDA_PACKAGE 22.11.1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive ENV CONDA_PACKAGE 22.11.1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive ENV CONDA_PACKAGE 22.11.1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhcrypto4-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimntlm0-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimbase1-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libasn1-8-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libgssapi3-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhx509-5-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libroken18-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libwind0-heimdal 
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhcrypto4-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimntlm0-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libheimbase1-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libasn1-8-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libgssapi3-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libhx509-5-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libroken18-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive libwind0-heimdal \
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:Azure/AzureML-Containers
+dockerfile instruction is abnormal:
+found invalid directive fuse2fs
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:p0dalirius/Awesome-RCE-techniques
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jessfraz/dockerfiles
+dockerfile instruction is abnormal:
+found invalid directive run
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:einverne/dockerfile
+dockerfile instruction is abnormal:
+found invalid directive docker-php-ext-configure
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:einverne/dockerfile
+dockerfile instruction is abnormal:
+found invalid directive else
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:einverne/dockerfile
+dockerfile instruction is abnormal:
+found invalid directive docker-php-ext-configure
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:einverne/dockerfile
+dockerfile instruction is abnormal:
+found invalid directive fi'
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:einverne/dockerfile
+dockerfile instruction is abnormal:
+found invalid directive docker-php-ext-install
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive date.timezone=Europe/London
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive memory_limit=-1
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive phar.readonly=0
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive pcov.enabled=0
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive (test
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive exec
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:jakzal/phpqa
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cd
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive export
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive curl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive END
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cd
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive curl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive make
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive END
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive export
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive curl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive sed
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive END
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive pecl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:brefphp/extra-php-extensions
+dockerfile instruction is abnormal:
+found invalid directive eot
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:msyksphinz-self/support_ca_llvm_book
+dockerfile instruction is abnormal:
+found invalid directive Shell
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:msyksphinz-self/support_ca_llvm_book
+dockerfile instruction is abnormal:
+found invalid directive Shell
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive --mount=type=secret,id=poetry-auth,uid=$UID,gid=$GID,target=/home/user/.config/pypoetry/auth.toml
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive poetry
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive --mount=type=secret,id=poetry-auth,target=/root/.config/pypoetry/auth.toml
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive poetry
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive --mount=type=secret,id=poetry-auth,uid=$UID,gid=$GID,target=/home/user/.config/pypoetry/auth.toml
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive poetry
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:radix-ai/poetry-cookiecutter
+dockerfile instruction is abnormal:
+found invalid directive {%-
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:khs1994-docker/lnmp
+dockerfile parse is abnormal:Syntax error - can't find = in "...". Must be of the form: name=value
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive server
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive listen
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive root
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive passenger_enabled
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive passenger_ctl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive passenger_min_instances
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive passenger_pool_idle_time
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive }
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive status
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive processes
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive system
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive server
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive listen
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive listen
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive access_log
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive root
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive location
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_pass
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_http_version
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_set_header
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_set_header
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_set_header
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive }
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive location
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive try_files
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive }
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive location
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_pass
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive proxy_set_header
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive }
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive }
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive nginx:
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive rails:
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive rails
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:fly-apps/dockerfile-rails
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:aws-amplify/amplify-hosting
+dockerfile parse is abnormal:file with no instructions
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:aws-amplify/amplify-hosting
+dockerfile parse is abnormal:file with no instructions
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:idoall/docker
+dockerfile instruction is abnormal:
+found invalid directive Add
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cat
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive set
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive rsync
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive rm
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive git
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive exit
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive fi
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:compose-spec/compose-spec
+dockerfile instruction is abnormal:
+found invalid directive EOT
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:openfaas/templates
+dockerfile instruction is abnormal:
+found invalid directive user
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:wenshunbiao/docker
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:wenshunbiao/docker
+dockerfile instruction is abnormal:
+found invalid directive from
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:wenshunbiao/docker
+dockerfile instruction is abnormal:
+found invalid directive From
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:eficode-academy/docker-katas
+dockerfile parse is abnormal:tuple index out of range
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive exit
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive fi
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive case
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive "amd64")
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive "arm64")
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive *)
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive esac
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive curl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive cd
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive make
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive make
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive install
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive install
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive cp
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive find
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive for
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive patchelf
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive done
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive echo
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive exit
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive fi
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive apk
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive mkdir
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive cd
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive curl
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive bazel
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive install
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive xx-verify
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive ln
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive ln
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive fi
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive if
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive protoc-wrapper
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive fi
+
+------------------------------------------------------
+-------------------------------------------------------
+project_name:rvolosatovs/docker-protobuf
+dockerfile instruction is abnormal:
+found invalid directive EOF
+
+------------------------------------------------------

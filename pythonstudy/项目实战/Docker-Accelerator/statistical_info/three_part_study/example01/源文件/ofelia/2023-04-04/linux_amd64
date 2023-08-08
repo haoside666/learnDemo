@@ -1,0 +1,8 @@
+ADD file:587cae71969871d3c6456d844a8795df9b64b12c710c275295a1182b46f630e7 in /
+CMD ["/bin/sh"]
+LABEL ofelia.service=true
+LABEL ofelia.enabled=true
+RUN apk --no-cache add ca-certificates tzdata # buildkit
+COPY /go/bin/ofelia /usr/bin/ofelia # buildkit
+ENTRYPOINT ["/usr/bin/ofelia"]
+CMD ["daemon" "--config" "/etc/ofelia/config.ini"]

@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  my_golang:
+    image: golang:1.18-alpine
+    working_dir: /go/src/clanguage/src
+    command: go run hello.go
+    ports:
+      - 8081:8081
+    volumes:
+      - ./src:/go/src
+      - ./bin:/go/bin
+      - ./test:/go/test
+      - ./workspace:/go/workspace
+    environment:
+      GO111MODULE: off
+      GOPROXY: https://goproxy.cn|https://proxy.golang.org
+      GOPATH: /go/src/clanguage

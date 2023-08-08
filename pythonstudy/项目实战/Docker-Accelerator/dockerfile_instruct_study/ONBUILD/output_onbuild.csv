@@ -1,0 +1,98 @@
+ONBUILD,COPY requirements.txt /tmp/requirements.txt,3
+ONBUILD,RUN /entrypoint.sh -r /tmp/requirements.txt,3
+ONBUILD,RUN rm -f /requirements.installed,3
+ONBUILD,COPY ./requirements.txt /tmp/requirements.txt,2
+ONBUILD,RUN pip install -r /tmp/requirements.txt,2
+ONBUILD,COPY ./build.sh /src/build.sh,1
+ONBUILD,COPY ./modules.go /src/modules.go,1
+ONBUILD,RUN cd /src && chmod +x ./build.sh && sleep 1 && sync && ./build.sh "$(cat VERSION)-custom",1
+ONBUILD,RUN cd /etc/scrapyd; \\,1
+ONBUILD,RUN cd /etc/scrapyd \\,2
+ONBUILD,RUN apt-get update \\,2
+ONBUILD,ADD ./*.txt /etc/scrapyd/,1
+ONBUILD,RUN  DEBIAN_FRONTEND=noninteractive  apt-get update   && \\,11
+ONBUILD,WORKDIR  /tmp,13
+ONBUILD,COPY  .  /tmp,15
+ONBUILD,RUN  \\,15
+ONBUILD,COPY . /tmp,3
+ONBUILD,RUN \\,3
+ONBUILD,RUN  echo "===> Updating TLS certificates..."         && \\,1
+ONBUILD,WORKDIR /tmp,6
+ONBUILD,RUN  DEBIAN_FRONTEND=noninteractive  apt-get update,4
+ONBUILD,ADD id_rsa /root/.ssh/id_rsa,1
+ONBUILD,RUN touch /root/.ssh/known_hosts,1
+ONBUILD,RUN ssh-keyscan -t rsa bitbucket.org >> /root/.ssh/known_hosts,1
+ONBUILD,RUN cp /app/config/container/nginx-sites.conf /etc/nginx/sites-enabled/default,1
+ONBUILD,COPY ./package.json /app,1
+ONBUILD,RUN npm install,4
+ONBUILD,COPY . /app,6
+ONBUILD,COPY requirements.txt /usr/src/app/requirements.txt,2
+ONBUILD,RUN pip install -r requirements.txt,3
+ONBUILD,COPY . /usr/src/app,16
+ONBUILD,COPY requirements.txt /app/requirements.txt,4
+ONBUILD,RUN pip3 install -r requirements.txt,3
+ONBUILD,ADD . /app,6
+ONBUILD,RUN echo "你把我当作基础镜像了" \\,1
+ONBUILD,RUN echo "你把我当成基础镜像了" \\,2
+ONBUILD,ENV \\,1
+ONBUILD,COPY fluent.conf /fluentd/etc/,18
+ONBUILD,COPY plugins /fluentd/plugins/,18
+ONBUILD,COPY rebar.config /usr/src/app/,2
+ONBUILD,RUN rebar3 update,2
+ONBUILD,RUN rebar3 release,2
+ONBUILD,COPY ./install.sh install.sh,6
+ONBUILD,RUN ./install.sh \\,7
+ONBUILD,COPY requirements.txt /usr/src/app/,6
+ONBUILD,RUN pip install --no-cache-dir -r requirements.txt,6
+ONBUILD,COPY package.json /usr/src/app/,3
+ONBUILD,COPY composer.json /var/www/html/,2
+ONBUILD,RUN composer install,2
+ONBUILD,COPY . /var/www/html,2
+ONBUILD,COPY Gemfile /usr/src/app/,3
+ONBUILD,COPY Gemfile.lock /usr/src/app/,3
+ONBUILD,RUN bundle install,3
+ONBUILD,COPY assets/ /,2
+ONBUILD,RUN echo "Ubuntu 14.04 is no longer supported by ppa:ondrej/php maintainers",4
+ONBUILD,USER app,2
+ONBUILD,RUN bundle exec bootsnap precompile app/ lib/ || true,1
+ONBUILD,RUN rm -rf node_modules yarn.lock .yarn vendor/bundle test spec app/packs,1
+ONBUILD,RUN rm -rf node_modules yarn.lock .yarn tmp/cache vendor/bundle test spec app/packs,2
+ONBUILD,RUN --mount=type=secret\,id=bundleconfig\,dst=/root/.bundle/config \\,1
+ONBUILD,RUN bundle config --local without 'development test' && \\,2
+ONBUILD,RUN yarn install,4
+ONBUILD,RUN RAILS_ENV=production \\,3
+ONBUILD,RUN yarn install --immutable,2
+ONBUILD,RUN rm -rf node_modules yarn.lock tmp/cache vendor/bundle test spec app/packs,2
+ONBUILD,RUN rm -rf node_modules tmp/cache vendor/bundle test spec app/packs,2
+ONBUILD,RUN if [ ! -f config/importmap.rb ]; then rm -rf app/javascript; fi,1
+ONBUILD,RUN rm -rf node_modules tmp/cache vendor/bundle test spec app/javascript app/packs,2
+ONBUILD,RUN mv config/credentials config/credentials.bak 2>/dev/null || true,3
+ONBUILD,ARG COMMIT_VERSION,1
+ONBUILD,ARG TAG_OR_BRANCH,2
+ONBUILD,ENV COMMIT_VERSION ${COMMIT_VERSION},1
+ONBUILD,ENV TAG_OR_BRANCH ${TAG_OR_BRANCH},2
+ONBUILD,RUN mv config/credentials.bak config/credentials 2>/dev/null || true,1
+ONBUILD,RUN --mount=type=secret\,id=npmrc\,dst=/root/.npmrc \\,1
+ONBUILD,RUN --mount=type=secret\,id=npmrc\,dst=/root/.npmrc RAILS_ENV=production \\,2
+ONBUILD,RUN rm -rf node_modules tmp/cache vendor/bundle test spec,2
+ONBUILD,COPY --from=Builder --chown=app:app /usr/local/bundle/ /usr/local/bundle/,1
+ONBUILD,COPY --from=Builder /usr/local/bundle/ /usr/local/bundle/,2
+ONBUILD,RUN bundle install -j4 --retry 3 --without development:test && \\,2
+ONBUILD,RUN mv config/credentials.yml.enc config/credentials.yml.enc.bak 2>/dev/null || true,1
+ONBUILD,RUN mv config/credentials.yml.enc.bak config/credentials.yml.enc 2>/dev/null || true,1
+ONBUILD,COPY package.json yarn.lock /app/,2
+ONBUILD,RUN yarn install --prod,2
+ONBUILD,COPY Gemfile* /app/,1
+ONBUILD,ADD Gemfile* /app/,2
+ONBUILD,ARG COMMIT_SHA,1
+ONBUILD,ARG COMMIT_TIME,1
+ONBUILD,ENV COMMIT_SHA ${COMMIT_SHA},1
+ONBUILD,ENV COMMIT_TIME ${COMMIT_TIME},1
+ONBUILD,RUN addgroup -g 1000 -S app && \\,1
+ONBUILD,COPY --from=Builder --chown=app:app /app /app,1
+ONBUILD,COPY . /blog,1
+ONBUILD,ADD . /blog,2
+ONBUILD,WORKDIR /blog,2
+ONBUILD,EXPOSE 4000,2
+ONBUILD,CMD ["jekyll"\, "serve"],2
+ONBUILD,RUN cat /.balena/image-info,3380

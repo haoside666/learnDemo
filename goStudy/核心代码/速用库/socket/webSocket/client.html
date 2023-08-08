@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Websockets Example</title>
+</head>
+<body>
+<input id="message-input" type="text" placeholder="please input a message">
+<button id="send-button">发送</button>
+<ul id="message-list"></ul>
+<script>
+  const socket = new WebSocket('ws://localhost:8080/ws');
+  //监听Message事件，主要接收消息
+  socket.addEventListener('message', event => {
+    const li = document.createElement('li');
+    li.textContent = event.data;
+    document.querySelector('#message-list').appendChild(li);
+  });
+  document.querySelector('#send-button').addEventListener('click', () => {
+    const input = document.querySelector('#message-input');
+    const value = input.value.trim();
+    if (value) {
+      socket.send(value);
+      input.value = '';
+    }
+  });
+</script>
+</body>
+</html>

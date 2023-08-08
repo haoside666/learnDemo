@@ -1,0 +1,27 @@
+["/bin/bash","-o","pipefail", "-c"],213
+["/bin/sh","-o","pipefail", "-c"],118
+["/bin/ash","-eo","pipefail", "-c"],54
+["/bin/bash", "-c"],37
+["cmd","/S", "/C"],13
+["/bin/bash","\\"],5
+["/bin/bash","--login","-x", "-c"],4
+["/bin/bash","-ceuxo", "pipefail"],4
+["/bin/bash","-xo","pipefail", "-c"],3
+["/data/data/com.termux/files/usr/bin/sh", "-c"],3
+["/usr/bin/env bash","-o","pipefail", "-c"],2
+["/bin/sh"],2
+["/bin/bash","-o","pipefail","-c", "+e"],2
+["C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe", "-command"],2
+["/bin/sh","-ceuxo", "pipefail"],2
+["/bin/bash"],2
+["/system/bin/sh", "-c"],2
+["cmd","/S", "/C" ],2
+["/bin/bash","-o","errtrace","-o","nounset","-o","pipefail","-o","errexit", "-c"],2
+["conda","run","-n","cellpose","python","-m","cellpose"],1
+["/usr/bin/bash", "-c"],1
+["/bin/bash","-l","-euxo","pipefail", "-c"],1
+["cmd", "/C"],1
+["/bin/bash","-eo","pipefail", "-c"],1
+["/bin/bash","-eou","pipefail", "-c"],1
+["powershell", "-command"],1
+["/bin/bash","-x", "-c"],1

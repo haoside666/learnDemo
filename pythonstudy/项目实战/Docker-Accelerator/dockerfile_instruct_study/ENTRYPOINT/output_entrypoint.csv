@@ -1,0 +1,955 @@
+ENTRYPOINT,"${STEAMAPPDIR}/entry.sh",1
+ENTRYPOINT,${STEAMAPPDIR}/entry.sh,4
+ENTRYPOINT,["cloudflared"\, "--no-autoupdate"],3
+ENTRYPOINT,["/go/bin/botkube"],1
+ENTRYPOINT,/go/bin/botkube,2
+ENTRYPOINT,[ "/bin/thanos" ],1
+ENTRYPOINT,["/traefik-forward-auth"],1
+ENTRYPOINT,["/bin/bash"\, "-c"\, "cp /plugins/* /target/."],4
+ENTRYPOINT,["/sbin/tini"\, "--"\, "/entrypoint.sh"],1
+ENTRYPOINT,["./flagger"],1
+ENTRYPOINT,["./entrypoint.sh"],9
+ENTRYPOINT,["/bin/bash"\, "-c"\, "cp -r /plugins/* /target/."],1
+ENTRYPOINT,["/usr/lib/kubeyaml/kubeyaml"],1
+ENTRYPOINT,["/usr/bin/kured"],1
+ENTRYPOINT,["/usr/bin/dumb-init"],10
+ENTRYPOINT,["/usr/bin/dumb-init"\, "bash"\, "/entrypoint.sh"],4
+ENTRYPOINT,["/lib/systemd/systemd"],2
+ENTRYPOINT,["/sbin/init"],3
+ENTRYPOINT,["sh"\, "/entrypoint.sh"],1
+ENTRYPOINT,["/bin/bash"\, "/entrypoint.sh"],319
+ENTRYPOINT,["/entrypoint.sh"],677
+ENTRYPOINT,["/home/frappe/start.sh"],1
+ENTRYPOINT,["run_ilastik.sh"],4
+ENTRYPOINT,["cellprofiler"],1
+ENTRYPOINT,["conda"\, "run"\, "-n"\, "cellpose"\, "python"\, "-m"\, "cellpose"],1
+ENTRYPOINT,["coregenebuilder"],5
+ENTRYPOINT,["bedtools"],3
+ENTRYPOINT,["danpos.py"],5
+ENTRYPOINT,["runpia.sh"],7
+ENTRYPOINT,["integron_finder"],5
+ENTRYPOINT,["/runpia.sh"],1
+ENTRYPOINT,["java"\, "-jar"\, "$DST/target/GenomeAnalysisTK.jar"],3
+ENTRYPOINT,["/PhyloCSF/PhyloCSF"],3
+ENTRYPOINT,["C:\\\\ServiceMonitor.exe"\, "w3svc"],25
+ENTRYPOINT,["powershell"],2
+ENTRYPOINT,["/traefik"],6
+ENTRYPOINT,["gnatsd"],4
+ENTRYPOINT,["dotnet"\, "whoami.dll"],2
+ENTRYPOINT,/start.ps1,3
+ENTRYPOINT,["dotnet"\, "HelloWorld.dll"],1
+ENTRYPOINT,["powershell"\, "-Command"\, "go"\, "run"\, "$env:GOPATH\\\\src\\\\github.com\\\\nats-io\\\\nats\\\\examples\\\\nats-bench.go"\, "-s nats://$env:NATS_SERVER:4222"],4
+ENTRYPOINT,.\\Run-Terraform.ps1,1
+ENTRYPOINT,["terraform.exe"],1
+ENTRYPOINT,["AzCopy.exe"],1
+ENTRYPOINT,["powershell"\, "-Command"\, "go"\, "run"\, "$env:GOPATH\\\\src\\\\github.com\\\\nats-io\\\\nats\\\\examples\\\\nats-bench.go"\, "-s nats://$($env:NATS_SERVER):$($env:NATS_PORT)"],1
+ENTRYPOINT,./openssl,1
+ENTRYPOINT,[ "/usr/local/bin/cloudflared"\, "--no-autoupdate" ],1
+ENTRYPOINT,[ "/usr/local/bin/cloudflared" ],1
+ENTRYPOINT,["/usr/sbin/apache2ctl"\, "-D"\, "FOREGROUND"],6
+ENTRYPOINT,["docker-entrypoint.sh"],201
+ENTRYPOINT,["/docker-entrypoint.sh"],7114
+ENTRYPOINT,["/usr/local/bin/ciphey"],1
+ENTRYPOINT,["thug"],6
+ENTRYPOINT,["../viper/viper.py"],2
+ENTRYPOINT,["./viper.py"],2
+ENTRYPOINT,bash -c "bash /root/certbot/run-certbot.sh && sleep infinity",9
+ENTRYPOINT,["dumb-init"\,"--"],2
+ENTRYPOINT,["python"\,"app.py"],1
+ENTRYPOINT,[ "kr" ],1
+ENTRYPOINT,[ "python"\, "/smuggler.py/smuggler.py" ],1
+ENTRYPOINT,[ "python"\, "xss/xsstrike.py" ],1
+ENTRYPOINT,[ "gospider" ],1
+ENTRYPOINT,[ "python"\, "/LinkFinder/linkfinder.py" ],1
+ENTRYPOINT,[ "python"\, "linkfinder.py" ],2
+ENTRYPOINT,[ "../root/BugBountyScanner/BugBountyAutomator.sh" ],1
+ENTRYPOINT,[ "python"\, "/Katana/kds.py"],1
+ENTRYPOINT,[ "nuclei" ],1
+ENTRYPOINT,[ "python"\, "ntlmscan/ntlmscan.py" ],1
+ENTRYPOINT,[ "python"\, "/smuggler/smuggler.py" ],1
+ENTRYPOINT,[ "python"\, "/viewgen/viewgen" ],1
+ENTRYPOINT,[ "urlprobe" ],1
+ENTRYPOINT,[ "gf" ],1
+ENTRYPOINT,[ "assetfinder" ],1
+ENTRYPOINT,[ "python"\, "/subscraper/subscraper.py" ],1
+ENTRYPOINT,["python"\, "/EyeWitness/Python/EyeWitness.py"],1
+ENTRYPOINT,["python"\, "/EyeWitness/EyeWitness.py"],2
+ENTRYPOINT,["/usr/bin/python"\, "/sublister/sublist3r.py"],1
+ENTRYPOINT,["/usr/bin/python"\, "/Sublist3r/sublist3r.py"],2
+ENTRYPOINT,[ "python"\, "corsy.py" ],1
+ENTRYPOINT,[ "crackmapexec" ],1
+ENTRYPOINT,[ "enum4linux" ],1
+ENTRYPOINT,[ "python"\, "paramspider.py" ],1
+ENTRYPOINT,[ "getJS" ],1
+ENTRYPOINT,[ "httprobe" ],1
+ENTRYPOINT,[ "meg" ],1
+ENTRYPOINT,[ "subjack" ],1
+ENTRYPOINT,[ "pdftotext" ],1
+ENTRYPOINT,[ "./findomain-linux" ],1
+ENTRYPOINT,[ "python"\, "/gmapsapiscanner/maps_api_scanner_python3.py" ],1
+ENTRYPOINT,[ "gau" ],1
+ENTRYPOINT,[ "python"\, "sqlmap.py" ],3
+ENTRYPOINT,[ "hashid" ],1
+ENTRYPOINT,[ "nmap" ],3
+ENTRYPOINT,[ "sslyze" ],1
+ENTRYPOINT,[ "python"\, "/crosslinked/crosslinked.py" ],1
+ENTRYPOINT,[ "wfuzz" ],1
+ENTRYPOINT,[ "./cewl.rb" ],1
+ENTRYPOINT,[ "python"\, "photon.py" ],1
+ENTRYPOINT,[ "python"\, "arjun.py" ],1
+ENTRYPOINT,[ "gitrob" ],1
+ENTRYPOINT,[ "/bin/bash" ],8
+ENTRYPOINT,[ "waybackurls" ],1
+ENTRYPOINT,[ "hakrawler" ],1
+ENTRYPOINT,[ "go"\, "/go/bin/hakrawler" ],2
+ENTRYPOINT,[ "python"\, "/aiodnsbrute/aiodnsbrute/cli.py" ],1
+ENTRYPOINT,[ "ruby"\, "extract.rb" ],1
+ENTRYPOINT,["bash"\,"./wrapper.sh"],1
+ENTRYPOINT,["/usr/local/bundle/bin/wpscan"],3
+ENTRYPOINT,["./john"],1
+ENTRYPOINT,[ "python"\, "osmedeus.py" ],1
+ENTRYPOINT,[ "bash"\, "./main.sh" ],1
+ENTRYPOINT,[ "/masscan/bin/masscan" ],1
+ENTRYPOINT,[ "python"\, "metagoofil/metagoofil.py" ],1
+ENTRYPOINT,[ "python"\, "/source/get_ip.py" ],1
+ENTRYPOINT,[ "python"\, "/source/shodan_info.py" ],1
+ENTRYPOINT,[ "curl" ],1
+ENTRYPOINT,[ "nikto" ],1
+ENTRYPOINT,[ "python"\, "/source/ip_info.py" ],1
+ENTRYPOINT,["/bin/amass"],1
+ENTRYPOINT,["cat $1 | aquatone --chrome-path /bin"],1
+ENTRYPOINT,[ "gobuster" ],1
+ENTRYPOINT,["python"\, "/knock/knockpy/knockpy.py"],1
+ENTRYPOINT,["/usr/local/bin/masscan"],1
+ENTRYPOINT,["python"\, "/parameth/parameth.py"],1
+ENTRYPOINT,["python"\, "sherlock.py"],1
+ENTRYPOINT,["/usr/local/bin/python"\,"/theHarvester/theHarvester.py"],1
+ENTRYPOINT,["dotnetapp-4.8.1.exe"],1
+ENTRYPOINT,["dotnet"\, "test"\, "--logger:trx"],6
+ENTRYPOINT,["dotnetapp-4.8.exe"],1
+ENTRYPOINT,["dotnetapp.exe"],1
+ENTRYPOINT,["dotnetapp-4.7.2.exe"],1
+ENTRYPOINT,["dotnetapp-3.5.exe"],1
+ENTRYPOINT,["dotnetapp-4.6.2.exe"],1
+ENTRYPOINT,["dotnetapp-4.7.1.exe"],1
+ENTRYPOINT,["dotnetapp-4.7.exe"],1
+ENTRYPOINT,["/usr/bin/dumb-init"\, "--"\, \\,8
+ENTRYPOINT,protractor conf.js,1
+ENTRYPOINT,["/usr/bin/dumb-init"\,"--"\,"java"\,"-jar"\,"/opt/selenium/selenium-server-standalone.jar"],1
+ENTRYPOINT,["java"\, "-jar"\, "/opt/selenium/selenium-server-standalone.jar"],2
+ENTRYPOINT,["/usr/bin/google-chrome-unstable"\, \\,4
+ENTRYPOINT,java -jar /opt/selenium/selenium-server-standalone.jar,2
+ENTRYPOINT,[ "/bin/prometheus" ],1
+ENTRYPOINT,["/usr/local/bin/entrypoint.sh"],34
+ENTRYPOINT,["./kube-metrics-adapter"],1
+ENTRYPOINT,[],35
+ENTRYPOINT,["awesome-lint"],1
+ENTRYPOINT,[ "uid_entrypoint" ],10
+ENTRYPOINT,["sync_gateway"],78
+ENTRYPOINT,["/usr/local/bin/sync_gateway"],16
+ENTRYPOINT,["ffmpeg"],54
+ENTRYPOINT,["/bin/ffmpeg"],3
+ENTRYPOINT,["caido"],1
+ENTRYPOINT,["/usr/local/bin/dockerd-entrypoint.sh"],5
+ENTRYPOINT,["sh"\,"-c"],2
+ENTRYPOINT,["/bin/bash"],13
+ENTRYPOINT,["dockerd-entrypoint.sh"],33
+ENTRYPOINT,[ "/usr/bin/env" ],147
+ENTRYPOINT,[ "/init" ],30
+ENTRYPOINT,[ "/entrypoint.sh" ],37
+ENTRYPOINT,[ "/run.sh" ],26
+ENTRYPOINT,["/run.sh"],16
+ENTRYPOINT,["/start.sh"],6
+ENTRYPOINT,[ "entrypoint.sh" ],3
+ENTRYPOINT,[ "/usr/bin/" ],2
+ENTRYPOINT,[ "/bin/sh" ],4
+ENTRYPOINT,[ "/usr/bin" ],2
+ENTRYPOINT,[ "run.sh" ],6
+ENTRYPOINT,[ "/" ],2
+ENTRYPOINT,[ "init" ],2
+ENTRYPOINT,["./cloudreve-main"\, "-c"\, "/cloudreve/config/conf.ini"],1
+ENTRYPOINT,["./main"],2
+ENTRYPOINT,["/cloudreve/main"],1
+ENTRYPOINT,["java"\,"-Djava.security.egd=file:/dev/./urandom"\,"-jar"\,"/app.jar"],2
+ENTRYPOINT,["/usr/bin/bazel"],1
+ENTRYPOINT,- provides command and arguments for an executing container. Arguments persist.,2
+ENTRYPOINT,["supervisord"\, "--nodaemon"],1
+ENTRYPOINT,["/root/startscript.sh"],6
+ENTRYPOINT,["geth"],3
+ENTRYPOINT,/entrypoint.sh,4
+ENTRYPOINT,["./dotnetapp"],6
+ENTRYPOINT,["dotnet"\, "dotnetapp.dll"],3
+ENTRYPOINT,[ "dotnet-monitor" ],28
+ENTRYPOINT,["dotnet"\, "test"\, "--logger:trx"\, "--no-build"],1
+ENTRYPOINT,["dotnet"\, "test"\, "--logger:trx"\, "--no-restore"\, "--no-build"],2
+ENTRYPOINT,["dotnetapp"],1
+ENTRYPOINT,["/usr/bin/dotnet"],7
+ENTRYPOINT,["./globalapp"],1
+ENTRYPOINT,[ "dotnet-monitor"\, "collect"\, "--urls"\, "https://+:52323"\, "--metricUrls"\, "http://+:52325" ],8
+ENTRYPOINT,["/update-dependencies/update-dependencies"],1
+ENTRYPOINT,["dotnet"\, "/update-dependencies/update-dependencies.dll"],1
+ENTRYPOINT,["dotnet"\, "complexapp.dll"],1
+ENTRYPOINT,["dotnet"\, "aspnetapp.dll"],1
+ENTRYPOINT,["minio"\, "server"\, "--console-address"\, ":9001"\, "/export"],3
+ENTRYPOINT,["minio"\, "server"\, "/export"],14
+ENTRYPOINT,["/sbin/tini"\, "-g"\, "--"\, "/docker-entrypoint.sh"],7
+ENTRYPOINT,["bash"\, "-c"\, "/usr/bin/supervisord"],11
+ENTRYPOINT,["/usr/bin/beanstalkd"],3
+ENTRYPOINT,["/usr/bin/supervisord"\, "-n"\, "-c"\,  "/etc/supervisord.conf"],5
+ENTRYPOINT,["/bin/tini"\, "--"\, "/usr/local/bin/jenkins.sh"],3
+ENTRYPOINT,["caddy"],8
+ENTRYPOINT,["/opt/docker/bin/entrypoint.sh"],1
+ENTRYPOINT,["top"\, "-b"],2
+ENTRYPOINT,[ "python"\, "/app/gitbook.py" ],2
+ENTRYPOINT,[ "/entrypoint" ],1
+ENTRYPOINT,["/turnserver.sh"],1
+ENTRYPOINT,["/startscript.sh"],4
+ENTRYPOINT,["bash"\, "docker-entrypoint.sh"],2
+ENTRYPOINT,["sh"\, "/docker-entrypoint.sh"],1
+ENTRYPOINT,["/usr/bin/dumb-init"\, "/entrypoint"],2
+ENTRYPOINT,["tini"\, "--"\, "/docker-entrypoint.sh"],11
+ENTRYPOINT,["/usr/src/couchdb/dev/run"],4
+ENTRYPOINT,["tini"\, "--"\, "/usr/src/couchdb/dev/run"],2
+ENTRYPOINT,["bin/flowgger"],1
+ENTRYPOINT,["dnsmasq"\, "--keep-in-foreground"\, "--user=dnsmasq"\, "--group=dnsmasq"],1
+ENTRYPOINT,["dnsmasq"\, "--no-daemon"\, "--user=dnsmasq"\, "--group=dnsmasq"],3
+ENTRYPOINT,["bittorrent-tracker"],1
+ENTRYPOINT,["dirsearch"],1
+ENTRYPOINT,["dnscrypt-proxy"],1
+ENTRYPOINT,["dvr-scan"],1
+ENTRYPOINT,["tini"\, "--"],8
+ENTRYPOINT,["registry-cli"],1
+ENTRYPOINT,["deface"],1
+ENTRYPOINT,["/usr/bin/tini"\, "--"],1
+ENTRYPOINT,["sh"\, "-c"],1
+ENTRYPOINT,["microsocks"],1
+ENTRYPOINT,["/usr/sbin/squid"\, "--foreground"\, "-YCd1"],2
+ENTRYPOINT,["/usr/sbin/squid"\, "-NYCd1"],4
+ENTRYPOINT,["/usr/bin/dumb-init"\, "--"\, "xvfb-run"\, "--server-args"\, "-screen 0 1280x1024x24 -ac"\, "editly"],1
+ENTRYPOINT,["snort"],3
+ENTRYPOINT,[ \\,1
+ENTRYPOINT,[ "cowrie" ],1
+ENTRYPOINT,["bin/rehook"],1
+ENTRYPOINT,["wafw00f"],1
+ENTRYPOINT,["datax.py"],1
+ENTRYPOINT,["bin/control.sh"],1
+ENTRYPOINT,["bin/cmak"],1
+ENTRYPOINT,["tiddlywiki"\, "."\, "--listen"\, "host=0.0.0.0"\, "port=8080"],1
+ENTRYPOINT,["dsvpn"],1
+ENTRYPOINT,["ludwig"],1
+ENTRYPOINT,["supervisord"\, "-n"\, "-c"\, "/etc/supervisord.conf"],2
+ENTRYPOINT,["nutcracker"],1
+ENTRYPOINT,["jsonwire-grid"],1
+ENTRYPOINT,["pure-ftpd"],1
+ENTRYPOINT,["airflow"],1
+ENTRYPOINT,["bash"],6
+ENTRYPOINT,["i2pd"],6
+ENTRYPOINT,["supernode"],6
+ENTRYPOINT,["ntopng"],3
+ENTRYPOINT,["../scripts/start.sh"],1
+ENTRYPOINT,["./freegeoip"],1
+ENTRYPOINT,["sleep"\, "inf"],1
+ENTRYPOINT,["/bin/logspout"],1
+ENTRYPOINT,["rsyslogd"\, "-n"],2
+ENTRYPOINT,["bin/kafka-manager"],1
+ENTRYPOINT,["redis-server"\, "--protected-mode"\, "no"],2
+ENTRYPOINT,["vault"],1
+ENTRYPOINT,["drone-scp"],1
+ENTRYPOINT,["drone-ssh"],1
+ENTRYPOINT,["upload.sh"],1
+ENTRYPOINT,["redis-server"],2
+ENTRYPOINT,["docker-compose"],1
+ENTRYPOINT,["errbot"],2
+ENTRYPOINT,["flvrec.py"],1
+ENTRYPOINT,["in.tftpd"],2
+ENTRYPOINT,["hass"\, "--config"\, "/etc/hass"],2
+ENTRYPOINT,["piknik"],1
+ENTRYPOINT,["server_linux_amd64"],1
+ENTRYPOINT,["sslsplit"\, "-D"],2
+ENTRYPOINT,["cadvisor"\, "-logtostderr"],1
+ENTRYPOINT,["/usr/bin/cadvisor"\, "-logtostderr"],2
+ENTRYPOINT,["/usr/sbin/dnsmasq"\, "--no-daemon"\, "--user=dnsmasq"\, "--group=dnsmasq"],2
+ENTRYPOINT,["openvpn"],2
+ENTRYPOINT,["/opt/nifi/bin/nifi.sh"],1
+ENTRYPOINT,["./red5.sh"],2
+ENTRYPOINT,["/app/refine"],1
+ENTRYPOINT,["ffserver"],1
+ENTRYPOINT,["live555MediaServer"],1
+ENTRYPOINT,["openconnect"\, "--config=/etc/openconnect/openconnect.conf"],1
+ENTRYPOINT,["facedetect"],1
+ENTRYPOINT,["mysql-proxy"],1
+ENTRYPOINT,["json-server"],1
+ENTRYPOINT,["/app/rsf.py"],1
+ENTRYPOINT,["/usr/sbin/dnsmasq"\, "--user=dnsmasq"\, "--group=dnsmasq"],2
+ENTRYPOINT,["/bin/delegated"],1
+ENTRYPOINT,["clamscan"],1
+ENTRYPOINT,["/swarm"],1
+ENTRYPOINT,["mosquitto"],1
+ENTRYPOINT,["./ngrokd"],1
+ENTRYPOINT,["webhook"],1
+ENTRYPOINT,["/webhook"],2
+ENTRYPOINT,["/hugo"],1
+ENTRYPOINT,["/etcd"],1
+ENTRYPOINT,["etcd"],2
+ENTRYPOINT,["casperjs"],1
+ENTRYPOINT,["audiowaveform"],1
+ENTRYPOINT,["tesseract"],1
+ENTRYPOINT,["polipo"\, "proxyAddress=0.0.0.0"\, "proxyPort=8123"],1
+ENTRYPOINT,["ferm"\, "--remote"],1
+ENTRYPOINT,bro -i,2
+ENTRYPOINT,["/usr/bin/crossbuild"],1
+ENTRYPOINT,["/crossbuild"],2
+ENTRYPOINT,["/entrypoint"],11
+ENTRYPOINT,["deno"\, "run"\, "--allow-net"\, "main.ts"],4
+ENTRYPOINT,["deno"\, "--allow-net"\, "main.ts"],1
+ENTRYPOINT,["/ZoneMinder/utils/docker/entrypoint.sh"],2
+ENTRYPOINT,while :; do nc -l -p 8080 -e sh -c 'echo -e "HTTP/1.1 200 OK\\n\\n Awesome Cloud Run"'; done,1
+ENTRYPOINT,["./csgo.sh"],1
+ENTRYPOINT,["./tf.sh"],2
+ENTRYPOINT,["/home/tf2/hlserver/tf.sh"],1
+ENTRYPOINT,["/ros_entrypoint.sh"],87
+ENTRYPOINT,["/gzserver_entrypoint.sh"],22
+ENTRYPOINT,["/ros2_entrypoint.sh"],7
+ENTRYPOINT,["/ros1_bridge_entrypoint.sh"],6
+ENTRYPOINT,["/ros2_source_entrypoint.sh"],3
+ENTRYPOINT,["/usr/sbin/php-fpm81"],1
+ENTRYPOINT,["/usr/sbin/php-fpm8"],2
+ENTRYPOINT,["/usr/sbin/php-fpm7"],2
+ENTRYPOINT,["/usr/sbin/nginx"],1
+ENTRYPOINT,["java"\, "-Xmx1024M"\, "-jar"\, "/usr/lib/unifi/lib/ace.jar"\, "start"],1
+ENTRYPOINT,["syncthing"],1
+ENTRYPOINT,["gollum"],1
+ENTRYPOINT,["/usr/local/bin/run.sh"],2
+ENTRYPOINT,["s6-svscan"\, "/etc/s6"],1
+ENTRYPOINT,["./stdiscosrv"],1
+ENTRYPOINT,["./discosrv"],2
+ENTRYPOINT,["/discosrv/discosrv"],2
+ENTRYPOINT,["/gocv-version"],1
+ENTRYPOINT,["node"\, "machine"],1
+ENTRYPOINT,["npm"\, "machine"],2
+ENTRYPOINT,["node"\, "lab"],1
+ENTRYPOINT,["npm”\, “start”],4
+ENTRYPOINT,["node"\, "index.js"],4
+ENTRYPOINT,["usr/local/bin/lt"\, "--port"],1
+ENTRYPOINT,[ "/bin/sh"\, "bootstrap.sh" ],1
+ENTRYPOINT,["mono"\, "/terraria-server/TerrariaServer.exe"],4
+ENTRYPOINT,["mono"\, "--server"\, "--gc=sgen"\, "-O=all"\, "/terraria-server/TerrariaServer.exe"],1
+ENTRYPOINT,["/terraria-server/TerrariaServer"],3
+ENTRYPOINT,["bash"\, "/entrypoint.sh"],9
+ENTRYPOINT,["aspell"],1
+ENTRYPOINT,["zkServer.sh"\, "start-foreground"],1
+ENTRYPOINT,[ "go" ],1
+ENTRYPOINT,[ "pomerium" ],1
+ENTRYPOINT,[ "openscad" ],1
+ENTRYPOINT,[ "kicad" ],1
+ENTRYPOINT,[ "weechat" ],5
+ENTRYPOINT,["bpftrace"],1
+ENTRYPOINT,["qemu-system-arm"\,  "-m"\, "256"\, "-M"\, "romulus-bmc"\, "-nographic"\, "-drive"\, "file=/usr/src/openbmc/obmc-phosphor-image-romulus.static.mtd\,format=raw\,if=mtd"\, "-net"\, "nic"\, "-net"\, "user\,hostfwd=:127.0.0.1:2222-:22\,hostfwd=:127.0.0.1:2443-:443\,hostname=qemu"],1
+ENTRYPOINT,["/bin/zsh"],1
+ENTRYPOINT,/bin/zsh,2
+ENTRYPOINT,[ "firefox" ],2
+ENTRYPOINT,[ "iceweasel" ],2
+ENTRYPOINT,["cfssl"],2
+ENTRYPOINT,[ "nomad" ],1
+ENTRYPOINT,[ "packer" ],1
+ENTRYPOINT,["./start"],1
+ENTRYPOINT,["linapple"],1
+ENTRYPOINT,["linapple"\, "-1"],2
+ENTRYPOINT,["java"\, "-jar"\, "/mars.jar"\, "nc"],1
+ENTRYPOINT,[ "startfirefox" ],1
+ENTRYPOINT,[ "/usr/local/bin/startfirefox" ],2
+ENTRYPOINT,[ "/usr/bin/firefox" ],2
+ENTRYPOINT,[ "sendemail" ],1
+ENTRYPOINT,[ "sendmail" ],2
+ENTRYPOINT,[ "coredns"\, "-log" ],5
+ENTRYPOINT,[ "fleet" ],1
+ENTRYPOINT,[ "osqueryd"\, "--pidfile"\, "/home/user/osqueryd.pidfile" ],1
+ENTRYPOINT,["pandoc"],11
+ENTRYPOINT,[ "pandoc" ],2
+ENTRYPOINT,[ "mc" ],1
+ENTRYPOINT,[ "browsh" ],1
+ENTRYPOINT,[ "/usr/local/bin/browsh" ],2
+ENTRYPOINT,[ "/opt/nzbget/nzbget"\, "-s"\, "-o"\, "FlushQueue=no"\, "-o"\, "OutputMode=loggable"\, "-c"\, "/config/nzbget.conf" ],1
+ENTRYPOINT,[ "/opt/nzbget/nzbget"\, "-s"\, "-o"\, "FlushQueue=no"\, "-o"\, "OutputMode=loggable"\, "-c"\, "/opt/nzbget/nzbget.conf" ],2
+ENTRYPOINT,["entrypoint.sh"],7
+ENTRYPOINT,[ "viewdocs" ],1
+ENTRYPOINT,[ "k8scan" ],1
+ENTRYPOINT,[ "auth_server" ],3
+ENTRYPOINT,[ "transfer.sh" ],3
+ENTRYPOINT,[ "watchtower" ],3
+ENTRYPOINT,[ "htpasswd" ],1
+ENTRYPOINT,[ "tor" ],6
+ENTRYPOINT,[ "bash" ],5
+ENTRYPOINT,["wg"],1
+ENTRYPOINT,["strace"],1
+ENTRYPOINT,[ "perkeepd" ],1
+ENTRYPOINT,["run-skype-and-wait-for-exit"],1
+ENTRYPOINT,["skypeforlinux"],2
+ENTRYPOINT,[ "pwsh" ],1
+ENTRYPOINT,[ "clisp" ],1
+ENTRYPOINT,[ "/usr/src/unixbench/Run" ],1
+ENTRYPOINT,["troff"],1
+ENTRYPOINT,["gs"],1
+ENTRYPOINT,["gnuplot"],1
+ENTRYPOINT,[ "/usr/bin/pwsh" ],3
+ENTRYPOINT,[ "/usr/bin/powershell" ],4
+ENTRYPOINT,[ "radiusd" ],1
+ENTRYPOINT,[ "coredns" ],2
+ENTRYPOINT,["protocol"],1
+ENTRYPOINT,[ "terraform" ],1
+ENTRYPOINT,[ "/usr/local/bin/entrypoint.sh" ],5
+ENTRYPOINT,["/usr/bin/firefox"],1
+ENTRYPOINT,[ "az" ],1
+ENTRYPOINT,["skype"],2
+ENTRYPOINT,["gixy"],1
+ENTRYPOINT,[ "/usr/local/bin/start.sh" ],1
+ENTRYPOINT,[ "/usr/local/bin/guetzli" ],1
+ENTRYPOINT,[ "oauth2_proxy" ],1
+ENTRYPOINT,[ "distccd-init" ],1
+ENTRYPOINT,/usr/bin/zsh,2
+ENTRYPOINT,[ "clair" ],1
+ENTRYPOINT,[ "/usr/bin/start.sh" ],1
+ENTRYPOINT,[ "/start.sh" ],6
+ENTRYPOINT,["wrk"],2
+ENTRYPOINT,[ "mitmproxy" ],4
+ENTRYPOINT,[ "/usr/local/bin/keepassxc" ],1
+ENTRYPOINT,[ "lilyterm" ],1
+ENTRYPOINT,[ "wrk" ],2
+ENTRYPOINT,["/usr/sbin/runit_bootstrap"],1
+ENTRYPOINT,["weechat"],4
+ENTRYPOINT,[ "certbot" ],1
+ENTRYPOINT,[ "certbot-auto" ],4
+ENTRYPOINT,["python"\, "PlexPy.py"],1
+ENTRYPOINT,["--nolaunch"\, "--datadir=/data"],2
+ENTRYPOINT,[ "fontpatcher" ],1
+ENTRYPOINT,["/usr/bin/keepass2"],3
+ENTRYPOINT,[ "tarsnap" ],1
+ENTRYPOINT,["gitsome"],1
+ENTRYPOINT,["travis"],2
+ENTRYPOINT,["cloudapp"],3
+ENTRYPOINT,["t"],1
+ENTRYPOINT,[ "t" ],2
+ENTRYPOINT,[ "mop" ],1
+ENTRYPOINT,["mop"],4
+ENTRYPOINT,[ "micro" ],1
+ENTRYPOINT,[ "/go/bin/micro" ],2
+ENTRYPOINT,["/usr/local/bin/curl"],3
+ENTRYPOINT,[ "checkup" ],1
+ENTRYPOINT,["/usr/lib/slack/slack"],1
+ENTRYPOINT,["slack"],2
+ENTRYPOINT,[ "ansible" ],3
+ENTRYPOINT,["gcloud"],3
+ENTRYPOINT,["/usr/src/google-cloud-sdk/bin/gcloud"],2
+ENTRYPOINT,[ "./rsf.py" ],1
+ENTRYPOINT,[ "google-chrome" ],5
+ENTRYPOINT,[ "/usr/bin/google-chrome" ],6
+ENTRYPOINT,[ "virsh"\, "-c"\, "qemu:///system" ],1
+ENTRYPOINT,["virt-viewer"\, "-c"\, "qemu:///system"],1
+ENTRYPOINT,[ "dcos" ],1
+ENTRYPOINT,[ "vault" ],1
+ENTRYPOINT,[ "/bin/vault" ],2
+ENTRYPOINT,[ "audacity" ],1
+ENTRYPOINT,[ "cheese" ],1
+ENTRYPOINT,[ "consul" ],1
+ENTRYPOINT,[ "/bin/consul" ],2
+ENTRYPOINT,[ "netcat" ],1
+ENTRYPOINT,[ "wireshark" ],1
+ENTRYPOINT,[ "cli53" ],3
+ENTRYPOINT,[ "python"\, "CouchPotato.py"\, "--debug" ],1
+ENTRYPOINT,[ "python"\, "SickBeard.py" ],1
+ENTRYPOINT,[ "debootstrap" ],1
+ENTRYPOINT,[ "john" ],1
+ENTRYPOINT,[ "neoman" ],1
+ENTRYPOINT,[ "yubico-piv-tool" ],2
+ENTRYPOINT,[ "pivman" ],1
+ENTRYPOINT,[ "atom"\, "--foreground" ],1
+ENTRYPOINT,[ "traceroute" ],1
+ENTRYPOINT,["/usr/bin/scudcloud"],3
+ENTRYPOINT,[ "ricochet" ],1
+ENTRYPOINT,[ "privoxy"\, "--no-daemon" ],1
+ENTRYPOINT,[ "s3cmd" ],1
+ENTRYPOINT,[ "rstudio" ],1
+ENTRYPOINT,[ "ab" ],1
+ENTRYPOINT,[ "masscan" ],1
+ENTRYPOINT,[ "bees" ],1
+ENTRYPOINT,[ "beeswithmachineguns" ],2
+ENTRYPOINT,[ "/usr/sbin/shorewall" ],1
+ENTRYPOINT,[ "/usr/local/bin/consul" ],2
+ENTRYPOINT,[ "imagemin" ],2
+ENTRYPOINT,[ "gcalcli" ],1
+ENTRYPOINT,[ "/usr/local/bin/gcalcli" ],2
+ENTRYPOINT,[ "lpass" ],1
+ENTRYPOINT,[ "telnet" ],1
+ENTRYPOINT,[ "vagrant" ],3
+ENTRYPOINT,[ "nes" ],1
+ENTRYPOINT,["/usr/bin/termboy"],1
+ENTRYPOINT,["/usr/bin/termboy-go"],2
+ENTRYPOINT,[ "pulseaudio" ],1
+ENTRYPOINT,[ "stress" ],5
+ENTRYPOINT,[ "spotify" ],1
+ENTRYPOINT,[ "/usr/bin/spotify" ],4
+ENTRYPOINT,["/usr/lib/x86_64-linux-gnu/notify-osd"],1
+ENTRYPOINT,[ "vlc" ],1
+ENTRYPOINT,[ "ncmpc" ],1
+ENTRYPOINT,[ "pms" ],1
+ENTRYPOINT,[ "/usr/local/bin/mpd.sh" ],1
+ENTRYPOINT,[ "/usr/bin/plexhometheater.sh" ],1
+ENTRYPOINT,[ "/usr/bin/chromium" ],1
+ENTRYPOINT,[ "/usr/bin/google-chrome-beta" ],2
+ENTRYPOINT,[ "/usr/bin/google-chrome-stable" ],1
+ENTRYPOINT,[ "/usr/bin/virtualbox" ],3
+ENTRYPOINT,[ "imagemagick" ],4
+ENTRYPOINT,["/usr/bin/transmission-daemon"],1
+ENTRYPOINT,[ "sh"\, "-c"\, "/usr/src/atd/run.sh" ],1
+ENTRYPOINT,[ "/usr/local/bin/mdp" ],1
+ENTRYPOINT,[ "libreoffice" ],1
+ENTRYPOINT,[ "ulimit" ],1
+ENTRYPOINT,[ "glxgears" ],1
+ENTRYPOINT,[ "inkscape" ],3
+ENTRYPOINT,[ "gimp" ],1
+ENTRYPOINT,["mpsyt"],3
+ENTRYPOINT,[ "remmina" ],1
+ENTRYPOINT,[ "znc" ],1
+ENTRYPOINT,["/usr/local/bin/znc-shim"],2
+ENTRYPOINT,[ "rainbowstream" ],1
+ENTRYPOINT,["/home/user/entrypoint.sh"],2
+ENTRYPOINT,[ "geary" ],1
+ENTRYPOINT,["/usr/sbin/sshd"\,  "-D"],2
+ENTRYPOINT,[ "rdesktop" ],1
+ENTRYPOINT,[ "/src/cool-retro-term" ],1
+ENTRYPOINT,[ "lynx" ],1
+ENTRYPOINT,[ "aws" ],1
+ENTRYPOINT,[ "http" ],1
+ENTRYPOINT,["serverless deploy"],2
+ENTRYPOINT,["/docker/entrypoint.sh"],2
+ENTRYPOINT,["/docker/download.sh"],1
+ENTRYPOINT,["/usr/bin/supervisord"\, "-n"\, "-c"\, "/etc/supervisor/supervisord.conf"],1
+ENTRYPOINT,["/bin/sh"\, "/docker/entrypoint.sh"],2
+ENTRYPOINT,["/bin/sh"\, "/docker-entrypoint.sh"],5
+ENTRYPOINT,["/citus-entrypoint.sh"],2
+ENTRYPOINT,["/bootstrap.sh"],2
+ENTRYPOINT,["/sbin/tini"\, "--"],9
+ENTRYPOINT,["node"],2
+ENTRYPOINT,["./node"],1
+ENTRYPOINT,["/usr/local/bin/akaunting.sh"],1
+ENTRYPOINT,["/usr/bin/tini"\, "--"\, "/usr/sbin/slapd"],2
+ENTRYPOINT,["/bin/bash"\, "/run.sh"],1
+ENTRYPOINT,["/cloudflared"\, "--no-autoupdate"],1
+ENTRYPOINT,["./cloudflared"\, "--no-autoupdate"],1
+ENTRYPOINT,["searchsploit"],2
+ENTRYPOINT,["./teamserver"],1
+ENTRYPOINT,["./empire"],1
+ENTRYPOINT,["./gophish"],1
+ENTRYPOINT,/startup.sh,1
+ENTRYPOINT,["C:\\\\LogMonitor\\\\LogMonitor.exe"\, "C:\\\\ServiceMonitor.exe"\, "w3svc"],1
+ENTRYPOINT,["/elasticsearch/bin/elasticsearch"],1
+ENTRYPOINT,["/elasticsearch/bin/elasticsearch"\, "--path.conf=/data/conf"],2
+ENTRYPOINT,["deno"],8
+ENTRYPOINT,[ "elixir" ],1
+ENTRYPOINT,["/usr/bin/dumb-init"\, "/entrypoint.sh"],1
+ENTRYPOINT,["/usr/local/bin/dumb-init"\, "/entrypoint.sh"],2
+ENTRYPOINT,["/mopidy.sh"],2
+ENTRYPOINT,["/usr/bin/mopidy"],2
+ENTRYPOINT,["/opt/jira/bin/start-jira.sh"\, "-fg"],3
+ENTRYPOINT,["/usr/local/sbin/pid1"],159
+ENTRYPOINT,["/init"],17
+ENTRYPOINT,["/usr/local/bin/mvn-entrypoint.sh"],37
+ENTRYPOINT,["deployment/octane/entrypoint.sh"],5
+ENTRYPOINT,["./deployment/octane/entrypoint.sh"],2
+ENTRYPOINT,[ "/app/epusdt" ],1
+ENTRYPOINT,["/gunicorn.sh"],1
+ENTRYPOINT,[ "chromium-browser"\, \\,2
+ENTRYPOINT,["/go/bin/linx-server"\, "-config=/etc/linx/config.ini"\, "-bind=0.0.0.0:8080"\, "-filespath=/data/files/"\, "-metapath=/data/meta/"],1
+ENTRYPOINT,["/go/bin/linx-server"\, "-bind=0.0.0.0:8080"\, "-filespath=/data/files/"\, "-metapath=/data/meta/"],2
+ENTRYPOINT,["/customized-entrypoint.sh"],1
+ENTRYPOINT,["./usr/local/bin/app"],1
+ENTRYPOINT,["/opt/entrypoint.sh"],23
+ENTRYPOINT,["npm"\, "start"],1
+ENTRYPOINT,["uvicorn"\, "main:app"\, "--host"\, "0.0.0.0"\, "--port"\, "3565"],1
+ENTRYPOINT,["/bin/nginx"],1
+ENTRYPOINT,["/nginx"\, "-g"\, "daemon off;"],1
+ENTRYPOINT,["/usr/local/bin/tini"\, "--"],1
+ENTRYPOINT,["jupyter"\, "notebook"\,"/content/"\, "--allow-root"\, "--NotebookApp.open_browser=False" \,"--no-browser"\, "--NotebookApp.allow_remote_access=True" \,"--NotebookApp.allow_origin='https://colab.research.google.com'"\, "--port=8888"\, "--NotebookApp.port_retries=0"\, "--ip=0.0.0.0"],1
+ENTRYPOINT,["build/build.sh"],2
+ENTRYPOINT,["/pandoc"],1
+ENTRYPOINT,["/usr/local/bin/pandoc"],4
+ENTRYPOINT,["fixuid"],3
+ENTRYPOINT,["sh"\, "/usr/local/bin/run"],3
+ENTRYPOINT,["sh"\, "run"],2
+ENTRYPOINT,["run"],2
+ENTRYPOINT,["vim"],1
+ENTRYPOINT,["supervisord"\, "--nodaemon"\, "--configuration"\, "/etc/supervisor/supervisord.conf"],2
+ENTRYPOINT,["/usr/local/bin/php"\,"-f"\,"/usr/share/nginx/html/call.weipeiapp.com/start.php"],2
+ENTRYPOINT,["/usr/local/bin/php"\,"-f"\,"/usr/share/nginx/html/start.php"],2
+ENTRYPOINT,["supervisord"\, "--nodaemon"\, "--configuration"\, "/etc/supervisord.conf"],4
+ENTRYPOINT,['/usr/local/bin/php' \,'start'\, '/usr/share/nginx/html/start.php'],2
+ENTRYPOINT,['php' \,'start'\, '/usr/share/nginx/html/start.php'],2
+ENTRYPOINT,["./docker-entrypoint.sh"],2
+ENTRYPOINT,["python"\,"AV_Data_Capture.py"],1
+ENTRYPOINT,C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat &&,3
+ENTRYPOINT,["mkdocs"],2
+ENTRYPOINT,["/usr/bin/p4p"],2
+ENTRYPOINT,["docker-upgrade"],21
+ENTRYPOINT,["cypress"\, "run"],113
+ENTRYPOINT,["/root/entrypoint.sh"],1
+ENTRYPOINT,["/usr/sbin/init"],2
+ENTRYPOINT,["flutter"],2
+ENTRYPOINT,["/s6-init"],21
+ENTRYPOINT,["/command/s6-svscan"\, "-t0"\, "/etc/services.d"],15
+ENTRYPOINT,["docker-php-entrypoint"],16
+ENTRYPOINT,["/docker-entrypoint.composer"],3
+ENTRYPOINT,["php"],6
+ENTRYPOINT,["bash"\, "/docker-entrypoint.sh"],10
+ENTRYPOINT,["s6-svscan"\, "-t0"\, "/etc/services.d"],8
+ENTRYPOINT,["doctum"],1
+ENTRYPOINT,["phpmd"],1
+ENTRYPOINT,["phpcpd"],1
+ENTRYPOINT,["phploc"],1
+ENTRYPOINT,[ "phpdox" ],1
+ENTRYPOINT,[ "sh"\, "/app/laravel-docker/.docker-rootless/docker-entrypoint.sh" ],3
+ENTRYPOINT,[ "sh"\, "/app/laravel-docker/.docker/docker-entrypoint.sh" ],3
+ENTRYPOINT,["sh"\, "/wait-for-php.sh"],3
+ENTRYPOINT,["sh"\, "/etc/nginx/docker-entrypoint.sh"],1
+ENTRYPOINT,["pwsh"\, "-Command"\, "$ProgressPreference = 'SilentlyContinue'; /root/lnmp/lrew/lrew.ps1"],1
+ENTRYPOINT,["/bin/s6-svscan"],2
+ENTRYPOINT,["unitd"],4
+ENTRYPOINT,["php-cs-fixer"],1
+ENTRYPOINT,["sh"\,"/docker-entrypoint.sh"],1
+ENTRYPOINT,["/opt/k8s/kube-nginx/sbin/nginx"\,"-c"\,"/opt/k8s/kube-nginx/conf/kube-nginx.conf"\,"-p"\,"/opt/k8s/kube-nginx"],1
+ENTRYPOINT,["/bin/sh"\,"-c"],1
+ENTRYPOINT,["/etc/init.d/rc.local"],1
+ENTRYPOINT,["/etc/s6-linux-init/current/bin/init"],2
+ENTRYPOINT,["/usr/bin/supervisord"\,"-c"\,"/etc/supervisord.conf"],2
+ENTRYPOINT,["bash"\, "-l"],1
+ENTRYPOINT,["/app/entry.sh"],3
+ENTRYPOINT,[ "/opt/bitnami/scripts/postgresql/timescaledb-bitnami-entrypoint.sh" ],1
+ENTRYPOINT,["./backup_init.sh"],2
+ENTRYPOINT,["/usr/bin/chia_exporter"],1
+ENTRYPOINT,["dotnet"\, "Microsoft365_E5_Renew_X.dll"],1
+ENTRYPOINT,["aws"],2
+ENTRYPOINT,["/entrypoint.sh"\, "/opt/zookeeper/bin/zkServer.sh"],1
+ENTRYPOINT,["./entrypoint.sh"\, "/opt/zookeeper/bin/zkServer.sh"],2
+ENTRYPOINT,["/opt/zookeeper/bin/zkServer.sh"],4
+ENTRYPOINT,["/entrypoint.sh"\,"${elasticsearch_server_url}"\,"${elasticsearch_server_port}"],2
+ENTRYPOINT,["netcat"],2
+ENTRYPOINT,["ncat"],2
+ENTRYPOINT,["/opt/logstash/bin/logstash"],2
+ENTRYPOINT,["chromium-browser"\, "--headless"],1
+ENTRYPOINT,["chromium-browser"\, "--headless"\, "--use-gl=swiftshader"\, "--disable-software-rasterizer"\, "--disable-dev-shm-usage"],2
+ENTRYPOINT,["/usr/src/app/docker-entrypoint.sh"],3
+ENTRYPOINT,["chromedriver"\,"--allowed-ips="\,"--allowed-origins=*"],1
+ENTRYPOINT,["chromedriver"\,"--whitelisted-ips"],2
+ENTRYPOINT,["/usr/bin/selenoid"\, "-listen"\, ":4444"\, "-disable-docker"\, "-conf"\, "/etc/selenoid/browsers.json"],1
+ENTRYPOINT,["/usr/bin/selenoid"\, "-listen"\, ":4444"\, "-conf"\, "/etc/selenoid/browsers.json"],2
+ENTRYPOINT,["chromium-browser"\, "--headless"\, "--disable-gpu"\, "--disable-software-rasterizer"\, "--disable-dev-shm-usage"],2
+ENTRYPOINT,["chromium-browser"\, "--headless"\, "--disable-gpu"\, "--disable-software-rasterizer"],2
+ENTRYPOINT,["chromium-browser"\, "--headless"\, "--disable-gpu"],2
+ENTRYPOINT,[ "/opt/cerebro/bin/cerebro" ],4
+ENTRYPOINT,["/etc/init.d/cron"\, "start"],2
+ENTRYPOINT,["dotnet"\, "App.WorkerService.dll"],1
+ENTRYPOINT,["dotnet"\, "App.CloudService.dll"],1
+ENTRYPOINT,["dotnet"\, "DotNet.Docker.dll"],1
+ENTRYPOINT,["/buildroot-v86/build-v86.sh"],1
+ENTRYPOINT,["/entrypoint.sh",2
+ENTRYPOINT,["/rails/bin/docker-entrypoint"],30
+ENTRYPOINT,["litefs"\, "mount"\, "--"\, "su"\, "rails"\, "/rails/bin/docker-entrypoint"],2
+ENTRYPOINT,/usr/bin/tor,2
+ENTRYPOINT,["tail"\, "-f"\, "/dev/null"],2
+ENTRYPOINT,["/usr/local/nginx/sbin/nginx"],1
+ENTRYPOINT,[ "bash"\, "-c" ],6
+ENTRYPOINT,["/tmp/run.sh"],1
+ENTRYPOINT,../entrypoint.sh $DOMAIN $EMAIL,1
+ENTRYPOINT,[ "/traefik" ],1
+ENTRYPOINT,[ "powershell.exe"\, "/entrypoint.ps1" ],2
+ENTRYPOINT,["/usr/bin/supervisord"\, "-n"],1
+ENTRYPOINT,["/bin/bash"\, "/var/run/run_stubby.sh"],1
+ENTRYPOINT,[ "google-chrome-stable" ],2
+ENTRYPOINT,["polymer"],1
+ENTRYPOINT,[ "google-chrome-beta" ],2
+ENTRYPOINT,[ "/opt/stickmanventures/chrome-headless/headless_shell" ],2
+ENTRYPOINT,["tini"\,  "--"\, "/bin/entrypoint.sh"],71
+ENTRYPOINT,["cmd"\, "/k"\, "fluentd"\, "--config"\, "C:\\\\fluent\\\\conf\\\\fluent.conf"],26
+ENTRYPOINT,["cmd"\, "/k"\, "fluentd"\, "-c"\, "C:\\\\fluent\\\\conf\\\\fluent.conf"],35
+ENTRYPOINT,["/bin/entrypoint.sh"],113
+ENTRYPOINT,["/bin/sh"\, "-l"],2
+ENTRYPOINT,["iperf3"],1
+ENTRYPOINT,["/tini"\, "--"],2
+ENTRYPOINT,["/usr/bin/iperf3"],1
+ENTRYPOINT,["nginx"],1
+ENTRYPOINT,["/bin/bash"\, "/tmp/entrypoint.sh"],9
+ENTRYPOINT,["/bin/bash"\, "-e"\, "/init/entrypoint"],10
+ENTRYPOINT,["java"\, "-Xmx1G"\, "-jar"\, "DynamoDBLocal.jar"],617
+ENTRYPOINT,[ "docker-entrypoint.sh" ],2
+ENTRYPOINT,[ "jekyll" ],1
+ENTRYPOINT,[ "bundle"\, "exec"\, "jekyll" ],2
+ENTRYPOINT,docker-entrypoint.sh,2
+ENTRYPOINT,["/usr/local/openresty/bin/openresty"\, "-g"\, "daemon off;"],8
+ENTRYPOINT,["/usr/local/openresty/nginx/sbin/nginx"\, "-g"\, "daemon off;"],4
+ENTRYPOINT,["/usr/local/bin/build"],3
+ENTRYPOINT,["koel-entrypoint"],1
+ENTRYPOINT,["/bin/registry"],4
+ENTRYPOINT,["/bin/registry"\, "serve"],2
+ENTRYPOINT,["dumb-init"],133
+ENTRYPOINT,run.sh,1
+ENTRYPOINT,${KAFKA_HOME}/bin/connect-standalone.sh ${KAFKA_HOME}/config/worker.properties ${KAFKA_HOME}/config/connector.properties,3
+ENTRYPOINT,java --enable-preview -XshowSettings:vm -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dquarkus.http.host=0.0.0.0 -jar  ${DEPLOYMENT_DIR}/supersonic-runner.jar,1
+ENTRYPOINT,java -XshowSettings:vm -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dquarkus.http.host=0.0.0.0 -jar  ${DEPLOYMENT_DIR}/supersonic-runner.jar,2
+ENTRYPOINT,java -XshowSettings:vm -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dquarkus.http.host=0.0.0.0 -jar  ${DEPLOY_DIR}/supersonic-runner.jar,2
+ENTRYPOINT,java --enable-preview -jar /opt/helidon.jar,1
+ENTRYPOINT,${WILDFLY_HOME}/bin/standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0,1
+ENTRYPOINT,${WILDFLY_HOME}/bin/standalone.sh -b=0.0.0.0 -bmanagement 0.0.0.0,2
+ENTRYPOINT,${WILDFLY_HOME}/bin/standalone.sh -b=0.0.0.0,6
+ENTRYPOINT,java -jar -Dquarkus.http.host=0.0.0.0  ${DEPLOY_DIR}/supersonic-runner.jar,2
+ENTRYPOINT,java -jar -Dquarkus.http.host=0.0.0.0  ${DEPLOY_DIR}/quarkus-runner.jar,2
+ENTRYPOINT,${INSTALL_DIR}/filebeat -c /usr/share/filebeat/filebeat.yml -e -v,1
+ENTRYPOINT,${KEYCLOAK_HOME}/bin/standalone.sh -b=0.0.0.0,1
+ENTRYPOINT,${BROKER_HOME}/airhacks/bin/artemis run,1
+ENTRYPOINT,${KAFKA_HOME}/bin/kafka-server-start.sh ${KAFKA_HOME}/config/server.properties,1
+ENTRYPOINT,${KAFKA_HOME}/bin/zookeeper-server-start.sh ${KAFKA_HOME}/config/zookeeper.properties,1
+ENTRYPOINT,java -jar ${INSTALL_DIR}/${PAYARA_JAR} --deploymentDir ${DEPLOYMENT_DIR},2
+ENTRYPOINT,java -jar jenkins.war,1
+ENTRYPOINT,start.sh,4
+ENTRYPOINT,${WILDFLY_HOME}/bin/standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0 -bprivate=`hostname -I` -c standalone-ha.xml,1
+ENTRYPOINT,./bin/grafana-server web,1
+ENTRYPOINT,./prometheus --config.file=prometheus.yml,1
+ENTRYPOINT,./prometheus -config.file=prometheus.yml,2
+ENTRYPOINT,${WILDFLY_HOME}/bin/standalone.sh -c standalone-full.xml -b=0.0.0.0,1
+ENTRYPOINT,echo deploy ${DEPLOYMENT_DIR}/${WAR} > deploy-command && \\,2
+ENTRYPOINT,asadmin start-domain ${DOMAIN_NAME} && \\,2
+ENTRYPOINT,asadmin start-database && asadmin start-domain --verbose ${DOMAIN_NAME},2
+ENTRYPOINT,${INSTALL_DIR}/${VERSION}/bin/archiva console,1
+ENTRYPOINT,asadmin start-domain --verbose ${DOMAIN_NAME},2
+ENTRYPOINT,${SERVER_HOME}/bin/catalina.sh run,3
+ENTRYPOINT,nginx -g "daemon off;",1
+ENTRYPOINT,java -jar ${PAYARA_ARCHIVE}.jar --deploy ${ARCHIVE_NAME},1
+ENTRYPOINT,java -jar ${PAYARA_ARCHIVE}.jar,2
+ENTRYPOINT,${INSTALL_DIR}/bin/kibana,1
+ENTRYPOINT,${INSTALL_DIR}/elasticsearch-${VERSION}/bin/elasticsearch,1
+ENTRYPOINT,haproxy -V -f /etc/haproxy/haproxy.cfg,1
+ENTRYPOINT,${TOMEE_HOME}/bin/catalina.sh run,2
+ENTRYPOINT,startWebLogic.sh -Dweblogic.ProductionModeEnabled=false,1
+ENTRYPOINT,${INSTALL_DIR}/${VERSION}-bin/bin/startNetworkServer -h 0.0.0.0,1
+ENTRYPOINT,${INSTALL_DIR}/${VERSION}-bin/bin/startNetworkServer  -h 0.0.0.0,2
+ENTRYPOINT,${INSTALL_DIR}/${VERSION}-bin/bin/startNetworkServer,2
+ENTRYPOINT,./start.sh,4
+ENTRYPOINT,java -jar nano.jar,1
+ENTRYPOINT,/opt/payara41/glassfish/bin/asadmin start-domain --verbose ${DOMAIN_NAME},2
+ENTRYPOINT,["dnsmasq"\, "--no-daemon"],1
+ENTRYPOINT,["superset"],1
+ENTRYPOINT,[ "/usr/local/bin/run-oo.sh" ],1
+ENTRYPOINT,["qemu-system-arm"],1
+ENTRYPOINT,["/usr/bin/docker-entrypoint.sh"],2
+ENTRYPOINT,["/usr/bin/entrypoint.sh"],13
+ENTRYPOINT,["/usr/sbin/smartd"\, "--debug"],1
+ENTRYPOINT,["jekyll"],4
+ENTRYPOINT,exec /usr/local/bin/mongodb-enterprise-operator,44
+ENTRYPOINT,[ "/bin/cp"\, "-f"\, "-r"\, "/scripts/agent-launcher.sh"\, "/scripts/agent-launcher-lib.sh"\, "/probes/readinessprobe"\, "/probes/probe.sh"\, "/tools"\, "/opt/scripts/" ],48
+ENTRYPOINT,[ "/bin/cp"\, "-f"\, "/scripts/docker-entry-point.sh"\, "/scripts/backup-daemon-liveness-probe.sh"\,  "/scripts/mmsconfiguration"\, "/scripts/backup-daemon-readiness-probe"\, "/opt/scripts/" ],18
+ENTRYPOINT,[ "sleep infinity" ],102
+ENTRYPOINT,[ "/go/bin/mongodb-multicluster" ],1
+ENTRYPOINT,["sleep infinity"],8
+ENTRYPOINT,[ "/bin/cp"\, "-f"\, "/scripts/docker-entry-point.sh"\, "/scripts/mmsconfiguration"\, "/opt/scripts/" ],6
+ENTRYPOINT,["/opt/confluence/bin/start-confluence.sh"\, "-fg"],15
+ENTRYPOINT,[ "bash"\, "/docker-entrypoint.sh" ],5
+ENTRYPOINT,[ "/opt/bin/docker-entrypoint.sh" ],1
+ENTRYPOINT,[ "bash"\, "/docker-entrypoint.sh"],1
+ENTRYPOINT,[ "/docker-entrypoint.sh"],8
+ENTRYPOINT,["/bin/bash"\,"/run.sh"],2
+ENTRYPOINT,/docker-entrypoint.sh,13
+ENTRYPOINT,[ "/docker-entrypoint.sh" ],7
+ENTRYPOINT,["/usr/bin/entrypoint"],5
+ENTRYPOINT,./sbin/start-master.sh && tail -f logs/*.out,2
+ENTRYPOINT,["/usr/local/bin/docker-entrypoint.sh"],5
+ENTRYPOINT,["gunicorn"],1
+ENTRYPOINT,["cp"\, "termite/termite"\, "termite/termite.desktop"\, "termite/termite.terminfo"\, "/target/"],3
+ENTRYPOINT,["cp"\, "termite/termite"\, "/target/"],2
+ENTRYPOINT,["bitcoind"],3
+ENTRYPOINT,["./run"],1
+ENTRYPOINT,[ "/usr/sbin/apachectl" ],3
+ENTRYPOINT,["hugo"],5
+ENTRYPOINT,[ "dot" ],1
+ENTRYPOINT,["pywhat"],1
+ENTRYPOINT,["/usr/bin/dumb-init"\, "/usr/bin/wget"],1
+ENTRYPOINT,["/usr/local/bin/dumb-init"\, "/usr/bin/wget"],2
+ENTRYPOINT,["neuron"],1
+ENTRYPOINT,["octodns-compare"],1
+ENTRYPOINT,["octodns-dump"],1
+ENTRYPOINT,["octodns-report"],1
+ENTRYPOINT,["octodns-sync"],1
+ENTRYPOINT,["octodns-validate"],1
+ENTRYPOINT,["oc"],1
+ENTRYPOINT,["cookiecutter"],1
+ENTRYPOINT,["pre-commit"],1
+ENTRYPOINT,["terraform-docs"],1
+ENTRYPOINT,["tflint"],1
+ENTRYPOINT,["tfsec"],1
+ENTRYPOINT,["drone"],1
+ENTRYPOINT,["/usr/local/sbin/bonnie++"],1
+ENTRYPOINT,["jfrog"],1
+ENTRYPOINT,["/bin/kubeseal"],1
+ENTRYPOINT,["yq"],1
+ENTRYPOINT,["/usr/local/bin/rar"],1
+ENTRYPOINT,["rar"],6
+ENTRYPOINT,["review"],1
+ENTRYPOINT,["helm"],1
+ENTRYPOINT,["kubectl"],8
+ENTRYPOINT,["wget"],1
+ENTRYPOINT,["cfn-create-or-update"],3
+ENTRYPOINT,["figlet"],3
+ENTRYPOINT,["nc"],3
+ENTRYPOINT,["gawk"],3
+ENTRYPOINT,["find"],3
+ENTRYPOINT,["sed"],3
+ENTRYPOINT,["pwgen"],3
+ENTRYPOINT,["nkf"],3
+ENTRYPOINT,["curl"],3
+ENTRYPOINT,["/usr/games/sl"],3
+ENTRYPOINT,["awslogs"],3
+ENTRYPOINT,["date"],3
+ENTRYPOINT,["ansible-playbook"],3
+ENTRYPOINT,["erd"],3
+ENTRYPOINT,["java"\, "-jar"\, "/usr/share/plantuml.jar"],3
+ENTRYPOINT,["az"],3
+ENTRYPOINT,["ant"],3
+ENTRYPOINT,["lessc"],1
+ENTRYPOINT,["rhc"],5
+ENTRYPOINT,["par2"],3
+ENTRYPOINT,["pygmentize"],2
+ENTRYPOINT,["mitmproxy"],1
+ENTRYPOINT,["proselint"],1
+ENTRYPOINT,[ "seagull" ],3
+ENTRYPOINT,["vegeta"],3
+ENTRYPOINT,["/usr/local/bin/cowsay"],1
+ENTRYPOINT,["cowsay"],2
+ENTRYPOINT,["ionic"],3
+ENTRYPOINT,["ab"],3
+ENTRYPOINT,["fortune"],1
+ENTRYPOINT,["/usr/bin/speedtest"],1
+ENTRYPOINT,["python"\,"/speedtest"],4
+ENTRYPOINT,["dig"],3
+ENTRYPOINT,["host"],3
+ENTRYPOINT,["socat"],1
+ENTRYPOINT,["ag"],1
+ENTRYPOINT,["gpg"],1
+ENTRYPOINT,["mutt"],1
+ENTRYPOINT,["convert"],1
+ENTRYPOINT,["lynx"],1
+ENTRYPOINT,["npm"],1
+ENTRYPOINT,["irssi"],1
+ENTRYPOINT,["hg"],1
+ENTRYPOINT,["youtube-dl"],1
+ENTRYPOINT,["nmap"],1
+ENTRYPOINT,["http"],1
+ENTRYPOINT,["unrar"],1
+ENTRYPOINT,["/usr/local/bin/pocketbase"\, "serve"\, "--http=0.0.0.0:8090"\, "--dir=/pb_data"\, "--publicDir=/pb_public"],1
+ENTRYPOINT,["/usr/local/bin/pocketbase"\, "serve"\, "--http=0.0.0.0:8090"\, "--dir=/pb_data"],2
+ENTRYPOINT,["/opt/sonarqube/docker/entrypoint.sh"],12
+ENTRYPOINT,["/opt/sonarqube/docker/run.sh"],4
+ENTRYPOINT,["/opt/sonarqube/bin/run.sh"],10
+ENTRYPOINT,["/opt/java/openjdk/bin/java"\,"-jar"\,"lib/sonarqube.jar"\,"-Dsonar.log.console=true"],6
+ENTRYPOINT,["bin/run.sh"],10
+ENTRYPOINT,["serverless"],1
+ENTRYPOINT,["/lanproxy-client/init.sh"],3
+ENTRYPOINT,["/lanproxy-server/init.sh"],1
+ENTRYPOINT,[ "/usr/lib/jvm/zulu17/bin/java" ],3
+ENTRYPOINT,["/opt/zookeeper-3.4.6/bin/zkServer.sh"],2
+ENTRYPOINT,["/opt/zookeeper-3.4.5/bin/zkServer.sh"],2
+ENTRYPOINT,[""],3
+ENTRYPOINT,["rails"],4
+ENTRYPOINT,rails,2
+ENTRYPOINT,["run_sync"],1
+ENTRYPOINT,["/opt/run_sync"],1
+ENTRYPOINT,["php"\, "/opt/www/bin/hyperf.php"\, "start"],1
+ENTRYPOINT,["alertmanager"],1
+ENTRYPOINT,alertmanager -config.file=/etc/alertmanager/config.yml -storage.path=/alertmanager,2
+ENTRYPOINT,node_exporter --path.procfs=/usr/proc --path.sysfs=/usr/sys \\,1
+ENTRYPOINT,node_exporter --path.procfs=/usr/proc --path.sysfs=/usr/sys,2
+ENTRYPOINT,/usr/local/bin/prometheus \\,1
+ENTRYPOINT,["/init.sh"],1
+ENTRYPOINT,["nginx"\, "-g"\, "daemon off;"],1
+ENTRYPOINT,["/opt/ice/grailsw"],1
+ENTRYPOINT,[ "/usr/bin/tini"\, "--" ],6
+ENTRYPOINT,["bash"\,"/home/linuxgsm/entrypoint.sh" ],2
+ENTRYPOINT,["bash"\,"/entrypoint.sh" ],4
+ENTRYPOINT,["/mini-docker-rust"],1
+ENTRYPOINT,["./mini-docker-rust"],2
+ENTRYPOINT,["./foo"],1
+ENTRYPOINT,["/usr/local/bin/run"],3
+ENTRYPOINT,["/bin/bash"\, "-c"\, "/usr/local/bin/run"],2
+ENTRYPOINT,["/usr/bin/qb"\, "hot"],5
+ENTRYPOINT,["sh"\, "-c"\, "./entrypoint.sh $*"\, "--"],1
+ENTRYPOINT,[ "/init.sh" ],1
+ENTRYPOINT,[ "node"\, "/home/theia/src-gen/backend/main.js"\, "/home/project"\, "--hostname=0.0.0.0" ],14
+ENTRYPOINT,[ "yarn"\, "theia"\, "start"\, "/home/project"\, "--hostname=0.0.0.0" ],22
+ENTRYPOINT,["/home/theia/entrypoint"],3
+ENTRYPOINT,[ "/home/theia/ssl/ssl_theia.sh" ],1
+ENTRYPOINT,[ "npx"\, "theia"\, "start"\, "/home/project"\, "--hostname=0.0.0.0" ],6
+ENTRYPOINT,[ "npx" ],2
+ENTRYPOINT,["./bin/run.sh"],1
+ENTRYPOINT,[ "/bin/sh"\, "-c"\, "exec java -jar /${TIKA_SERVER_JAR}-${TIKA_VERSION}.jar -h 0.0.0.0 $0 $@"],1
+ENTRYPOINT,[ "/bin/sh"\, "-c"\, "exec java -jar /tika-server-${TIKA_VERSION}.jar -h 0.0.0.0 $0 $@"],2
+ENTRYPOINT,java -jar /tika-server-${TIKA_VERSION}.jar -h 0.0.0.0,4
+ENTRYPOINT,java -jar /tika-server-1.7.jar -h 0.0.0.0,2
+ENTRYPOINT,["httpd"],2
+ENTRYPOINT,["/opt/rh/httpd24/root/usr/sbin/httpd"],2
+ENTRYPOINT,["/usr/sbin/httpd"],2
+ENTRYPOINT,[ "/usr/local/v2ray/entrypoint.sh" ],9
+ENTRYPOINT,["docker-entrypoint"],5
+ENTRYPOINT,["docker-app-entrypoint"],6
+ENTRYPOINT,["/entrypoint_setup.sh"],6
+ENTRYPOINT,["dumb-init"\, "--"],2
+ENTRYPOINT,["/opt/minecraft/docker-entrypoint.sh"],1
+ENTRYPOINT,/usr/local/openjdk-11/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE $JAVAFLAGS /opt/minecraft/paperspigot.jar --nojline nogui,2
+ENTRYPOINT,/usr/local/openjdk-11/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE $JAVAFLAGS /opt/minecraft/paperspigot.jar,2
+ENTRYPOINT,/usr/local/openjdk-11/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/paperspigot.jar --nojline nogui,2
+ENTRYPOINT,/usr/local/openjdk-11/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/paperspigot.jar --nojline,2
+ENTRYPOINT,/usr/local/openjdk-11/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/paperspigot.jar,2
+ENTRYPOINT,java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/paperspigot.jar,2
+ENTRYPOINT,java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/server/paperspigot.jar,2
+ENTRYPOINT,/opt/jdk1.8.0_192/jre/bin/java -jar -Xms$MEMORYSIZE -Xmx$MEMORYSIZE -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/server/paperspigot.jar,2
+ENTRYPOINT,/opt/jdk1.8.0_192/jre/bin/java -jar -Xms3G -Xmx3G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags=mcflags.emc.gs -Dcom.mojang.eula.agree=true /opt/minecraft/server/paperspigot.jar,2
+ENTRYPOINT,sh /opt/minecraft/server/start.sh,2
+ENTRYPOINT,ss-server -s "$SERVER_HOST" \\,2
+ENTRYPOINT,ss-server \\,2
+ENTRYPOINT,/data/data/com.termux/files/usr/bin/login,1
+ENTRYPOINT,/usr/bin/frps -c /etc/frp/frps.ini,10
+ENTRYPOINT,/usr/bin/frpc -c /etc/frp/frpc.ini,4
+ENTRYPOINT,["/sbin/tini"\, "--"\, "/usr/local/bin/jenkins.sh"],36
+ENTRYPOINT,["/usr/bin/tini"\, "--"\, "/usr/local/bin/jenkins.sh"],4
+ENTRYPOINT,["powershell.exe"\, "-f"\, "C:/ProgramData/Jenkins/jenkins.ps1"],20
+ENTRYPOINT,["webproc"\,"--config"\,"/etc/dnsmasq.conf"\,"--"\,"dnsmasq"\,"--no-daemon"],1
+ENTRYPOINT,["/bin/bash"\, "-c"\, "/app/entry.sh"],1
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-1.3.9.jar"],1
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-0.14.7.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-0.14.6.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-0.14.4.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-0.13.8.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-Dconfig.file=custom.conf"\, "-jar"\, "/elasticmq-server-0.13.1.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-jar"\, "/elasticmq-server-0.12.0.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-jar"\, "/elasticmq-server-0.9.3.jar"],2
+ENTRYPOINT,["/usr/bin/java"\, "-jar"\, "/elasticmq-server-0.8.8.jar"],2
+ENTRYPOINT,envsubst < /etc/nginx/nginx.tpl > /etc/nginx/nginx.conf; nginx -g 'daemon off;',4
+ENTRYPOINT,["/serve"],1
+ENTRYPOINT,["/opt/bin/kubectl"],8
+ENTRYPOINT,["entrypoint"],31
+ENTRYPOINT,["/usr/bin/fuse-overlayfs"\,"-f"],1
+ENTRYPOINT,["mix"\, "run"\, "--no-halt"],1
+ENTRYPOINT,[".build/release/MyApplication"],3
+ENTRYPOINT,./goapp,11
+ENTRYPOINT,["python"],1
+ENTRYPOINT,["/bin/haproxy"],1
+ENTRYPOINT,["protoc-wrapper"\, "-I/usr/include"],3
+ENTRYPOINT,["/usr/bin/protoc"\, "-I/protobuf"],10
+ENTRYPOINT,["/usr/local/bin/protoc"\, "-I/protobuf"],2
+ENTRYPOINT,["/usr/bin/protoc-wrapper"\, "-I/protobuf"],6
+ENTRYPOINT,["/usr/local/sbin/mosquitto"],2
+ENTRYPOINT,["/usr/sbin/mosquitto"],2
+ENTRYPOINT,["/usr/sbin/dnsmasq"\, "-k"],1
+ENTRYPOINT,["dnsmasq"\, "-k"],1
+ENTRYPOINT,["/opt/idea-IC-183.5429.30/bin/idea.sh"],1
+ENTRYPOINT,["/opt/eclipse/eclipse"],1
+ENTRYPOINT,["/opt/android-studio/bin/studio.sh"],1
+ENTRYPOINT,["/usr/local/bin/php"\, "/var/www/html/laravel/artisan"\, "serve"\, "--host=0.0.0.0"],1
+ENTRYPOINT,["/init" ],1
+ENTRYPOINT,["wpa_supplicant"],1
+ENTRYPOINT,["/usr/bin/entry.sh"],339

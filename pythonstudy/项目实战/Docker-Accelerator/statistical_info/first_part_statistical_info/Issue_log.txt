@@ -1,0 +1,23 @@
+存储库中有Dockerfile但没有入库的项目
+wei/curl
+luisfarzati/localdots
+RafhaanShah/grAfterburner
+bobby-didcoding/drf_course
+chihchun/personal-income-tax-docker
+crazygit/openwrt-x86-64
+kizzx2/docker-wireguard-socks-proxy
+nmarus/docker-devops-box
+docker-library/busybox
+sneakerhax/TTPs
+radix-ai/poetry-cookiecutter
+devopsjourney1/jenkins-101
+pamendoz/personalDockerCompose
+michaeloliverx/python-poetry-docker-example
+detectify/vulnerable-nginx
+dermidgen/python-monorepo
+
+
+#三种情况
+#只有一次commit记录
+#commit记录中没有dockerfile变换信息
+#commit记录中只有dockerfile rename或者copy的情况

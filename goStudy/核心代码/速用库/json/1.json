@@ -1,0 +1,39 @@
+{
+  "name": "John",
+  "age": 30,
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345",
+    "country": "USA"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "555-555-1234"
+    },
+    {
+      "type": "work",
+      "number": "555-555-5678"
+    }
+  ],
+  "isMarried": true,
+  "spouse": {
+    "name": "Jane",
+    "age": 28,
+    "occupation": "Teacher"
+  },
+  "children": [
+    {
+      "name": "John Jr",
+      "age": 5,
+      "grade": "Kindergarten"
+    },
+    {
+      "name": "Jane",
+      "age": 3,
+      "grade": "Pre-Kindergarten"
+    }
+  ]
+}

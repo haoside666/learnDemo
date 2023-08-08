@@ -1,0 +1,6 @@
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | add    | MAINTAINER | XuMing "xuming624@qq.com"                 |          |         5 |
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | delete | MAINTAINER | XuMing(xuming624@qq.com)                  |          |         5 |
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | delete | RUN        | mkdir /home/work                          |          |        10 |
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | delete | WORKDIR    | /home/work/                               |          |        11 |
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | add    | RUN        | localedef -c -f UTF-8 -i zh_CN zh_CN.utf8 |          |        13 |
+| shibing624 | pycorrector |        0 | 0.0.2  |        1 | 0.0.1  | add    | ENV        | LC_ALL=zh_CN.UTF-8                        |          |        14 |

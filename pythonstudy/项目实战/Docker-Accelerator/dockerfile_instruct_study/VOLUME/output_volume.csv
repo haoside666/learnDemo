@@ -1,0 +1,479 @@
+VOLUME,${STEAMAPPDIR},1
+VOLUME,$STEAMAPPDIR,4
+VOLUME,/config /sync,5
+VOLUME,/config,103
+VOLUME,/config /downloads /sync,2
+VOLUME,/volume,7
+VOLUME,[ "/sys/fs/cgroup" ],22
+VOLUME,["/var/lib/elasticsearch"],4
+VOLUME,["/var/lib/graphite/storage/whisper"],4
+VOLUME,["/var/lib/log/supervisor"],4
+VOLUME,/app/config,3
+VOLUME,/app/logs,3
+VOLUME,/app/results,3
+VOLUME,["/data"\, "/config"],12
+VOLUME,C:\\data,1
+VOLUME,C:\\data C:\\logs C:\\repositories,1
+VOLUME,${REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY},1
+VOLUME,${DATA_PATH},1
+VOLUME,C:\\out,1
+VOLUME,c:/volume-directory,1
+VOLUME,/backups /config /source,1
+VOLUME,/var/lib/cassandra,6
+VOLUME,/var/www/html,12
+VOLUME,["/mnt"],2
+VOLUME,["/home/nonroot/workdir"],6
+VOLUME,["/home/nonroot/files"],1
+VOLUME,["/tmp/files"],1
+VOLUME,["/tmp/thug/logs"],4
+VOLUME,["/var/lib/odoo"\, "/mnt/extra-addons"],3
+VOLUME,/data/rethinkdb_data,6
+VOLUME,/var/lib/beanstalkd/data,5
+VOLUME,/data/db /data/configdb,7
+VOLUME,/data,100
+VOLUME,/sessions,13
+VOLUME,/root/host,1
+VOLUME,/var/opt/mssql/data,6
+VOLUME,/var/opt/mssql,14
+VOLUME,/opt/couchbase/var,76
+VOLUME,["/tmp/.X11-unix"],1
+VOLUME,"${THELOUNGE_HOME}",3
+VOLUME,"${LOUNGE_HOME}",2
+VOLUME,"${LOUNGE_DATA}",4
+VOLUME,/config /downloads /tv,2
+VOLUME,/downloads,13
+VOLUME,/tv,2
+VOLUME,/var/lib/docker,36
+VOLUME,[ "/data" ],100
+VOLUME,[ "/opt/vc/lib" ],2
+VOLUME,[ "/data:/var/ts3server/" ],3
+VOLUME,[ "/config" ],10
+VOLUME,["/data"],18
+VOLUME,[ "/share" ],7
+VOLUME,[ "/config/lidarr:/config" ],2
+VOLUME,[ "/share/downloads:/downloads" ],2
+VOLUME,[ "/media:/music" ],2
+VOLUME,[ "/config/lidarr:/config"\,,2
+VOLUME,[ /data ],2
+VOLUME,/var/ts3server/,2
+VOLUME,[ data],2
+VOLUME,"/data",3
+VOLUME,[ "data" ],2
+VOLUME,[ "/data" "/share" ],6
+VOLUME,[ "/data:/config" ],4
+VOLUME,[ "/data" "/config" ],2
+VOLUME,["/share"\, "/ssl"\, "/data"\, "/media"],1
+VOLUME,["/cloudreve/uploads"\, "/downloads"\, "/cloudreve/avatar"\, "/cloudreve/config"\, "/cloudreve/db"],3
+VOLUME,["/cloudreve/uploads"\, "/downloads"\, "/cloudreve/avatar"],2
+VOLUME,["/cloudreve/uploads"\, "/downloads"],4
+VOLUME,["/cloudreve/uploads"\, "/downloads"\,"/cloudreve/conf.ini"\, "/cloudreve/cloudreve.db"],4
+VOLUME,["/cloudreve/uploads"\, "/cloudreve/conf.ini"\, "/cloudreve/cloudreve.db"],1
+VOLUME,/var/www/MISP/Config,1
+VOLUME,/dist,1
+VOLUME,/home/build/android,1
+VOLUME,/home/cmbuild/android,1
+VOLUME,/srv/ccache,1
+VOLUME,["/data"\,"/home/java"],2
+VOLUME,["/data"\,"/home/office"],2
+VOLUME,[ "${DATA_PATH}" ],1
+VOLUME,$RABBITMQ_DATA_DIR,4
+VOLUME,/app/uploads,3
+VOLUME,- creates a directory mount point to access and store persistent data.,2
+VOLUME,/ssdb/var,7
+VOLUME,/var/lib/clickhouse,9
+VOLUME,/var/lib/neo4j/data,8
+VOLUME,/data /logs,7
+VOLUME,/datalog,3
+VOLUME,/var/jenkins_home,3
+VOLUME,/var/lib/redis,6
+VOLUME,/var/lib/mongo,4
+VOLUME,/var/lib/neo4j,2
+VOLUME,/var/lib/mariadb,2
+VOLUME,/var/lib/mysql,12
+VOLUME,/var/lib/postgres,2
+VOLUME,/var/lib/postgresql/data,6
+VOLUME,["/timemachine"],1
+VOLUME,[ "/app/output" ],2
+VOLUME,[ "/usr/share/fonts/" ],2
+VOLUME,/var/www/wp-content,1
+VOLUME,["/root/.ssh"],3
+VOLUME,["/home/gitlab-runner/.ssh"],2
+VOLUME,["/etc/gitlab-runner"\, "/home/gitlab-runner"],2
+VOLUME,[ "/data"\, "/downloads"\, "/passwd" ],1
+VOLUME,[ "/data"\, "/passwd" ],2
+VOLUME,[ "${RTORRENT_HOME}" ],2
+VOLUME,[ "${HOME_PATH}" ],1
+VOLUME,["/usr/local/var/lib/couchdb"],2
+VOLUME,["/opt/couchdb/data"],2
+VOLUME,["/usr/local/var/log/couchdb"\, "/usr/local/var/lib/couchdb"\, "/usr/local/etc/couchdb"],2
+VOLUME,["/usr/local/var/log/couchdb"\, "/usr/local/var/lib/couchdb"],1
+VOLUME,/data /etc/aria2,2
+VOLUME,$REFINE_DATA_DIR,1
+VOLUME,/etc/dnscrypt-proxy,1
+VOLUME,$BB_CONTENT,2
+VOLUME,$BB_DIR/config \\,1
+VOLUME,/home/aria2 /etc/aria2,4
+VOLUME,/opt/demucs/models \\,1
+VOLUME,/etc/crontabs/root,4
+VOLUME,[ "/cowrie/cowrie-git/var"\, "/cowrie/cowrie-git/etc" ],1
+VOLUME,/opt/cronicle/conf,1
+VOLUME,/opt/ndscheduler,1
+VOLUME,/opt/cmak/conf,1
+VOLUME,${ELASTALERT_HOME},1
+VOLUME,/etc/ambari-server/conf,1
+VOLUME,/etc/ambari-server/conf/ /root/.ssh/,2
+VOLUME,${AIRFLOW_HOME},1
+VOLUME,/home/hobot \\,3
+VOLUME,/home/hobot,6
+VOLUME,/hydra,8
+VOLUME,/etc/i2pd /var/lib/i2pd,6
+VOLUME,/etc/mtproxy,3
+VOLUME,/var/lib/ntopng,3
+VOLUME,/root/.node-red,2
+VOLUME,${NIFI_LOG_DIR} \\,1
+VOLUME,/etc/webhook,1
+VOLUME,/scripts,2
+VOLUME,/root/.kismet,1
+VOLUME,/mnt/routes,1
+VOLUME,/var/log,2
+VOLUME,/home/superset \\,3
+VOLUME,["/kafka"],1
+VOLUME,/opt/kafka-manager/conf,1
+VOLUME,/etc/rinetd,1
+VOLUME,/etc/minidlna /var/lib/minidlna /opt,2
+VOLUME,/opt,4
+VOLUME,/etc/vault /var/lib/vault /var/log/vault,1
+VOLUME,/etc/vault /var/lib/vault,2
+VOLUME,/work,2
+VOLUME,["$ZOO_DATA_DIR"\, "$ZOO_DATA_LOG_DIR"],1
+VOLUME,$LUIGI_HOME_DIR,1
+VOLUME,/etc/netdata,2
+VOLUME,/etc/glances,2
+VOLUME,/glances,4
+VOLUME,/etc/cmus,2
+VOLUME,/root/.cmus,4
+VOLUME,/opt/hcfg,2
+VOLUME,/root/.homebridge,2
+VOLUME,$GRAPHITE_CONF_DIR \\,1
+VOLUME,/etc/scrapyd/ /var/lib/scrapyd/,3
+VOLUME,/home/errbot,2
+VOLUME,/home/hobot/scripts,2
+VOLUME,/var/lib/redis/,1
+VOLUME,/etc/murmur \\,1
+VOLUME,/etc/murmur,3
+VOLUME,/etc/tinyproxy,1
+VOLUME,/tftpboot,2
+VOLUME,/opt/elasticsearch/data,1
+VOLUME,/etc/hass,2
+VOLUME,/etc/rslsync /data,2
+VOLUME,/etc/btsync /data,1
+VOLUME,/app/conf /app/userdata /app/addons,1
+VOLUME,/var/lib/mpd,2
+VOLUME,/etc/raddb,1
+VOLUME,/etc/tinc,4
+VOLUME,/etc/openvpn,1
+VOLUME,/etc/stunnel,2
+VOLUME,/var/www/html/data,1
+VOLUME,/var/lib/mediagoblin,1
+VOLUME,${NIFI_HOME}/content_repository  \\,1
+VOLUME,/root/.local/share/openrefine,2
+VOLUME,/root,1
+VOLUME,/etc/openconnect,1
+VOLUME,/etc/ocserv,1
+VOLUME,/etc/ipsec.d /etc/strongswan.d,1
+VOLUME,/var/lib/vnstat,1
+VOLUME,/app/data,3
+VOLUME,/etc/privoxy,2
+VOLUME,/share,1
+VOLUME,/etc/samba \\,2
+VOLUME,"${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}",1
+VOLUME,/etc/dnsmasq.d,1
+VOLUME,/etc/influxdb /var/lib/influxdb,1
+VOLUME,/var/lib/influxdb/,2
+VOLUME,/etc/grafana \\,1
+VOLUME,$DATA_DIR $LOG_DIR,2
+VOLUME,$JENKINS_HOME,52
+VOLUME,/var/lib/ftp,1
+VOLUME,/etc/nullmailer,1
+VOLUME,/.swarm,1
+VOLUME,/etc/mosquitto,1
+VOLUME,$NGROK_DIR,1
+VOLUME,/var/opt/influxdb/,2
+VOLUME,/etc/tor /var/lib/tor,1
+VOLUME,/etc/tor /home/tor/.tor,2
+VOLUME,/etc/tor /root/.tor,2
+VOLUME,/app/,1
+VOLUME,/var/www/html/conf \\,1
+VOLUME,/var/www/html/data/pages \\,2
+VOLUME,/etc/shadowvpn,2
+VOLUME,/var/lib/vault,2
+VOLUME,/etc/samba,2
+VOLUME,/etc/salt /srv/salt,1
+VOLUME,/root/.urlwatch,1
+VOLUME,/etc/monit /var/lib/monit,1
+VOLUME,$TASKDDATA,1
+VOLUME,/var/mail,1
+VOLUME,/etc/collectd,1
+VOLUME,/opt/bro/logs,1
+VOLUME,/etc/tor,2
+VOLUME,$DIR $ETC,2
+VOLUME,/home/ftpuser /etc/pure-ftpd,1
+VOLUME,/home/ftpuser,4
+VOLUME,/var/lib/scrapyd,2
+VOLUME,[ \\,2
+VOLUME,/data/,1
+VOLUME,/var/cache/zoneminder/events /var/cache/zoneminder/images /var/lib/mysql /var/log/zm,4
+VOLUME,/var/lib/zoneminder/events /var/lib/mysql /var/log/zoneminder,6
+VOLUME,/var/lib/zoneminder/events /var/lib/zoneminder/images /var/lib/mysql /var/log/zm,2
+VOLUME,/var/lib/zoneminder/events /var/lib/mysql /var/log/zm,5
+VOLUME,/var/lib/zoneminder/images /var/lib/zoneminder/events /var/lib/mysql /var/log/zm,7
+VOLUME,/var/lib/zoneminder/images /var/lib/zoneminder/events /var/lib/mysql /var/log/zoneminder,6
+VOLUME,/config /transcode,4
+VOLUME,/config /downloads /watch,6
+VOLUME,/config /downloads,10
+VOLUME,["/config"],7
+VOLUME,["/config"\, "/data"],3
+VOLUME,/etc/wireguard,2
+VOLUME,["/run/nginx"\, \\,1
+VOLUME,["/tmp"],2
+VOLUME,["/config"\, "/data/"],1
+VOLUME,/books /config,3
+VOLUME,/jobs,3
+VOLUME,[ "/var/www/config"\, "/var/www/misc/user"\, "/var/www/plugins" ],1
+VOLUME,[ "${WORLDPATH}"\, "${CONFIGPATH}"\, "${LOGPATH}" ],1
+VOLUME,["/root/.local/share/Terraria/Worlds"\, "/config"\, "/terraria-server/logs"],2
+VOLUME,["/root/.local/share/Terraria/Worlds"\, "/config"],2
+VOLUME,/var/lib/tor/.tor,1
+VOLUME,/home/mitmproxy/.mitmproxy,1
+VOLUME,$HOME/.irssi,3
+VOLUME,["$HOME/.weechat"],4
+VOLUME,/workspace,3
+VOLUME,/config /movies /tv,4
+VOLUME,$GHOST_CONTENT,2
+VOLUME,"/etc/letsencrypt",1
+VOLUME,"/certs",1
+VOLUME,/etc/citus,1
+VOLUME,[ "/sys/fs/cgroup"\, "/run" ],4
+VOLUME,/data/web,1
+VOLUME,["/etc/nginx/sites-enabled"\, "/etc/nginx/certs"\, \\,3
+VOLUME,[ "/opt/kimai/var" ],1
+VOLUME,["/var/lib/mopidy/local"\, "/var/lib/mopidy/media"],1
+VOLUME,/var/lib/mopidy/local,2
+VOLUME,/var/lib/mopidy/media,2
+VOLUME,$JIRA_HOME,3
+VOLUME,[ "/etc/fail2ban/jail.d"\, "/var/lib/fail2ban" ],1
+VOLUME,$HOME/.cache,1
+VOLUME,"$USER_HOME_DIR/.m2",4
+VOLUME,${INSTALL_DIR},4
+VOLUME,["/conf"],2
+VOLUME,/var/www/html/images,1
+VOLUME,["/data/files"\, "/data/meta"],1
+VOLUME,/config /recordings,1
+VOLUME,["/config"\, "/transcode"],2
+VOLUME,[ "/var/log/mysql/"\, "/var/log/apache2/"\, "/www"\, "/opt/lampp/apache2/conf.d/" ],1
+VOLUME,[ "/var/log/mysql/"\, "/var/log/apache2/" ],1
+VOLUME,/opt/eosio/bin/data-dir,7
+VOLUME,/var/log/cron,1
+VOLUME,./data:/data,2
+VOLUME,./data/var/lib/redis:/var/lib/redis,2
+VOLUME,/var/log/nginx,1
+VOLUME,["/etc/supervisor/conf.d"\, "/var/log/supervisor/"],1
+VOLUME,/config /downloads /music,1
+VOLUME,[ "/data"\, "/config" ],1
+VOLUME,/jav/data,1
+VOLUME,/home/gradle/.gradle,9
+VOLUME,"/home/gradle/.gradle",4
+VOLUME,"/root/.gradle",4
+VOLUME,"${USER_HOME_DIR}/.gradle",2
+VOLUME,"$USER_HOME_DIR/.gradle",4
+VOLUME,["/config_deemix"\, "/downloads"],1
+VOLUME,"/config_deemix" "/downloads",1
+VOLUME,["/config"\, "/music"],1
+VOLUME,"/config" "/music",1
+VOLUME,["$DATAVOLUME"],1
+VOLUME,$DATAVOLUME,2
+VOLUME,["$P4PCACHE"],1
+VOLUME,$P4PCACHE,2
+VOLUME,/app/laravel-docker/bootstrap/cache,5
+VOLUME,[ "/etc/services.d"],5
+VOLUME,[ "/usr/local/nginx-unit/tmp"\, "/usr/local/nginx-unit/state" ],7
+VOLUME,[ "/etc/services.d"\, "/etc/fix-attrs.d"\, "/etc/cont-init.d"\, "cont-finish.d" ],2
+VOLUME,/app/laravel-docker/storage/framework/views,3
+VOLUME,["/root/.khs1994-docker-lnmp"],1
+VOLUME,[ "/opt" ],1
+VOLUME,/app/laravel/storage/framework/views,4
+VOLUME,/run /srv/data /tmp /var/lib/nginx/tmp,1
+VOLUME,/srv/data /tmp /var/tmp/nginx /run /var/log,2
+VOLUME,/srv/data /tmp /var/tmp /run /var/log,2
+VOLUME,/srv/data /tmp /var/tmp /var/run /var/log,2
+VOLUME,/srv/data /srv/cfg/conf.php /tmp /var/tmp /var/run /var/log,2
+VOLUME,/tmp /var/tmp /var/run /var/log,2
+VOLUME,"${NAGIOS_HOME}/var" "${NAGIOS_HOME}/etc" "/var/log/apache2" "/opt/Custom-Nagios-Plugins" "/opt/nagiosgraph/var" "/opt/nagiosgraph/etc",1
+VOLUME,"${NAGIOS_HOME}/var" "${NAGIOS_HOME}/etc" "${NAGIOS_HOME}/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" "/opt/Custom-Nagios-Plugins" "/opt/nagiosgraph/var" "/opt/nagiosgraph/etc",2
+VOLUME,"/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" "/opt/Custom-Nagios-Plugins" "/opt/nagiosgraph/var" "/opt/nagiosgraph/etc",2
+VOLUME,"/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" "/opt/Custom-Nagios-Plugins" "/opt/nagiosgraph/var",2
+VOLUME,"/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" "/opt/Custom-Nagios-Plugins",2
+VOLUME,"/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs",4
+VOLUME,[ "/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" ],4
+VOLUME,["/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs"],2
+VOLUME,/opt/nagios/var,2
+VOLUME,/opt/nagios/etc,2
+VOLUME,/opt/nagios/libexec,2
+VOLUME,/var/log/apache2,2
+VOLUME,/usr/share/snmp/mibs,2
+VOLUME,["/acmecerts"],1
+VOLUME,["/etc/nginx/stream.d"],1
+VOLUME,["/opt/zookeeper-${ZOOKEEPER_VERSION}/conf"\, "/opt/zookeeper-${ZOOKEEPER_VERSION}/data"],1
+VOLUME,["/opt/zookeeper-3.4.6/conf"\, "/opt/zookeeper-3.4.6/data"],2
+VOLUME,["/opt/zookeeper-3.4.6/conf"\, "/tmp/zookeeper"],4
+VOLUME,[ "/sessions" ],3
+VOLUME,["/var/www/html/config"\, \\,2
+VOLUME,["/opt/zookeeper/conf"\, "/tmp/zookeeper"],2
+VOLUME,/var/backup,1
+VOLUME,/opt/magnus/data,1
+VOLUME,/opt/lion/data,1
+VOLUME,/config/guacamole/data,4
+VOLUME,/opt/koko/data,3
+VOLUME,/opt/jumpserver/data,3
+VOLUME,/opt/jumpserver/data/media,1
+VOLUME,/config /downloads /movies,3
+VOLUME,/movies,2
+VOLUME,/build,3
+VOLUME,["/var/lib/tor"],2
+VOLUME,["/etc/tor/torrc"],2
+VOLUME,"/var/lib/tor",2
+VOLUME,["/var/lib/tor"\, "/var/cache/nginx"\, "/etc/supervisor/conf.d"],2
+VOLUME,["/etc/tor/torrc"\, "/var/lib/tor"],1
+VOLUME,"${PROJECT}",1
+VOLUME,${HOME}/gcode_files,1
+VOLUME,${CONFIG_DIR},1
+VOLUME,["/root/.config"\, "/root/.kube"],12
+VOLUME,["~/.config"\, "~/.kube"],8
+VOLUME,["/root/.config"],39
+VOLUME,["~/.config"],8
+VOLUME,["/.config"],5
+VOLUME,["/var/lib/grafana"\, "/var/log/grafana"\, "/etc/grafana"],1
+VOLUME,/pandoc,9
+VOLUME,/output,1
+VOLUME,/mirror,1
+VOLUME,/home/chrome/reports,1
+VOLUME,/opt/reports,2
+VOLUME,/opt/sourcecode,1
+VOLUME,/var/lib/tftpboot,1
+VOLUME,/consul/data,1
+VOLUME,$COMPOSER_HOME,2
+VOLUME,["/opt/atlassian"\, "/var/atlassian"],3
+VOLUME,["/etc/nginx/sites-enabled"\, "/etc/nginx/certs"\, "/etc/nginx/conf.d"\, "/var/log/nginx"\, "/var/www/html"],5
+VOLUME,/config /downloads /incomplete-downloads,3
+VOLUME,\\,1
+VOLUME,["/var/run/openresty"],10
+VOLUME,["/music"\, "/var/www/html/storage/search-indexes"],1
+VOLUME,["/music"],2
+VOLUME,["/media"],3
+VOLUME,["/var/lib/registry"],2
+VOLUME,/data /nextcloud/config /nextcloud/apps2 /nextcloud/themes,1
+VOLUME,/nextcloud/data /nextcloud/config /nextcloud/apps2 /nextcloud/themes,2
+VOLUME,/data /config /apps2 /nextcloud/themes,2
+VOLUME,/etc/superset,5
+VOLUME,/home/superset,1
+VOLUME,/var/lib/superset,1
+VOLUME,/etc/superset \\,4
+VOLUME,/home/superset/.superset,2
+VOLUME,/sdcard,1
+VOLUME,/filesystem.img,1
+VOLUME,["/var/lib/zerotier-one"],1
+VOLUME,["/var/www"],6
+VOLUME,/download,3
+VOLUME,/mnt,1
+VOLUME,/data/downloads,2
+VOLUME,["/var/lib/dnscrypt-wrapper"],3
+VOLUME,/var/lib/$NAME,6
+VOLUME,/var/www,2
+VOLUME,/home/ftpuser /etc/pureftpd,1
+VOLUME,/var/lib/dnscrypt-wrapper,6
+VOLUME,/home/ftpuser /etc/pureftpd.pdb,2
+VOLUME,["/var/www/html"],1
+VOLUME,/target,3
+VOLUME,["/home/bitcoin/.bitcoin"],34
+VOLUME,["/var/lib/bitcoind"],3
+VOLUME,["/TencentFiles"],7
+VOLUME,/workdir,6
+VOLUME,/usr/share/nginx/html,3
+VOLUME,/etc/nginx,1
+VOLUME,/etc/apache2,3
+VOLUME,/var/log/httpd,1
+VOLUME,/var/log/mysql,1
+VOLUME,$APP_HOME/app,1
+VOLUME,$APP_HOME/config,1
+VOLUME,$APP_HOME/kindlegen,1
+VOLUME,/books,1
+VOLUME,$SYNO_VOLUME/books $SYNO_VOLUME/certificates,1
+VOLUME,["/bundle"],4
+VOLUME,/bundle,1
+VOLUME,/alertmanager,1
+VOLUME,/etc/alertmanager,1
+VOLUME,/etc/prometheus,1
+VOLUME,/var/lib/prometheus,1
+VOLUME,["/mqtt/config"\, "/mqtt/data"\, "/mqtt/log"],1
+VOLUME,["/mqtt/config"\, "/mqtt/data"],2
+VOLUME,/apps,2
+VOLUME,["/apps/mysql"],1
+VOLUME,/apps/,1
+VOLUME,$INSTALL_DIR,2
+VOLUME,/var/www/html/var,1
+VOLUME,/var/www/html/pub,1
+VOLUME,[ "/home/linuxgsm" ],4
+VOLUME,[ "/home/lgsm" ],2
+VOLUME,["/WeChatFiles"],2
+VOLUME,/etc/pub-keys,1
+VOLUME,/tmp/.X11-unix,1
+VOLUME,/var/www/html/,2
+VOLUME,["/etc/ssh"\,"/home"],1
+VOLUME,"$SONARQUBE_HOME/data",1
+VOLUME,[ "/var/lib/streaming" ],1
+VOLUME,[ "/var/lib/nginx" ],2
+VOLUME,/src,1
+VOLUME,/var/run/php,2
+VOLUME,/srv/app/var,4
+VOLUME,/srv/app/var/,1
+VOLUME,/config /data,11
+VOLUME,/etc/nginx /var/www/html /var/www/tmp/client_body /var/www/tmp/proxy /var/www/tmp/fastcgi /var/www/tmp/uwsgi /var/www/tmp/scgi /var/www/cache /var/www/dash /var/www/hls,4
+VOLUME,["${PG_DATA}"\, "${AWX_PROJECTS}"\, "/certs"\,],1
+VOLUME,["${PG_DATA}"\, "/certs"],2
+VOLUME,${PG_DATA},2
+VOLUME,/certs,2
+VOLUME,[ “/sys/fs/cgroup” ],22
+VOLUME,/app \\,1
+VOLUME,[$BEANSTALKD_LIB],1
+VOLUME,/home/wiremock,3
+VOLUME,/config/.kodi,6
+VOLUME,["/opt/shib-jetty-base/logs"],4
+VOLUME,["/data/rabbitmq"],3
+VOLUME,["/data/redis"],1
+VOLUME,["/data/consul"],1
+VOLUME,['/mysql'],2
+VOLUME,/octoprint,2
+VOLUME,/home/octoprint,4
+VOLUME,/home/octoprint/.octoprint,2
+VOLUME,/user/octoprint/.octoprint,1
+VOLUME,/podman/.local/share/containers/storage,2
+VOLUME,/usr/local/mycat/conf,1
+VOLUME,/usr/local/mycat/logs,1
+VOLUME,["/home/rust/src"],1
+VOLUME,/config /torrents,2
+VOLUME,/config /logs,2
+VOLUME,/logs,2
+VOLUME,["/var/lib/mosquitto"\, "/etc/mosquitto"\, "/etc/mosquitto.d"],3
+VOLUME,["/project"],1
+VOLUME,/home/dev,3
+VOLUME,["/config"\, "/sync"],2
+VOLUME,/opt/alertmanager/data,1
+VOLUME,/var/lib/tailscale,1
+VOLUME,/home/steam,2
+VOLUME,/opt/blackbox-exporter/data,1
+VOLUME,["/var/spool/exim4"\, "/var/log/exim4"],1
+VOLUME,/opt/prometheus/data,1
+VOLUME,/opt/node-exporter/data,1
+VOLUME,$PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR,1
+VOLUME,/torrents,3
+VOLUME,["/sys/fs/cgroup"],3

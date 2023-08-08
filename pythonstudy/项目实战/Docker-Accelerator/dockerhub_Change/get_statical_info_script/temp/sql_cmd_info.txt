@@ -1,0 +1,17 @@
+| RUN         |      16599 |
+| WORKDIR     |        436 |
+| COPY        |       6715 |
+| ENTRYPOINT  |        439 |
+| ADD         |       4217 |
+| ENV         |       8739 |
+| EXPOSE      |        297 |
+| CMD         |       1214 |
+| ARG         |       2410 |
+| LABEL       |       1926 |
+| VOLUME      |        151 |
+| USER        |        285 |
+| MAINTAINER  |         63 |
+| HEALTHCHECK |         23 |
+| ONBUILD     |         20 |
+| STOPSIGNAL  |          5 |
+| SHELL       |         61 |

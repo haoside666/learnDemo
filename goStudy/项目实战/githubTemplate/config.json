@@ -1,0 +1,25 @@
+{
+  "Name": "某某某",
+  "SelfDescription": "A passionate developer",
+  "Motto": "You never lose, either you win or you learn!",
+  "GithubName": "xxx",
+  "StudyContent": "AI",
+  "StudyContentDescription": "None",
+  "RecentProjects": [
+    {
+      "Name": "hello",
+      "URL": "https://github.com/xxx/hello",
+      "Description": "Starting the repository study"
+    },
+    {
+      "Name": "test",
+      "URL": "https://github.com/xxx/test",
+      "Description": "Test Repository"
+    }
+  ],
+  "LearnTechAbility": [
+    "Go language",
+    "cloud native technology"
+  ],
+  "Email": "xxx@gmain.com"
+}

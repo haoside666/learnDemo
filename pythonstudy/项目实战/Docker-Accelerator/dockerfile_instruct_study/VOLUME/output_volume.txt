@@ -1,0 +1,402 @@
+["/data"],121
+["/config"],110
+[ "/data" ],100
+["/opt/couchbase/var"],76
+["/root/.config"],39
+["/var/lib/docker"],36
+["/home/bitcoin/.bitcoin"],34
+[ "/sys/fs/cgroup" ],22
+[ “/sys/fs/cgroup” ],22
+["/var/opt/mssql"],14
+["/var/www/html"],13
+["/sessions"],13
+["/downloads"],13
+["/home/gradle/.gradle"],13
+["/data", "/config"],12
+["/var/lib/mysql"],12
+["/root/.config", "/root/.kube"],12
+["/config","/data"],11
+[ "/config" ],10
+["/config","/downloads"],10
+["/var/run/openresty"],10
+["/var/lib/clickhouse"],9
+["/pandoc"],9
+["/var/lib/dnscrypt-wrapper"],9
+["/var/lib/neo4j/data"],8
+["/hydra"],8
+["~/.config", "~/.kube"],8
+["~/.config"],8
+["/var/www"],8
+["/volume"],7
+["/data/db","/data/configdb"],7
+[ "/share" ],7
+["/ssdb/var"],7
+["/data","/logs"],7
+["/var/lib/zoneminder/images","/var/lib/zoneminder/events","/var/lib/mysql","/var/log/zm"],7
+["/opt/eosio/bin/data-dir"],7
+["/usr/local/nginx-unit/tmp", "/usr/local/nginx-unit/state" ],7
+["/TencentFiles"],7
+["/var/lib/cassandra"],6
+["/home/nonroot/workdir"],6
+["/data/rethinkdb_data"],6
+["/var/opt/mssql/data"],6
+[ "/data" "/share" ],6
+["/var/lib/redis"],6
+["/var/lib/postgresql/data"],6
+["/home/hobot"],6
+["/etc/i2pd","/var/lib/i2pd"],6
+["/var/lib/zoneminder/events","/var/lib/mysql","/var/log/zoneminder"],6
+["/var/lib/zoneminder/images","/var/lib/zoneminder/events","/var/lib/mysql","/var/log/zoneminder"],6
+["/config","/downloads","/watch"],6
+["/workdir"],6
+["/config/.kodi"],6
+["/config","/sync"],5
+["/var/lib/beanstalkd/data"],5
+["/var/lib/zoneminder/events","/var/lib/mysql","/var/log/zm"],5
+["/app/laravel-docker/bootstrap/cache"],5
+[ "/etc/services.d"],5
+["/.config"],5
+["/etc/nginx/sites-enabled","/etc/nginx/certs","/etc/nginx/conf.d","/var/log/nginx", "/var/www/html"],5
+["/etc/superset"],5
+["/bundle"],5
+["/var/lib/elasticsearch"],4
+["/var/lib/graphite/storage/whisper"],4
+["/var/lib/log/supervisor"],4
+["/tmp/thug/logs"],4
+[ "/data:/config" ],4
+["/cloudreve/uploads", "/downloads"],4
+["/cloudreve/uploads","/downloads","/cloudreve/conf.ini", "/cloudreve/cloudreve.db"],4
+["/var/lib/mongo"],4
+["/home/aria2","/etc/aria2"],4
+["/etc/crontabs/root"],4
+["/opt"],4
+["/glances"],4
+["/root/.cmus"],4
+["/etc/tinc"],4
+["/home/ftpuser"],4
+["/var/cache/zoneminder/events","/var/cache/zoneminder/images","/var/lib/mysql","/var/log/zm"],4
+["/config","/transcode"],4
+["/config","/movies","/tv"],4
+["/sys/fs/cgroup", "/run" ],4
+["/root/.gradle"],4
+["/app/laravel/storage/framework/views"],4
+["/opt/nagios/var","/opt/nagios/etc","/opt/nagios/libexec","/var/log/apache2","/usr/share/snmp/mibs"],4
+[ "/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs" ],4
+["/opt/zookeeper-3.4.6/conf", "/tmp/zookeeper"],4
+["/config/guacamole/data"],4
+["/var/lib/tor"],4
+["/etc/superset","\\"],4
+[ "/home/linuxgsm" ],4
+["/srv/app/var"],4
+["/etc/nginx","/var/www/html","/var/www/tmp/client_body","/var/www/tmp/proxy","/var/www/tmp/fastcgi","/var/www/tmp/uwsgi","/var/www/tmp/scgi","/var/www/cache","/var/www/dash","/var/www/hls"],4
+["/opt/shib-jetty-base/logs"],4
+["/home/octoprint"],4
+["/app/config"],3
+["/app/logs"],3
+["/app/results"],3
+["/mnt"],3
+["/var/lib/odoo", "/mnt/extra-addons"],3
+[ "/data:/var/ts3server/" ],3
+["/cloudreve/uploads","/downloads","/cloudreve/avatar","/cloudreve/config", "/cloudreve/db"],3
+["/app/uploads"],3
+["/datalog"],3
+["/var/jenkins_home"],3
+["/root/.ssh"],3
+["/home/hobot","\\"],3
+["/etc/mtproxy"],3
+["/var/lib/ntopng"],3
+["/home/superset","\\"],3
+["/etc/scrapyd/","/var/lib/scrapyd/"],3
+["/etc/murmur"],3
+["/app/data"],3
+["/config", "/data"],3
+["/books","/config"],3
+["/jobs"],3
+["/workspace"],3
+["/certs"],3
+["/app/laravel-docker/storage/framework/views"],3
+[ "/sessions" ],3
+["/opt/koko/data"],3
+["/opt/jumpserver/data"],3
+["/config","/downloads","/movies"],3
+["/build"],3
+["/opt/atlassian", "/var/atlassian"],3
+["/config","/downloads","/incomplete-downloads"],3
+["/media"],3
+["/download"],3
+["/target"],3
+["/var/lib/bitcoind"],3
+["/usr/share/nginx/html"],3
+["/etc/apache2"],3
+["/home/wiremock"],3
+["/data/rabbitmq"],3
+["/var/lib/mosquitto","/etc/mosquitto", "/etc/mosquitto.d"],3
+["/home/dev"],3
+["/torrents"],3
+["/sys/fs/cgroup"],3
+["/config","/downloads","/sync"],2
+["/tmp/.X11-unix"],2
+["/config","/downloads","/tv"],2
+["/tv"],2
+[ "/opt/vc/lib" ],2
+[ "/config/lidarr:/config" ],2
+[ "/share/downloads:/downloads" ],2
+[ "/media:/music" ],2
+[ /data ],2
+["/var/ts3server/"],2
+[ data],2
+[ "data" ],2
+[ "/data" "/config" ],2
+["/cloudreve/uploads","/downloads", "/cloudreve/avatar"],2
+["/data","/home/java"],2
+["/data","/home/office"],2
+["-","creates","a","directory","mount","point","to","access","and","store","persistent","data."],2
+["/var/lib/neo4j"],2
+["/var/lib/mariadb"],2
+["/var/lib/postgres"],2
+[ "/app/output" ],2
+[ "/usr/share/fonts/" ],2
+["/home/gitlab-runner/.ssh"],2
+["/etc/gitlab-runner", "/home/gitlab-runner"],2
+["/data", "/passwd" ],2
+["/usr/local/var/lib/couchdb"],2
+["/opt/couchdb/data"],2
+["/usr/local/var/log/couchdb","/usr/local/var/lib/couchdb", "/usr/local/etc/couchdb"],2
+["/data","/etc/aria2"],2
+["/etc/ambari-server/conf/","/root/.ssh/"],2
+["/root/.node-red"],2
+["/scripts"],2
+["/var/log"],2
+["/etc/minidlna","/var/lib/minidlna","/opt"],2
+["/etc/vault","/var/lib/vault"],2
+["/work"],2
+["/etc/netdata"],2
+["/etc/glances"],2
+["/etc/cmus"],2
+["/opt/hcfg"],2
+["/root/.homebridge"],2
+["/home/errbot"],2
+["/home/hobot/scripts"],2
+["/tftpboot"],2
+["/etc/hass"],2
+["/etc/rslsync","/data"],2
+["/var/lib/mpd"],2
+["/etc/stunnel"],2
+["/root/.local/share/openrefine"],2
+["/etc/privoxy"],2
+["/etc/samba","\\"],2
+["/var/lib/influxdb/"],2
+["/var/opt/influxdb/"],2
+["/etc/tor","/home/tor/.tor"],2
+["/etc/tor","/root/.tor"],2
+["/var/www/html/data/pages","\\"],2
+["/etc/shadowvpn"],2
+["/var/lib/vault"],2
+["/etc/samba"],2
+["/etc/tor"],2
+["/var/lib/scrapyd"],2
+["/var/lib/zoneminder/events","/var/lib/zoneminder/images","/var/lib/mysql","/var/log/zm"],2
+["/etc/wireguard"],2
+["/tmp"],2
+["/root/.local/share/Terraria/Worlds","/config", "/terraria-server/logs"],2
+["/root/.local/share/Terraria/Worlds", "/config"],2
+["/var/lib/mopidy/local"],2
+["/var/lib/mopidy/media"],2
+["/conf"],2
+["/config", "/transcode"],2
+["./data:/data"],2
+["./data/var/lib/redis:/var/lib/redis"],2
+["/etc/services.d","/etc/fix-attrs.d","/etc/cont-init.d", "cont-finish.d" ],2
+["/srv/data","/tmp","/var/tmp/nginx","/run","/var/log"],2
+["/srv/data","/tmp","/var/tmp","/run","/var/log"],2
+["/srv/data","/tmp","/var/tmp","/var/run","/var/log"],2
+["/srv/data","/srv/cfg/conf.php","/tmp","/var/tmp","/var/run","/var/log"],2
+["/tmp","/var/tmp","/var/run","/var/log"],2
+["/opt/nagios/var","/opt/nagios/etc","/opt/nagios/libexec","/var/log/apache2","/usr/share/snmp/mibs","/opt/Custom-Nagios-Plugins","/opt/nagiosgraph/var","/opt/nagiosgraph/etc"],2
+["/opt/nagios/var","/opt/nagios/etc","/opt/nagios/libexec","/var/log/apache2","/usr/share/snmp/mibs","/opt/Custom-Nagios-Plugins","/opt/nagiosgraph/var"],2
+["/opt/nagios/var","/opt/nagios/etc","/opt/nagios/libexec","/var/log/apache2","/usr/share/snmp/mibs","/opt/Custom-Nagios-Plugins"],2
+["/opt/nagios/var" "/opt/nagios/etc" "/opt/nagios/libexec" "/var/log/apache2" "/usr/share/snmp/mibs"],2
+["/opt/nagios/var"],2
+["/opt/nagios/etc"],2
+["/opt/nagios/libexec"],2
+["/var/log/apache2"],2
+["/usr/share/snmp/mibs"],2
+["/opt/zookeeper-3.4.6/conf", "/opt/zookeeper-3.4.6/data"],2
+["/opt/zookeeper/conf", "/tmp/zookeeper"],2
+["/movies"],2
+["/etc/tor/torrc"],2
+["/var/lib/tor","/var/cache/nginx", "/etc/supervisor/conf.d"],2
+["/opt/reports"],2
+["/music"],2
+["/var/lib/registry"],2
+["/nextcloud/data","/nextcloud/config","/nextcloud/apps2","/nextcloud/themes"],2
+["/data","/config","/apps2","/nextcloud/themes"],2
+["/home/superset/.superset"],2
+["/data/downloads"],2
+["/home/ftpuser","/etc/pureftpd.pdb"],2
+["/mqtt/config", "/mqtt/data"],2
+["/apps"],2
+[ "/home/lgsm" ],2
+["/WeChatFiles"],2
+["/var/www/html/"],2
+[ "/var/lib/nginx" ],2
+["/var/run/php"],2
+['/mysql'],2
+["/octoprint"],2
+["/home/octoprint/.octoprint"],2
+["/podman/.local/share/containers/storage"],2
+["/config","/torrents"],2
+["/config","/logs"],2
+["/logs"],2
+["/config", "/sync"],2
+["/home/steam"],2
+["C:\\data"],1
+["C:\\data","C:\\logs","C:\\repositories"],1
+["C:\\out"],1
+["c:/volume-directory"],1
+["/backups","/config","/source"],1
+["/home/nonroot/files"],1
+["/tmp/files"],1
+["/root/host"],1
+["/share","/ssl","/data", "/media"],1
+["/cloudreve/uploads","/cloudreve/conf.ini", "/cloudreve/cloudreve.db"],1
+["/var/www/MISP/Config"],1
+["/dist"],1
+["/home/build/android"],1
+["/home/cmbuild/android"],1
+["/srv/ccache"],1
+["/timemachine"],1
+["/var/www/wp-content"],1
+["/data","/downloads", "/passwd" ],1
+["/usr/local/var/log/couchdb", "/usr/local/var/lib/couchdb"],1
+["/etc/dnscrypt-proxy"],1
+["/opt/demucs/models","\\"],1
+["/cowrie/cowrie-git/var", "/cowrie/cowrie-git/etc" ],1
+["/opt/cronicle/conf"],1
+["/opt/ndscheduler"],1
+["/opt/cmak/conf"],1
+["/etc/ambari-server/conf"],1
+["/etc/webhook"],1
+["/root/.kismet"],1
+["/mnt/routes"],1
+["/kafka"],1
+["/opt/kafka-manager/conf"],1
+["/etc/rinetd"],1
+["/etc/vault","/var/lib/vault","/var/log/vault"],1
+["/var/lib/redis/"],1
+["/etc/murmur","\\"],1
+["/etc/tinyproxy"],1
+["/opt/elasticsearch/data"],1
+["/etc/btsync","/data"],1
+["/app/conf","/app/userdata","/app/addons"],1
+["/etc/raddb"],1
+["/etc/openvpn"],1
+["/var/www/html/data"],1
+["/var/lib/mediagoblin"],1
+["/root"],1
+["/etc/openconnect"],1
+["/etc/ocserv"],1
+["/etc/ipsec.d","/etc/strongswan.d"],1
+["/var/lib/vnstat"],1
+["/share"],1
+["/etc/dnsmasq.d"],1
+["/etc/influxdb","/var/lib/influxdb"],1
+["/etc/grafana","\\"],1
+["/var/lib/ftp"],1
+["/etc/nullmailer"],1
+["/.swarm"],1
+["/etc/mosquitto"],1
+["/etc/tor","/var/lib/tor"],1
+["/app/"],1
+["/var/www/html/conf","\\"],1
+["/etc/salt","/srv/salt"],1
+["/root/.urlwatch"],1
+["/etc/monit","/var/lib/monit"],1
+["/var/mail"],1
+["/etc/collectd"],1
+["/opt/bro/logs"],1
+["/home/ftpuser","/etc/pure-ftpd"],1
+["/data/"],1
+["/config", "/data/"],1
+["/var/www/config","/var/www/misc/user", "/var/www/plugins" ],1
+["/var/lib/tor/.tor"],1
+["/home/mitmproxy/.mitmproxy"],1
+["/etc/letsencrypt"],1
+["/etc/citus"],1
+["/data/web"],1
+[ "/opt/kimai/var" ],1
+["/var/lib/mopidy/local", "/var/lib/mopidy/media"],1
+["/etc/fail2ban/jail.d", "/var/lib/fail2ban" ],1
+["/var/www/html/images"],1
+["/data/files", "/data/meta"],1
+["/config","/recordings"],1
+["/var/log/mysql/","/var/log/apache2/","/www", "/opt/lampp/apache2/conf.d/" ],1
+["/var/log/mysql/", "/var/log/apache2/" ],1
+["/var/log/cron"],1
+["/var/log/nginx"],1
+["/etc/supervisor/conf.d", "/var/log/supervisor/"],1
+["/config","/downloads","/music"],1
+["/data", "/config" ],1
+["/jav/data"],1
+["/config_deemix", "/downloads"],1
+["/config_deemix","/downloads"],1
+["/config", "/music"],1
+["/config","/music"],1
+["/root/.khs1994-docker-lnmp"],1
+[ "/opt" ],1
+["/run","/srv/data","/tmp","/var/lib/nginx/tmp"],1
+["/acmecerts"],1
+["/etc/nginx/stream.d"],1
+["/var/backup"],1
+["/opt/magnus/data"],1
+["/opt/lion/data"],1
+["/opt/jumpserver/data/media"],1
+["/etc/tor/torrc", "/var/lib/tor"],1
+["/var/lib/grafana","/var/log/grafana", "/etc/grafana"],1
+["/output"],1
+["/mirror"],1
+["/home/chrome/reports"],1
+["/opt/sourcecode"],1
+["/var/lib/tftpboot"],1
+["/consul/data"],1
+["\\"],1
+["/music", "/var/www/html/storage/search-indexes"],1
+["/data","/nextcloud/config","/nextcloud/apps2","/nextcloud/themes"],1
+["/home/superset"],1
+["/var/lib/superset"],1
+["/sdcard"],1
+["/filesystem.img"],1
+["/var/lib/zerotier-one"],1
+["/home/ftpuser","/etc/pureftpd"],1
+["/etc/nginx"],1
+["/var/log/httpd"],1
+["/var/log/mysql"],1
+["/books"],1
+["/alertmanager"],1
+["/etc/alertmanager"],1
+["/etc/prometheus"],1
+["/var/lib/prometheus"],1
+["/mqtt/config","/mqtt/data", "/mqtt/log"],1
+["/apps/mysql"],1
+["/apps/"],1
+["/var/www/html/var"],1
+["/var/www/html/pub"],1
+["/etc/pub-keys"],1
+["/etc/ssh","/home"],1
+[ "/var/lib/streaming" ],1
+["/src"],1
+["/srv/app/var/"],1
+["/app","\\"],1
+["/data/redis"],1
+["/data/consul"],1
+["/user/octoprint/.octoprint"],1
+["/usr/local/mycat/conf"],1
+["/usr/local/mycat/logs"],1
+["/home/rust/src"],1
+["/project"],1
+["/opt/alertmanager/data"],1
+["/var/lib/tailscale"],1
+["/opt/blackbox-exporter/data"],1
+["/var/spool/exim4", "/var/log/exim4"],1
+["/opt/prometheus/data"],1
+["/opt/node-exporter/data"],1

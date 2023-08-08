@@ -1,0 +1,56 @@
+package main
+
+import (
+	"fmt"
+	"regexp"
+)
+
+//匹配字符串
+//Match检查b中是否存在匹配pattern的子序列
+//MatchString类似Match,但匹配对象是字符串。
+func regexpTest1() {
+	arr := []byte("123abc456defabc")
+	fmt.Println(regexp.Match(`abc`, arr))
+
+	str := "Golang regular expressions example"
+	match, err := regexp.MatchString(`^Golang`, str)
+	fmt.Println("Match: ", match, " Error: ", err)
+
+
+}
+
+//Compile解析并返回一个正则表达式。如果成功返回，该Regexp就可用于匹配文本
+//MustCompile类似Compile但会在解析失败时panic
+//FindString 匹配最左边字符串的文本。如果没有匹配，返回值为空字符串
+//FindStringIndex 返回匹配的位置
+func regexpTest2() {
+	str := "Golang expressions example Golang"
+	regexp1, _ := regexp.Compile("Gola([a-z]+)g")
+	fmt.Println(regexp1.FindString(str))
+
+	re := regexp.MustCompile("ab?")
+	fmt.Println(re.FindStringIndex("tablett"))
+	fmt.Println(re.FindStringIndex("foo") == nil)
+
+	re2 := regexp.MustCompile("a(x*)b(y|z)c")
+	fmt.Printf("%q\n", re2.FindStringSubmatch("-axxxbyc-"))
+	fmt.Printf("%q\n", re2.FindStringSubmatch("-abzc-"))
+}
+
+func regexpTest3() {
+	re := regexp.MustCompile("a.")
+	fmt.Println(re.FindAllString("paranormal", -1))
+	fmt.Println(re.FindAllString("paranormal", 2))
+	fmt.Println(re.FindAllString("graal", -1))
+	fmt.Println(re.FindAllString("none", -1))
+
+	s := regexp.MustCompile("a*").Split("abaabaccadaaae", 5)
+	fmt.Println(len(s), s)
+
+	re2 := regexp.MustCompile("a(x*)b")
+	fmt.Println(re2.ReplaceAllString("-ab-axxb-", "T"))
+}
+
+func main() {
+	regexpTest2()
+}

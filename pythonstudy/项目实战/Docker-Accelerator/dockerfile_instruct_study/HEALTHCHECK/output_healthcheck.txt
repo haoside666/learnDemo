@@ -1,0 +1,43 @@
+CMD curl --fail http://localhost/ || exit 1,338
+CMD [ -e /tmp/.lock ] || exit 1,25
+CMD /usr/local/bin/healthcheck,14
+CMD /scripts/healthcheck.sh,11
+CMD ./pg_healthcheck,9
+CMD php artisan octane:status || exit 1,9
+CMD curl --fail http://localhost:8080/ping/resources/pings/echo/+ || exit 1,7
+CMD sh ./docker-healthcheck,7
+CMD ["docker-healthcheck"],5
+CMD curl --fail http://127.0.0.1:"$WEBUI_PORT" || exit 1,4
+CMD curl --fail http://127.0.0.1:9000 || exit 1,4
+CMD curl -f http://127.0.0.1:9000/api/health || exit 1,4
+CMD curl -f http://127.0.0.1/api/health || exit 1,4
+CMD curl -f http://localhost/ || exit 1,3
+CMD wget -O /dev/null http://127.0.0.1 || exit 1,3
+CMD nc -vz localhost 10051 || exit 1,3
+CMD wget -U Docker-HealthCheck -Y off -O /dev/null http://localhost:80 || exit 1,3
+CMD healthcheck,2
+CMD wget --no-verbose --tries=1 --spider http://localhost:"$WEBUI_PORT" || exit 1,2
+CMD wget --no-verbose --tries=1 --spider http://localhost:9000 || exit 1,2
+CMD curl --fail http://127.0.0.1:9541 || exit 1,2
+CMD /healthchecker.sh,2
+CMD curl --silent --fail http://127.0.0.1,2
+CMD /healthcheck || exit 1,2
+CMD ldapsearch -H ldap://127.0.0.1:10389 -D cn=admin\,dc=planetexpress\,dc=com -w GoodNewsEveryone -b cn=admin\,dc=planetexpress\,dc=com,2
+CMD nslookup -po=5054 cloudflare.com 127.0.0.1 || exit 1,2
+CMD nslookup -po=54 cloudflare.com 127.0.0.1 || exit 1,2
+CMD curl --silent --fail http://127.0.0.1/fpm-ping,2
+CMD /healthcheck.sh,2
+CMD /healthcheck.py,2
+CMD curl -sSLf http://localhost:8080/login >/dev/null || exit 1,1
+CMD [[ "curl --fail http://127.0.0.1:9541" ] || [ "curl --fail --insecure https://127.0.0.1:9541" ]] || exit 1,1
+CMD wget -O /dev/null http://127.0.0.1:8080 || exit 1,1
+CMD curl --silent --fail http://127.0.0.1:80/fpm-ping,1
+CMD curl --silent --fail http://127.0.0.1/wp-login.php,1
+CMD ["curl"\, "-f"\, "http://127.0.0.1:8888/ping"],1
+CMD ["curl"\, "-f"\, "http://127.0.0.1:4444/ping"],1
+CMD ["curl"\, "-f"\, "http://localhost:8088/health"],1
+CMD ["ldapsearch"\, "-H"\, "ldap://127.0.0.1:10389"\, "-D"\, "${LDAP_BINDDN}"\, "-w"\, "${LDAP_SECRET}"\, "-b"\, "${LDAP_BINDDN}"],1
+CMD nslookup -po=${PORT} cloudflare.com 127.0.0.1 || exit 1,1
+CMD [ $(echo ruok | nc 127.0.0.1:2181) == "imok" ] || exit 1,1
+CMD curl --silent --fail http://127.0.0.1:8080/fpm-ping,1
+CMD curl --fail http://localhost:8080/ || exit 1,1

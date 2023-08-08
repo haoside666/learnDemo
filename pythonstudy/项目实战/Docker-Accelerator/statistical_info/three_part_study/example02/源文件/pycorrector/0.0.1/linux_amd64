@@ -1,0 +1,14 @@
+ADD file:b3ebbe8bd304723d43b7b44a6d990cd657b63d93d6a2a9293983a30bfc1dfa53 in /
+LABEL org.label-schema.schema-version=1.0 org.label-schema.name=CentOS Base Image org.label-schema.vendor=CentOS org.label-schema.license=GPLv2 org.label-schema.build-date=20201113 org.opencontainers.image.title=CentOS Base Image org.opencontainers.image.vendor=CentOS org.opencontainers.image.licenses=GPL-2.0-only org.opencontainers.image.created=2020-11-13 00:00:00+00:00
+CMD ["/bin/bash"]
+MAINTAINER XuMing(xuming624@qq.com)
+RUN yum -y install python36
+RUN yum -y install git boost-devel boost-test boost zlib bzip2 xz cmake make
+RUN yum -y install gcc-c++
+RUN yum -y install python36-devel
+RUN mkdir /home/work
+WORKDIR /home/work/
+RUN pip3 install https://github.com/kpu/kenlm/archive/master.zip
+RUN pip3 install jieba pypinyin numpy six -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip3 install pycorrector -i https://pypi.tuna.tsinghua.edu.cn/simple
+CMD ["/bin/sh" "-c" "/bin/bash"]
