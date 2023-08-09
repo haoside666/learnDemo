@@ -1,0 +1,17 @@
+[mysql]
+# 设置mysql客户端默认字符集
+default-character-set=utf8
+
+[mysqld]
+# 设置3306端?
+port = 3306
+# 设置mysql的安装?录
+basedir=D:\windows 10\软件\MySQL\mysql-5.7.23-win32
+# 设置mysql数据库的数据的存放?录
+datadir=D:\windows 10\软件\MySQL\mysql-5.7.23-win32\data
+# 允许最?连接数
+max_connections=20
+# 服务端使?的字符集默认为8?特编码的latin1字符集
+character-set-server=utf8
+# 创建新表时将使?的默认存储引擎
+default-storage-engine=INNODB

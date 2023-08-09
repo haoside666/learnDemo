@@ -1,0 +1,12 @@
+exercise
+fifo
+fifo_read.c
+fifo_write.c
+ftok_exp
+ftok_exp.c
+ipc.md
+msg_ipc_info
+msg_ipc_info.c
+msg_queue
+msg_snd_recv
+temp.txt

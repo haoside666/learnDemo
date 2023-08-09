@@ -1,0 +1,14 @@
+ user_agent.family	UC Browser
+ user_agent.major	6
+ user_agent.minor	2
+ user_agent.patch	4098
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+

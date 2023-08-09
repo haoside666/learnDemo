@@ -1,0 +1,170 @@
+#include <iostream>
+#include <cstdio>
+#include <limits.h>
+#include <stack>
+#include <iomanip>
+#define MAX 7
+using namespace std;
+// 邻接矩阵
+typedef struct _graph
+{
+    char vexs[MAX];       // 顶点集合
+    int vexnum;           // 顶点数
+    int edgnum;           // 边数
+    int matrix[MAX][MAX]; // 邻接矩阵
+} Graph, *PGraph;
+
+// 边的结构体
+typedef struct _EdgeData
+{
+    char start; // 边的起点
+    char end;   // 边的终点
+    int weight; // 边的权重
+} EData;
+/*
+ * Dijkstra最短路径。
+ * 即，统计图(G)中"顶点vs"到其它各个顶点的最短路径。
+ *
+ * 参数说明：
+ *        G -- 图
+ *       vs -- 起始顶点(start vertex)。即计算"顶点vs"到其它顶点的最短路径。
+ *     path -- 前驱顶点数组。即，path[i]的值是"顶点vs"到"顶点i"的最短路径所经历的全部顶点中，位于"顶点i"之前的那个顶点。
+ *     dist -- 长度数组。即，dist[i]是"顶点vs"到"顶点i"的最短路径的长度。
+ */
+void printPath(int path[])
+{
+    cout << "path[]:" << endl;
+    for (int i = 0; i < MAX; i++)
+    {
+        if(path[i]!=-1)
+            cout <<setw(10)<<(char)(path[i]+'A');
+        else
+            cout <<setw(10)<<path[i];
+    }
+    cout << endl;
+}
+
+void printDist(int dist[])
+{
+    cout << "dist[]:" << endl;
+    for (int i = 0; i < MAX; i++)
+    {
+        if(dist[i]!=INT_MAX)
+            cout <<setw(10)<<dist[i];
+        else
+            cout <<setw(10)<<"∞";
+    }
+    cout << endl;
+}
+void dijkstra(Graph G, int vs, int path[], int dist[])
+{
+    int i, j, k;
+    int min;
+    int tmp;
+    int flag[MAX]; // flag[i]=1表示"顶点vs"到"顶点i"的最短路径已成功获取。
+    // 初始化
+    for (i = 0; i < G.vexnum; i++)
+    {
+        flag[i] = 0; // 顶点i的最短路径还没获取到。
+        path[i] = (G.matrix[vs][i]) == INT_MAX ? -1 : 0;
+        dist[i] = G.matrix[vs][i]; // 顶点i的最短路径为"顶点vs"到"顶点i"的权。
+    }
+    // 对"顶点vs"自身进行初始化
+    flag[vs] = 1;
+    dist[vs] = 0;
+    path[vs] = -1;
+
+    printDist(dist);
+    printPath(path);
+    cout << "----------------------" << endl;
+    // 遍历G.vexnum-1次；每次找出一个顶点的最短路径。
+    for (i = 1; i < G.vexnum; i++)
+    {
+        // 寻找当前最小的路径；
+        // 即，在未获取最短路径的顶点中，找到离vs最近的顶点(k)。
+        min = INT_MAX;
+        for (j = 0; j < G.vexnum; j++)
+        {
+            if (flag[j] == 0 && dist[j] < min)
+            {
+                min = dist[j];
+                k = j;
+            }
+        }
+        // 标记"顶点k"为已经获取到最短路径
+        flag[k] = 1;
+        // 修正当前最短路径和前驱顶点
+        // 即，当已经"顶点k的最短路径"之后，更新"未获取最短路径的顶点的最短路径和前驱顶点"。
+        for (j = 0; j < G.vexnum; j++)
+        {
+            tmp = (G.matrix[k][j] == INT_MAX ? INT_MAX : (min + G.matrix[k][j])); // 防止溢出
+            if (flag[j] == 0 && (tmp < dist[j]))
+            {
+                dist[j] = tmp;
+                path[j] = k;
+            }
+        }
+        printDist(dist);
+        printPath(path);
+        cout << "----------------------" << endl;
+    }
+    // 打印dijkstra最短路径的结果
+    printf("dijkstra(%c): \n", G.vexs[vs]);
+    for (i = 0; i < G.vexnum; i++)
+        printf("  shortest(%c, %c)=%d\n", G.vexs[vs], G.vexs[i], dist[i]);
+}
+
+void print(int vs,int path[],char vexs[]);
+
+int main(int argc, char *argv[])
+{
+    int vs = 0; //起始起点
+    Graph myGraph;
+    for (int i = 0; i < MAX; i++)
+        myGraph.vexs[i] = 'A' + i;
+    myGraph.vexnum = 7;
+    myGraph.edgnum = 13;
+    int v[MAX][MAX] = {
+        0, 11, 15, INT_MAX, 26, INT_MAX, INT_MAX, 
+        INT_MAX, 0, INT_MAX, 12, 2, 23, INT_MAX,
+        INT_MAX, INT_MAX, 0, INT_MAX, INT_MAX, INT_MAX, INT_MAX,
+        INT_MAX, INT_MAX, INT_MAX, 0, INT_MAX, INT_MAX, 7,
+        INT_MAX, INT_MAX, 1, 11, 0, 5, 3,
+        INT_MAX, INT_MAX, 15, INT_MAX, INT_MAX, 0, 2,
+        INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, 0
+        };
+    for (int i = 0; i < MAX; i++)
+        for (int j = 0; j < MAX; j++)
+            myGraph.matrix[i][j] = v[i][j];
+    int dist[MAX], path[MAX];
+    dijkstra(myGraph, vs, path, dist);
+    // printPath(path);
+    print(vs,path,myGraph.vexs);
+}
+
+void print(int vs,int path[],char vexs[])
+{
+    int m;
+    stack<char> sta;
+    for (int i = 0; i < MAX; i++)
+    {
+        m = i;
+        if (i != vs)
+        {
+            while (path[m] != -1)
+            {
+                sta.push(vexs[m]);
+                m = path[m];
+            }
+            sta.push(vexs[m]);
+            cout << vexs[vs] << "->" << vexs[i] << "的最短路径为:";
+            while (sta.size() != 1)
+            {
+                cout << sta.top() << "->";
+                sta.pop();
+            }
+            cout << sta.top() << endl;
+            sta.pop();
+        }
+    }
+}

@@ -1,0 +1,43 @@
+---- thread_pool Matches (43 in 3 files) ----
+ad_server_listen in ad_server.c (D:\shared\pthread_pool\code\src) :     ad_thread_pool *thread_pool;
+ad_server_listen in ad_server.c (D:\shared\pthread_pool\code\src) :     thread_pool = ad_thread_pool_construct(&pool_mutex, &add_thread_cond, request_queue);
+ad_server_listen in ad_server.c (D:\shared\pthread_pool\code\src) :             pthread_cond_signal(COND(THREAD_QUEUE(thread_pool)));
+ad_server_listen in ad_server.c (D:\shared\pthread_pool\code\src) :     ad_thread_pool_destruct(thread_pool);
+ad_thread_pool_construct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     ad_thread_pool *thread_pool = malloc(sizeof(ad_thread_pool));
+ad_thread_pool_construct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     THREAD_QUEUE(thread_pool) = ad_queue_construct(mutex, cond_var);
+ad_thread_pool_construct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     REQUEST_QUEUE(thread_pool) = request_queue;
+ad_thread_pool_construct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :         ad_thread_pool_create_thread(thread_pool);
+ad_thread_pool_construct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     return thread_pool;
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 59 :  * @param thread_pool the thread pool for pushing the created thread.
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 61 : void ad_thread_pool_create_thread(ad_thread_pool *thread_pool)
+ad_thread_pool_create_thread in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     MUTEX(parameters) = MUTEX(REQUEST_QUEUE(thread_pool));
+ad_thread_pool_create_thread in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     COND(parameters) = COND(REQUEST_QUEUE(thread_pool));
+ad_thread_pool_create_thread in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     REQUEST_QUEUE(parameters) = REQUEST_QUEUE(thread_pool);
+ad_thread_pool_create_thread in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     ad_queue_push(THREAD_QUEUE(thread_pool), (void *) new_thread);
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 81 :  * @param thread_pool the thread pool to delete a thread from.
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 84 : int ad_thread_pool_delete_thread(ad_thread_pool *thread_pool)
+ad_thread_pool_delete_thread in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     ad_thread *thread = (ad_thread *) ad_queue_pop(THREAD_QUEUE(thread_pool));
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 100 :  * @param thread_pool the thread pool to be queried.
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 103 : int ad_thread_pool_get_thread_count(ad_thread_pool *thread_pool)
+ad_thread_pool_get_thread_count in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     return ad_queue_get_node_count(THREAD_QUEUE(thread_pool));
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 112 :  * @param thread_pool the thread pool to be destructed.
+ad_thread_pool.c (D:\shared\pthread_pool\code\src) line 114 : void ad_thread_pool_destruct(ad_thread_pool *thread_pool)
+ad_thread_pool_destruct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     while(ad_thread_pool_delete_thread(thread_pool));
+ad_thread_pool_destruct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     ad_queue_destruct(THREAD_QUEUE(thread_pool));
+ad_thread_pool_destruct in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     free(thread_pool);
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     ad_thread_pool *thread_pool = (ad_thread_pool *) thread_pool_voidptr;
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     pthread_cleanup_push(ad_thread_cancel_cleanup, (void *) MUTEX(THREAD_QUEUE(thread_pool)));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :     pthread_mutex_lock(MUTEX(THREAD_QUEUE(thread_pool)));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :         thread_count = ad_queue_get_node_count(THREAD_QUEUE(thread_pool));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :         pthread_mutex_lock(MUTEX(REQUEST_QUEUE(thread_pool)));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :         request_count = ad_queue_get_node_count(REQUEST_QUEUE(thread_pool));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :         pthread_mutex_unlock(MUTEX(REQUEST_QUEUE(thread_pool)));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :             ad_thread_pool_create_thread(thread_pool);
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :             ad_thread_pool_delete_thread(thread_pool);
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :                 pthread_mutex_unlock(MUTEX(THREAD_QUEUE(thread_pool)));
+ad_thread_pool_maintain in ad_thread_pool.c (D:\shared\pthread_pool\code\src) :                 pthread_cond_wait(COND(THREAD_QUEUE(thread_pool)), MUTEX(THREAD_QUEUE(thread_pool)));
+ad_thread_pool.h (D:\shared\pthread_pool\code\src\include) line 53 : void ad_thread_pool_create_thread(ad_thread_pool *thread_pool);
+ad_thread_pool.h (D:\shared\pthread_pool\code\src\include) line 55 : int ad_thread_pool_delete_thread(ad_thread_pool *thread_pool);
+ad_thread_pool.h (D:\shared\pthread_pool\code\src\include) line 57 : int ad_thread_pool_get_thread_count(ad_thread_pool *thread_pool);
+ad_thread_pool.h (D:\shared\pthread_pool\code\src\include) line 59 : void ad_thread_pool_destruct(ad_thread_pool *thread_pool);
+ad_thread_pool.h (D:\shared\pthread_pool\code\src\include) line 61 : void *ad_thread_pool_maintain(void *thread_pool);

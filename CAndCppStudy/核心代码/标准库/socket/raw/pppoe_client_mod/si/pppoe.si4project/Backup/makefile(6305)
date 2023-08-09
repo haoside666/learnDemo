@@ -1,0 +1,2 @@
+pppoe_multiple_mod: discovery.c md5c.c pppoe_multiple_mod.c session.c
+	gcc -g -o $@ $^

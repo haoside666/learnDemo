@@ -1,0 +1,1230 @@
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:33:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:35:09
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:35:09
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:35:38
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:50:42
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:56:36
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:56:42
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/11 23:56:48
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:01:24
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:04:40
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:04:50
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:12:09
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:22:13
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:22:30
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:22:42
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:22:54
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:25:12
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:26:29
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:27:24
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:27:26
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:35:28
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 00:35:31
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:13:59
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:17:24
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:20:40
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:22:10
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:26:52
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:27:43
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:47:41
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:48:25
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:57:44
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:57:48
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 01:59:58
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:04
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:18
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:30
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:37
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:00:54
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:01:27
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:01:34
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:01:39
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:02:03
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:02:14
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:02:18
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:03:05
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:03:14
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:25:11
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:25:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:25:38
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:25:59
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:26:03
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:26:43
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:55:52
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:55:56
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:58:14
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 02:59:12
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:09:12
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:09:33
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:12:10
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:12:46
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:13:42
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:16:29
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:16:33
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:17:12
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:21:52
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:21:58
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:30:22
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:30:26
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:32:20
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:32:23
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:35:15
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:35:19
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:36:31
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:36:34
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
+2020/9/12 04:36:51
+ user_agent.family	Chrome
+ user_agent.major	84
+ user_agent.minor	0
+ user_agent.patch	4147
+ os.family	Windows
+ os.major	10
+ os.minor	
+ os.patch	
+ os.patchMinor	
+ device.family	Other
+ device.brand	
+ device.model	
+ ********************************
+
