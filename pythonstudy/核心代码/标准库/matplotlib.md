@@ -112,7 +112,7 @@ ax.set_ylabel('sine')
 plt.show()
 ```
 
-![image-20230315101816323](.\images\image-20230315101816323.png)
+![image-20230315101816323](./images/image-20230315101816323.png)
 
 ## axes类
 
@@ -343,7 +343,7 @@ ax.legend(labels = ('tv', 'Smartphone'), loc = 'lower right')
 handles不写默认是ax.plot绘制的顺序即*l1,*l2
 ```
 
-![image-20230315102533336](.\images\image-20230315102533336.png)
+![image-20230315102533336](./images/image-20230315102533336.png)
 
 ## 常见函数
 
@@ -358,7 +358,7 @@ matplotlib.pyplot模块提供了一个 subplots() 函数，它的使用方法和
 函数的返回值是一个元组，包括一个图形对象和所有的 axes 对象。其中 axes 对象的数量等于 nrows * ncols，且每个 axes 对象均可通过索引值访问（从1开始）
 ```
 
-![image-20230315103353756](.\images\image-20230315103353756.png)
+![image-20230315103353756](./images/image-20230315103353756.png)
 
 ```
 # 创建一个子图，它表示一个有2行1列的网格的顶部图。
@@ -370,7 +370,7 @@ plt.plot(range(12))
 plt.show()
 ```
 
-![image-20230315103518514](.\images\image-20230315103518514.png)
+![image-20230315103518514](./images/image-20230315103518514.png)
 
 ```
 #add_subplot-->不进行覆盖
@@ -381,7 +381,7 @@ ax2 = fig.add_subplot(221, facecolor='y')
 ax2.plot([1,2,3])
 ```
 
-![image-20230315103743145](.\images\image-20230315103743145.png)
+![image-20230315103743145](./images/image-20230315103743145.png)
 
 ```
 #通过给画布添加 axes 对象可以实现在同一画布中插入另外的图像
@@ -397,7 +397,7 @@ axes2.set_title("cosine")
 plt.show()
 ```
 
-![image-20230315103956341](.\images\image-20230315103956341.png)
+![image-20230315103956341](./images/image-20230315103956341.png)
 
 ```
 fig,a =  plt.subplots(2,2)
@@ -421,7 +421,7 @@ plt.subplots(2,1)或者(1,2)==>是一维数组a[0],a[1]表示即可
 不懂print(a,*a)-->就知道是啥了
 ```
 
-![image-20230315104938494](.\images\image-20230315104938494.png)
+![image-20230315104938494](./images/image-20230315104938494.png)
 
 ### subplot2grid函数
 
@@ -448,7 +448,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![image-20230315105806313](.\images\image-20230315105806313.png)
+![image-20230315105806313](./images/image-20230315105806313.png)
 
 ## 常见设置方式
 
@@ -513,9 +513,9 @@ ax.plot([1,2,3,4,5])
 plt.show()
 ```
 
-![image-20230315194304455](.\images\image-20230315194304455.png)
+![image-20230315194304455](./images/image-20230315194304455.png)
 
-![image-20230315195147485](.\images\image-20230315195147485.png)
+![image-20230315195147485](./images/image-20230315195147485.png)
 
 ```
 设置坐标轴范围
@@ -558,7 +558,7 @@ Matplotlib显示中文字体===>http://c.biancheng.net/matplotlib/9284.html
 fc-list :lang=zh ubuntu查看安装了那些字体
 ```
 
-![image-20230315200815668](.\images\image-20230315200815668.png)
+![image-20230315200815668](./images/image-20230315200815668.png)
 
 ### 显示中文字体
 
@@ -574,9 +574,9 @@ matplotlib.matplotlib_fname()
 
 
 
-![image-20230315202527901](.\images\image-20230315202527901.png)
+![image-20230315202527901](./images/image-20230315202527901.png)
 
-![image-20230315202559065](.\images\image-20230315202559065.png)
+![image-20230315202559065](./images/image-20230315202559065.png)
 
 
 
@@ -665,7 +665,7 @@ plt.savefig("./1.jpg")
 plt.show()
 ```
 
-![image-20230317091316114](.\images\image-20230317091316114.png)
+![image-20230317091316114](./images/image-20230317091316114.png)
 
 ### 绘制多条折线图
 
@@ -691,7 +691,7 @@ plt.legend(['第一天', '第二天'])
 plt.show()
 ```
 
-![image-20230317091620088](.\images\image-20230317091620088.png)
+![image-20230317091620088](./images/image-20230317091620088.png)
 
 ## 双轴图
 
@@ -718,7 +718,7 @@ fig.legend(handles=[*l1,*l2],labels=('exp', 'log'), loc=(0.1,0.8))
 plt.show()
 ```
 
-![image-20230316091004655](.\images\image-20230316091004655.png)
+![image-20230316091004655](./images/image-20230316091004655.png)
 
 ## 柱状图
 
@@ -753,7 +753,7 @@ plt.show()
 
 ```
 
-![image-20230316160928867](.\images\image-20230316160928867.png)
+![image-20230316160928867](./images/image-20230316160928867.png)
 
 ### 同一位置绘制多个柱状图
 
@@ -772,7 +772,7 @@ ax.bar(X + 0.50, data[2], color='r', width=0.25)
 plt.show()
 ```
 
-![image-20230316163025963](.\images\image-20230316163025963.png)
+![image-20230316163025963](./images/image-20230316163025963.png)
 
 ### 柱状堆叠图
 
@@ -796,7 +796,7 @@ plt.title("2019 Olympics Top Scorers")
 plt.show()
 ```
 
-![image-20230316163146585](.\images\image-20230316163146585.png)
+![image-20230316163146585](./images/image-20230316163146585.png)
 
 ## 直方图
 
@@ -829,7 +829,7 @@ ax.set_ylabel('no.of students')
 plt.show()
 ```
 
-![image-20230316170424128](.\images\image-20230316170424128.png)
+![image-20230316170424128](./images/image-20230316170424128.png)
 
 
 
@@ -857,7 +857,7 @@ ax.pie(students, labels=langs, autopct='%1.2f%%')
 plt.show()
 ```
 
-![image-20230316170706709](.\images\image-20230316170706709.png)
+![image-20230316170706709](./images/image-20230316170706709.png)
 
 ## 散点图
 
@@ -878,7 +878,7 @@ plt.legend()
 plt.show()
 ```
 
-![image-20230317092358837](.\images\image-20230317092358837.png)
+![image-20230317092358837](./images/image-20230317092358837.png)
 
 ## 等高线图
 
@@ -902,7 +902,7 @@ plt.contour(X,Y,Z)
 plt.show()
 ```
 
-![image-20230317093135973](.\images\image-20230317093135973.png)
+![image-20230317093135973](./images/image-20230317093135973.png)
 
 ## 振动图
 
@@ -927,7 +927,7 @@ q = ax.quiver(x,y,u,v)
 plt.show()
 ```
 
-![image-20230317093250528](.\images\image-20230317093250528.png)
+![image-20230317093250528](./images/image-20230317093250528.png)
 
 ## 箱型图
 
@@ -948,7 +948,7 @@ plt.show()
 
 
 
-![image-20230317093438225](.\images\image-20230317093438225.png)
+![image-20230317093438225](./images/image-20230317093438225.png)
 
 ## 提琴图
 
@@ -969,7 +969,7 @@ bp = ax.violinplot(data_to_plot)
 plt.show()
 ```
 
-![image-20230317093607351](.\images\image-20230317093607351.png)
+![image-20230317093607351](./images/image-20230317093607351.png)
 
 ## 绘制文本
 
@@ -1006,7 +1006,7 @@ ax.axis([0, 10, 0, 10])
 plt.show()
 ```
 
-![image-20230317093834004](.\images\image-20230317093834004.png)
+![image-20230317093834004](./images/image-20230317093834004.png)
 
 ## 数学表达式
 
@@ -1032,7 +1032,7 @@ plt.ylabel('volts (mV)')
 plt.show()
 ```
 
-![image-20230317094025916](.\images\image-20230317094025916.png)
+![image-20230317094025916](./images/image-20230317094025916.png)
 
 ## 图像处理
 

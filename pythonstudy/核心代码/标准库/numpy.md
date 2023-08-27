@@ -34,7 +34,7 @@ arr=np.linespace(1,9,9)
 6.arr = np.array([2,3,4])
 ```
 
-![img](.\images\29625b4d98bdef325495b21d0b0ac5ec.png)
+![img](./images/29625b4d98bdef325495b21d0b0ac5ec.png)
 
 ### 2.索引
 
@@ -77,7 +77,7 @@ brr=arr.reshape(5,6)
 print(arr,brr)
 ```
 
-![img](.\images\d4b651dcf70ac84af76dc1744f8d83e2.png)
+![img](./images/d4b651dcf70ac84af76dc1744f8d83e2.png)
 
 ### 6.numpy数值计算
 
@@ -112,7 +112,7 @@ np.linalg.inv(arr)--->求矩阵的逆矩阵(前提可逆)
 np.linalg.eig(arr)-->求矩阵的特征值和特征向量
 ```
 
-![img](.\images\4911ec0777867450612b3d3d34fc8230.png)
+![img](./images/4911ec0777867450612b3d3d34fc8230.png)
 
 ### 7.矩阵合并
 

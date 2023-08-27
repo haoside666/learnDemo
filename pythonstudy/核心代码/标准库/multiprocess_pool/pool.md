@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
 ### AsyncResult对象
 
-![image-20230604102601749](.\images\1.png)
+![image-20230604102601749](./images/1.png)
 
 ### demo
 

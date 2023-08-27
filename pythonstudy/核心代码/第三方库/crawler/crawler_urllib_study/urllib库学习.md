@@ -19,11 +19,11 @@
 url:https://www.dytt8.net/html/gndy/dyzz/index.html
 ```
 
-![image-20230608154749886](.\images\image-20230608154749886.png)
+![image-20230608154749886](./images/image-20230608154749886.png)
 
 ### 2.确定要爬取的内容
 
-![image-20230608155030188](.\images\image-20230608155030188.png)
+![image-20230608155030188](./images/image-20230608155030188.png)
 
 ```
 点击龙马精神电影，可以看到电影信息
@@ -36,15 +36,15 @@ url:https://www.dytt8.net/html/gndy/dyzz/index.html
 
 为gb2312
 
-![image-20230608155310116](.\images\image-20230608155310116.png)
+![image-20230608155310116](./images/image-20230608155310116.png)
 
 
 
 #### 分析一级页面，写出正则表达式
 
-![image-20230608155452087](.\images\image-20230608155452087.png)
+![image-20230608155452087](./images/image-20230608155452087.png)
 
-![image-20230608155602426](.\images\image-20230608155602426.png)
+![image-20230608155602426](./images/image-20230608155602426.png)
 
 
 
@@ -54,7 +54,7 @@ url:https://www.dytt8.net/html/gndy/dyzz/index.html
 
 #### 分析二级页面，写出正则表达式
 
-![image-20230608160131683](.\images\image-20230608160131683.png)
+![image-20230608160131683](./images/image-20230608160131683.png)
 
 ```
 这里假如只要前七条记录
@@ -64,7 +64,7 @@ url:https://www.dytt8.net/html/gndy/dyzz/index.html
 
 ## 4.伪造请求头
 
-![image-20230608161643455](.\images\image-20230608161643455.png)
+![image-20230608161643455](./images/image-20230608161643455.png)
 
 ## 5.写脚本
 
