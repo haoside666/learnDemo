@@ -1,0 +1,38 @@
+export		Used to set an environment variable.
+expand		Convert tabs into spaces in a given file and show the output.
+chown		Change the owner or group for a file.
+ls		Shows the list of files in the current directory.
+od		Dump files in octal and other formats.
+su		Change user ID or become superuser.
+touch		Change file access and modification times.
+unset		Remove variable or function names.
+gcc		A C and C++ compiler by GNU.
+alias		Create an alias for Linux commands
+cp		Copy contents of one file to another.
+perl		Perl 5 language interpreter.
+tar		GNU version of the tar archiving utility. Used to store and extract multiple files from a single archive.
+tee		Read from standard input and write to standard output and files.
+vim		Vi Improved, a text-based editor which is a successor to vi.
+unrar		Extract files from a RAR archive.
+strings		Search a specified file and prints any printable strings with at least four characters and followed by an unprintable character.
+sort		Sort lines of text files.
+cd		Used to change directory.
+patch		Apply a patchfile (containing differences listing by diff program) to an original file.
+mv		Move/rename files or directories.
+ldd		Shows shared object dependencies.
+install		Used to copy files to specified locations and set attributions during the install process.
+pushd		Appends a given directory name to the head of the stack and then cd to the given directory.
+chmod		Change access permission for a file(s).
+awk		Used to find and replace text in a file(s).
+source		Run commands from a specified file.
+which		For a given command, lists the pathnames for the files which would be executed when the command runs.
+autoconf		Generate configuration scripts from a TEMPLATE-FILE and send the output to standard output.
+fgrep		Display lines from a file(s) that match a specified string. A variant of grep.
+mkdir		Used to create directories.
+hexdump		Shows specified file output in hexadecimal, octal, decimal, or ASCII format.
+aptitude		Another utility to add/remove/upgrade packages based on the APT system.
+mkfifo		Used to create named pipes (FIFOs) with the given names.
+ln		Create links between files. Links can be hard (two names for the same file) or soft (a shortcut of the first file).
+autoreconf		Update generated configuration files.
+umask		Set file mode creation mask.
+file		Determine file type for a file.

@@ -1,0 +1,8 @@
+rm		Removes specified files and directories (not by default).
+grep		Searches input files for a given pattern and displays the relevant lines.
+rmdir		Used to remove empty directories.
+cat		Used to concatenate files and print them on the screen.
+tail		Show the last 10 lines of each specified file(s).
+make		Utility to maintain groups of programs, recompile them if needed.
+echo		Send input string(s) to standard output i.e. display text on the screen.
+sed		Stream editor for filtering and transforming text (from a file or a pipe input).

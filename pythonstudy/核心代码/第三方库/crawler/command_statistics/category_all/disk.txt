@@ -1,0 +1,32 @@
+quotacheck		Used to scan a file system for disk usage.
+mkfs		Used to build a Linux filesystem on a hard disk partition.
+cfdisk		Show or change the disk partition table.
+fdformat		Do a low-level format on a floppy disk.
+quotastats		Shows the report of quota system statistics gathered from the kernel.
+repquota		Report disk usage and quotas for a specified filesystem.
+newgrp		Log-in to a new group.
+losetup		Set up and control loop devices.
+quotaon		Disable enforcement of filesystem quotas.
+warnquota		Send mail to the users who’ve exceeded their disk quota soft limit.
+hdparm		Show/configure parameters for SATA/IDE devices.
+df		Show disk usage.
+mformat		Used to add an MS-DOS filesystem to a low-level formatted floppy disk.
+fdisk		Make changes to the disk partition table.
+quota		Shows disk usage, and space limits for a user or group. Without arguments, only shows user quotas.
+mkswap		Set up a Linux swap area.
+lsblk		Lists information about all available or the specified block devices.
+mzip		Change protection mode and eject disk on Zip/Jaz drive.
+quotaoff		Enable enforcement of filesystem quotas.
+mkdosfs		Used to create an MS-DOS filesystem under Linux.
+mpartition		Partition an MS-DOS disk.
+setquota		Set disk quotas for users and groups.
+e2fsck		Used to check ext2/ext3/ext4 file systems.
+mdu		Used to display the amount of space occupied by an MS-DOS directory.
+free		Show free and used system memory.
+swapon		Enable devices for paging and swapping.
+eject		Eject removable media.
+edquota		Used to edit filesystem quotas using a text editor, such as vi.
+badblocks		Search a disk partition for bad sectors.
+mlabel		Make an MD-DOS volume label.
+sync		Synchronize cached writes to persistent storage.
+mknod		Create a FIFO, block (buffered) special file, character (unbuffered) special file with the specified name.

@@ -1,0 +1,1 @@
+curl		Used to transfer data from or to a server using supported protocols.

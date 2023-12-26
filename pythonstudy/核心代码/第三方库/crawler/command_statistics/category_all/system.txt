@@ -1,0 +1,126 @@
+kill		Send a kill (termination) signal to one more processes.
+usermod		Modify a user account.
+chkconfig		Manage execution of runlevel services.
+uptime		Tell how long the system has been running.
+dircolors		Set colors for ‘ls’ by altering the LS_COLORS environment variable.
+tune2fs		Adjust tunable filesystem parameters on ext2/ext3/ext4 filesystems.
+runlevel		Shows previous and current SysV runlevel.
+pwconv		Creates shadow from passwd and an optionally existing shadow.
+locale		Shows information about current or all locales.
+depmod		Generate modules.dep and map files.
+resize2fs		Used to resize ext2/ext3/ext4 file systems.
+iptables-save		Used to dump IP table contents to standard output.
+reboot		Restart the machine.
+help		Display’s help for a built-in command.
+unalias		Remove alias definitions for specified alias names.
+logrotate		Used for automatic rotation, compression, removal, and mailing of system log files.
+iostat		Shows statistics for CPU, I/O devices, partitions, network filesystems.
+sha1sum		Compute and check 160-bit SHA1 checksum to verify file integrity.
+printenv		Show values of all or specified environment variables.
+groupadd		Used to add a new user group.
+apt-get		Command-line utility to install/remove/update packages based on APT system.
+size		Lists section size and the total size of a specified file.
+nice		Run a program with modified scheduling priority.
+time		Run programs and summarize system resource usage.
+yes		Repeatedly output a line with a specified string(s) until killed.
+clear		Used to clear the terminal window.
+logname		Shows the login name of the current user.
+arch		Display print machine hardware name.
+enable		Used to enable/disable shell builtin commands.
+tty		Display the filename of the terminal connected to standard input.
+logout		Performs the logout operation by making changes to the utmp and wtmp files.
+env		Run a command in a modified environment. Show/set/delete environment variables.
+rpm		A package manager for linux distributions. Originally developed for RedHat Linux.
+rsh		Remote shell. Connects to a specified host and executes commands.
+exec		An interactive line-based text editor.
+halt		Command used to half the machine.
+screen		A window manager that enables multiple pseudo-terminals with the help of ANSI/VT100 terminal emulation.
+uname		Show system information.
+who		Shows who is logged on.
+anacron		Used to run commands periodically.
+bg		Send processes to the background.
+fg		Used to send a job to the foreground.
+lsof		List open files.
+hostname		Display/set the hostname of the system.
+ulimit		Get and set user limits for the calling process.
+lsmod		Show the status of modules in the Linux kernel.
+tload		Shows a graph of the current system load average to the specified tty.
+lastlog		Displays information about the most recent login of all users or a specified user.
+mtr		A network diagnostic tool.
+pathchk		Check if file names are valid or portable.
+bind		Used to attach a name to a socket.
+groups		Show the group(s) to which a user belongs.
+grpck		Verifies the integrity of group files.
+groupdel		Used to remove a user group.
+ssh-add		Adds private key identities to the authentication agent.
+rwho		Reports who is logged-in to the hosts on the local network.
+sh		Command interpreter (shell) utility.
+vmstat		Shows information about processes, memory, paging, block IO, traps, disks, and CPU activity.
+top		Displays real-time view of processes running on the system.
+ssh-keygen		It generates, manages, converts authentication keys for ssh.
+chgrp		Used to change group ownership for file.
+strace		Trace system calls and signals.
+poweroff		Shuts down the machine.
+suspend		Suspend the execution of the current shell.
+chage		Used to change user password information.
+killall		Kills a process(es) running a specified command.
+gpasswd		Allows an administrator to change group passwords.
+du		Show disk usage summary for a file(s).
+exit		Exit from the terminal.
+slabtop		Show kernel slab cache information in real-time.
+pgrep		List process IDs matching the specified criteria among all the running processes.
+shutdown		Power-off the machine.
+chrt		Alter process attributed in real-time.
+logger		Make entries in the system log.
+finger		Display user data including the information listed in .plan and .project in each user’s home directory.
+pmap		Report memory map of a process.
+nsupdate		Dynamic DNS update utility.
+htop		An interactive process viewer for the command line.
+cal		Show calendar.
+sysctl		Configure kernel parameters at runtime.
+skill		Send a signal to processes.
+tset		Initialize terminal.
+bash		GNU Bourne-Again Shell.
+init		Systemd system and service manager.
+ps		Report a snapshot of the current processes.
+sleep		Suspend execution for a specified amount of time (in seconds).
+reset		Reinitialize the terminal.
+login		Create a new session on the system.
+taskset		Set/retrieve a process’s CPU affinity.
+iconv		Convert text file from one encoding to another.
+ldconfig		Configure dynamic linker run-time bindings.
+timeout		Execute a command with a time limit.
+type		Write a description for a command type.
+pwck		Verify integrity of password files.
+passwd		Change user password.
+atq		List a user’s pending jobs for the at command.
+find		Do a file search in a directory hierarchy.
+sudo		Execute a command as superuser.
+w		Show who is logged-on and what they’re doing.
+hostid		Shows host’s numeric ID in hexadecimal format.
+lastb		Shows the list of bad login attempts by fetching data from /var/log/btmp file.
+modinfo		Show information about a Linux kernel module.
+set		Used to manipulate shell variables and functions.
+grpconv		Creates a gshadow file from a group or an already existing gshadow.
+iptables-restore		Used to restore IP tables from data specified in the input or a file.
+useradd		Create a new user or update default user information.
+ipcrm		Used to remove System V interprocess communication (IPC) objects and associated data structures.
+pidof		Find process ID of a running program.
+date		Show system date and time.
+chpasswd		Update password in a batch.
+modprobe		Add or remove modules from the Linux kernel.
+atrm		Delete jobs queued by the at command.
+fuser		Find and kill a process accessing a file.
+id		Show user and group information for a specified user.
+fgconsole		Display the number of the current virtual console.
+dmesg		Examine and control the kernel ring buffer.
+crontab		Manage crontab files (containing schedules commands) for users.
+nfsstat		List NFS statistics.
+ssh-agent		It holds private keys used for public key authentication.
+whoami		Displays the username tied to the current effective user ID.
+at		Used to schedule command execution at specified date & time, reading commands from an input file.
+pkill		Send kill signal to processes based on name and other attributes.
+chsh		Switch login shell.
+groupmod		Used to modify a group definition.
+nohup		Run a command immune to hangups.
+watch		Runs commands repeatedly until interrupted and shows their output and errors.

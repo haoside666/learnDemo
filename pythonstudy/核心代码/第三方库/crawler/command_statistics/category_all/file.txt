@@ -1,0 +1,140 @@
+aptitude		Another utility to add/remove/upgrade packages based on the APT system.
+unrar		Extract files from a RAR archive.
+mdir		Used to display an MS-DOS directory.
+strings		Search a specified file and prints any printable strings with at least four characters and followed by an unprintable character.
+bzcmp		Used to call the cmp program for bzip2 compressed files.
+umask		Set file mode creation mask.
+readelf		Shows information about ELF (Executable and Linkable fomrat) files.
+read		Read from a file descriptor.
+scp		Copy files between hosts on a network securely using SSH.
+readlink		Display value of a symbolic link or canonical file name.
+readonly		Mark functions and variables as read-only.
+mtoolstest		Tests and displays the mtools configuration files.
+e2label		Show or change the label on an ext2/ext3/ext4 filesystem.
+zgrep		Performs grep on compressed files.
+zcat		Used to compress/uncompress files. Similar to gzip
+batch		Used to run commands entered on a standard input.
+basename		Used to display filenames with directoy or suffix.
+objdump		Display information from object files.
+groff		Serves as the front-end of the groff document formatting system.
+emacs		Emacs text editor command line utility.
+diff3		Compare three files line by line.
+last		Shows a list of recent logins on the system by fetching data from /var/log/wtmp file.
+mkfifo		Used to create named pipes (FIFOs) with the given names.
+return		Exit a shell function.
+mv		Move/rename files or directories.
+wc		Print newline, word, and byte count for each of the specified files.
+autoconf		Generate configuration scripts from a TEMPLATE-FILE and send the output to standard output.
+apropos		Shows the list of all man pages containing a specific keyword
+mtools		Utilities to access MS-DOS disks.
+source		Run commands from a specified file.
+dd		Used to convert and copy a file, create disk clone, write disk headers, etc.
+more		Display content of a file page-by-page.
+chattr		Used to change file attributes.
+cut		Used to remove sections from each line of a file(s).
+nm		List symbols from object files.
+traceroute		Traces the route taken by the packets to reach the network host.
+alias		Create an alias for Linux commands
+uncompress		Uncompress the files compressed with the compress command.
+expand		Convert tabs into spaces in a given file and show the output.
+split		Split a file into pieces of fixed size.
+mktemp		Create a temporary file or directory.
+man		Shows manual pages for Linux commands.
+slocate		Display matches by searching filename databases. Takes ownership and file permission into consideration.
+bzdiff		Used to call the diff program for bzip2 compressed files.
+rlogin		Used to connect a local host system with a remote host.
+apmd		Used to handle events reported by APM BIOS drivers.
+insmod		A program that inserts a module into the Linux kernel.
+file		Determine file type for a file.
+touch		Change file access and modification times.
+telinit		Change SysV runlevel.
+perl		Perl 5 language interpreter.
+hexdump		Shows specified file output in hexadecimal, octal, decimal, or ASCII format.
+mattrib		Used to change MS-DOS file attribute flags.
+getent		Shows entries from Name Service Switch Libraries for specified keys.
+gdb		A utility to debug programs and know about where it crashes.
+ln		Create links between files. Links can be hard (two names for the same file) or soft (a shortcut of the first file).
+manpath		Determine search path for manual pages.
+egrep		Search and display text matching a pattern.
+gcc		A C and C++ compiler by GNU.
+su		Change user ID or become superuser.
+autoreconf		Update generated configuration files.
+renice		Change priority of active processes.
+diff		Used to compare files line by line.
+zmore		Displays output of a compressed file (using more command) on the terminal one page at a time.
+minfo		Display parameters of an MS-DOS filesystem.
+mren		Rename an existing MS-DOS file.
+as		A portable GNU assembler.
+zless		Displays information of a compressed file (using less command) on the terminal one screen at a time.
+umount		Unmount specified file systems.
+cd		Used to change directory.
+cmp		Compare two files (byte by byte).
+sum		Checksum and count the block in a file.
+ipcs		Show information on IPC facilities for which calling process has read access.
+rename		Rename one or more files.
+rcp		Remote copy command to copy files between remote computers.
+htdigest		Manage the user authentication file used by the Apache web server.
+less		Displays contents of a file one page at a time. It’s advanced than more command.
+tee		Read from standard input and write to standard output and files.
+isosize		Show the length of an iso9660 filesystem contained in a specified file.
+e2image		Store important ext2/ext3/ext4 filesystem metadata to a file.
+chroot		Run a command with root privileges.
+zdump		Displays time for the timezone mentioned.
+lpstat		Displays status information about current classes, jobs, and printers.
+pr		Convert (column or paginate) text files for printing.
+lftpget		Uses lftop to retrieve HTTP, FTP, and other protocol URLs supported by lftp.
+chmod		Change access permission for a file(s).
+unset		Remove variable or function names.
+rndc		Name server control utility. Send command to a BIND DNS server over a TCP connection.
+od		Dump files in octal and other formats.
+autoupdate		Update a configure.in file to newer autoconf.
+pwd		Show current directory.
+tar		GNU version of the tar archiving utility. Used to store and extract multiple files from a single archive.
+whereis		Locate the binary, source, and man page files for a command.
+export		Used to set an environment variable.
+dnsdomainname		Show the DNS domain name of the system.
+autoscan		Generate a preliminary configure.in
+info		Used to read the documentation in Info format.
+tmpwatch		Recursively remove files and directories which haven’t been accessed for the specified period of time.
+cksum		Perform a CRC checksum for files.
+mcopy		Used to copy MS-DOS files from or to Unix.
+ethtool		Used to query and control network driver and hardware settings.
+ls		Shows the list of files in the current directory.
+autoheader		Create a template header for configure.
+gzexe		Used compress executable files in place and have them automatically uncompress and run at a later stage.
+newusers		Update/create new users in batch.
+restore		Restore files from a backup created using dump.
+ldd		Shows shared object dependencies.
+userdel		Delete a user account and related files.
+tailf		Follow the growth of a log file. (Deprecated command)
+patch		Apply a patchfile (containing differences listing by diff program) to an original file.
+dumpe2fs		Dump ext2/ext3/ext4 file systems.
+dirname		Display pathname after removing the last slash and characters thereafter.
+mshowfat		Show FTA clusters allocated to a file.
+md5sum		Used to check MD5 checksum for a file.
+cpio		Copy files from and to archives.
+chfn		Used to change real user name and information.
+hwclock		Show or configure the system’s hardware clock.
+install		Used to copy files to specified locations and set attributions during the install process.
+ld		The Unix linker, it combines archives and object files. It then puts them into one output file, resolving external references.
+stat		Display file or filesystem status.
+namei		Follow a pathname until a terminal point is found.
+awk		Used to find and replace text in a file(s).
+which		For a given command, lists the pathnames for the files which would be executed when the command runs.
+bzgrep		Used to call grep for bzip2 compressed files.
+mmove		Move or rename an MS-DOS file or subdirectory.
+bzless		Used to apply ‘less’ (show info one page at a time) to bzip2 compressed files.
+sort		Sort lines of text files.
+swapoff		Disable devices for paging and swapping.
+pushd		Appends a given directory name to the head of the stack and then cd to the given directory.
+chown		Change the owner or group for a file.
+mkdir		Used to create directories.
+cp		Copy contents of one file to another.
+locate		Used to find files by their name.
+stty		Change and print terminal line settings.
+lsattr		Shows file attributes on a Linux ext2 file system.
+vim		Vi Improved, a text-based editor which is a successor to vi.
+fgrep		Display lines from a file(s) that match a specified string. A variant of grep.
+rev		Show contents of a file, reversing the order of characters in every line.
+mke2fs		Used create an ext2/ext3/ext4 filesystem.
+bzmore		Used to apply ‘more’ (an inferior version of less) to bzip2 compressed files.

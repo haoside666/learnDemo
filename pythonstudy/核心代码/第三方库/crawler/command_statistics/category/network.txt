@@ -1,0 +1,3 @@
+iptables		Administration tool for IPv4 packet filtering and NAT.
+ip		Display/manipulate routing, devices, policy, routing and tunnels.
+ssh-keyscan		Gather ssh public keys.

@@ -1,0 +1,12 @@
+eval		Used to evaluate multiple commands or arguments are once.
+xargs		Runs a command using initial arguments and then reads remaining arguments from standard input.
+strip		Discard symbols from object files.
+wget		A non-interactive file download utility.
+test		Check file type and compare values.
+hash		Shows the path for the commands executed in the shell.
+popd		Removes directory on the head of the directory stack and takes you to the new directory on the head.
+break		Used to exit from a loop (eg: for, while, select).
+printf		Show arguments formatted according to a specified format.
+python		Python Program.
+gpg		Enables encryption and signing services as per the OpenPGP standard.
+bc		Access the GNU bc calculator utility.

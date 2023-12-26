@@ -1,0 +1,9 @@
+gunzip		A utility to compress/expand files.
+ar		A utility to create/modify/extract from archives.
+gzip		Same as gzip.
+dump		Backup utility for ext2/ext3 file systems.
+uudecode		Decode a binary file.
+bzip2		A block-sorting file compressor used to shrink given files.
+compress		Used to compress one or more file(s) and replacing the originals ones.
+zip		A file compression and packaging utility.
+znew		Recompress .z files to .gz. files.

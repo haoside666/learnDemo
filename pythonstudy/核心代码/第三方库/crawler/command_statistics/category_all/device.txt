@@ -1,0 +1,16 @@
+cdrecord		Used to record data or audio compact discs.
+lsusb		List USB devices.
+loadkeys		Load keyboard translation tables.
+setleds		Show/change LED light settings of the keyboard.
+lpc		Line printer control program, it provides limited control over CUPS printer and class queues.
+mount		Mount a filesystem.
+lpinfo		Shows the list of avaiable devices and drivers known to the CUPS server.
+reject		Accept/reject print jobs sent to a specified destination.
+sensors		Shows the current readings of all sensor chips.
+accept		Accept or Reject jobs to a destination, such as a printer.
+lspci		List all PCI devices.
+lpmove		Move on or more printing jobs to a new destination.
+rdev		Set or query RAM disk size, image root device, or video mode.
+acpid		Informs user-space programs about ACPI events.
+aumix		An audio mixer utility.
+lpadmin		Used to configure printer and class queues provided by CUPS (Common UNIX Printing System).

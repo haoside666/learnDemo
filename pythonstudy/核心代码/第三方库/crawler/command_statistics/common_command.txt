@@ -1,0 +1,115 @@
+                                                                                                                                                                                                                                          break		Used to exit from a loop (eg: for, while, select).
+sysctl		Configure kernel parameters at runtime.
+yes		Repeatedly output a line with a specified string(s) until killed.
+if		Execute a command conditionally.
+which		For a given command, lists the pathnames for the files which would be executed when the command runs.
+ssh-keyscan		Gather ssh public keys.
+envsubst		Substitute environment variable values in shell format strings.
+hexdump		Shows specified file output in hexadecimal, octal, decimal, or ASCII format.
+install		Used to copy files to specified locations and set attributions during the install process.
+automake		Creates GNU standards-compliant Makefiles from template files
+echo		Send input string(s) to standard output i.e. display text on the screen.
+fgrep		Display lines from a file(s) that match a specified string. A variant of grep.
+ip		Display/manipulate routing, devices, policy, routing and tunnels.
+iptables		Administration tool for IPv4 packet filtering and NAT.
+mv		Move/rename files or directories.
+sh		Command interpreter (shell) utility.
+gcc		A C and C++ compiler by GNU.
+passwd		Change user password.
+chgrp		Used to change group ownership for file.
+patch		Apply a patchfile (containing differences listing by diff program) to an original file.
+hash		Shows the path for the commands executed in the shell.
+file		Determine file type for a file.
+vim		Vi Improved, a text-based editor which is a successor to vi.
+groupadd		Used to add a new user group.
+perl		Perl 5 language interpreter.
+autoconf		Generate configuration scripts from a TEMPLATE-FILE and send the output to standard output.
+gunzip		A utility to compress/expand files.
+export		Used to set an environment variable.
+strings		Search a specified file and prints any printable strings with at least four characters and followed by an unprintable character.
+apt-get		Command-line utility to install/remove/update packages based on APT system.
+chkconfig		Manage execution of runlevel services.
+for		Expand words and run commands for each one in the resultant list.
+printf		Show arguments formatted according to a specified format.
+cat		Used to concatenate files and print them on the screen.
+gpg		Enables encryption and signing services as per the OpenPGP standard.
+groupmod		Used to modify a group definition.
+ls		Shows the list of files in the current directory.
+popd		Removes directory on the head of the directory stack and takes you to the new directory on the head.
+tail		Show the last 10 lines of each specified file(s).
+mkdir		Used to create directories.
+autoreconf		Update generated configuration files.
+sed		Stream editor for filtering and transforming text (from a file or a pipe input).
+false		Do nothing, unsuccessfully. Exit with a status code indicating failure.
+apt		Advanced Package Tool, a package management system for Debian and derivatives.
+gpasswd		Allows an administrator to change group passwords.
+sudo		Execute a command as superuser.
+date		Show system date and time.
+until		Execute command until a given condition is true.
+xargs		Runs a command using initial arguments and then reads remaining arguments from standard input.
+ln		Create links between files. Links can be hard (two names for the same file) or soft (a shortcut of the first file).
+unrar		Extract files from a RAR archive.
+aclocal		GNU autoconf too
+bison		A GNU parser generator, compatible with yacc.
+ssh-keygen		It generates, manages, converts authentication keys for ssh.
+rpm		A package manager for linux distributions. Originally developed for RedHat Linux.
+rm		Removes specified files and directories (not by default).
+sync		Synchronize cached writes to persistent storage.
+su		Change user ID or become superuser.
+pushd		Appends a given directory name to the head of the stack and then cd to the given directory.
+grep		Searches input files for a given pattern and displays the relevant lines.
+alias		Create an alias for Linux commands
+umask		Set file mode creation mask.
+mkfifo		Used to create named pipes (FIFOs) with the given names.
+chmod		Change access permission for a file(s).
+unset		Remove variable or function names.
+bc		Access the GNU bc calculator utility.
+find		Do a file search in a directory hierarchy.
+while		Conditionally execute commands (while loop).
+exit		Exit from the terminal.
+cron		A daemon to execute scheduled commands.
+curl		Used to transfer data from or to a server using supported protocols.
+watch		Runs commands repeatedly until interrupted and shows their output and errors.
+kill		Send a kill (termination) signal to one more processes.
+aspell		An interactive spell checker utility.
+bash		GNU Bourne-Again Shell.
+make		Utility to maintain groups of programs, recompile them if needed.
+ldd		Shows shared object dependencies.
+sort		Sort lines of text files.
+at		Used to schedule command execution at specified date & time, reading commands from an input file.
+crontab		Manage crontab files (containing schedules commands) for users.
+rmdir		Used to remove empty directories.
+tar		GNU version of the tar archiving utility. Used to store and extract multiple files from a single archive.
+ldconfig		Configure dynamic linker run-time bindings.
+expand		Convert tabs into spaces in a given file and show the output.
+sha1sum		Compute and check 160-bit SHA1 checksum to verify file integrity.
+syslogd		Read and log system messages to the system console and log files.
+test		Check file type and compare values.
+usermod		Modify a user account.
+wget		A non-interactive file download utility.
+expect		An extension to the Tcl script, it’s used to automate interaction with other applications based on their expected output.
+useradd		Create a new user or update default user information.
+eval		Used to evaluate multiple commands or arguments are once.
+time		Run programs and summarize system resource usage.
+tee		Read from standard input and write to standard output and files.
+env		Run a command in a modified environment. Show/set/delete environment variables.
+set		Used to manipulate shell variables and functions.
+cp		Copy contents of one file to another.
+bzip2		A block-sorting file compressor used to shrink given files.
+sleep		Suspend execution for a specified amount of time (in seconds).
+python		Python Program.
+od		Dump files in octal and other formats.
+chsh		Switch login shell.
+awk		Used to find and replace text in a file(s).
+touch		Change file access and modification times.
+id		Show user and group information for a specified user.
+strip		Discard symbols from object files.
+case		Execute a command conditionally by matching a pattern.
+ar		A utility to create/modify/extract from archives.
+killall		Kills a process(es) running a specified command.
+g++		Run the g++ compiler.
+chown		Change the owner or group for a file.
+aptitude		Another utility to add/remove/upgrade packages based on the APT system.
+gzip		Same as gzip.
+source		Run commands from a specified file.
+cd		Used to change directory.

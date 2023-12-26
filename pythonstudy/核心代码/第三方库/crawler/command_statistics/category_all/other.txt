@@ -1,0 +1,44 @@
+strip		Discard symbols from object files.
+hash		Shows the path for the commands executed in the shell.
+dc		Desk calculator utility.
+metamail		For sending and showing rich text or multimedia email using MIME typing metadata.
+command		Used to execute a command with arguments ignoring shell function named command.
+declare		Used to declare variables and assign attributes.
+setsid		Run a program in a new session.
+test		Check file type and compare values.
+killall5		A SystemV killall command. Kills all the processes excluding the ones which it depends on.
+popd		Removes directory on the head of the directory stack and takes you to the new directory on the head.
+trap		Trap function responds to hardware signals. It defines and creates handlers to run when the shell receives signals.
+dirs		Show the list of remembered directories.
+history		Shows the command history.
+python		Python Program.
+whatis		Display one line manual page descriptions.
+times		Shows accumulated user and system times for the shell and it’s child processes.
+users		Show the list of active users on the machine.
+continue		Resume the next iteration of a loop.
+xargs		Runs a command using initial arguments and then reads remaining arguments from standard input.
+factor		Display prime factors of specified integer numbers.
+xz		Compress/ Decompress .xz and .lzma files.
+bc		Access the GNU bc calculator utility.
+zic		Creates time conversion information files using the specified input files.
+break		Used to exit from a loop (eg: for, while, select).
+printf		Show arguments formatted according to a specified format.
+builtin		Used to run shell builtin commands, make custom functions for commands extending their functionality.
+wall		Display a message on the terminals all the users who are currently logged-in.
+shift		Shift positional parameters.
+gpg		Enables encryption and signing services as per the OpenPGP standard.
+pv		Monitor progress of data through a pipe.
+mkisofs		Used to create an ISO9660/JOLIET/HFS hybrid filesystem.
+volname		Returns volume name for a device formatted with an ISO-9660 filesystem. For example, CD-ROM.
+jobs		Show the list of active jobs and their status.
+wget		A non-interactive file download utility.
+write		Display a message on other user’s terminal.
+shopt		Shell options.
+unexpand		Convert spaces to tabs for a specified file.
+troff		The troff processor of the groff text formatting system.
+script		Used to make a typescript of everything displayed on the screen during a terminal session.
+wait		Waits for a specified process ID(s) to terminate and returns the termination status.
+seq		Displays an incremental sequence of numbers from first to last.
+rmmod		A program to remove modules from Linux kernel.
+addr2line		Used to convert addresses into file names and line numbers.
+eval		Used to evaluate multiple commands or arguments are once.

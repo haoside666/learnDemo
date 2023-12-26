@@ -1,0 +1,33 @@
+comm		Used to compare two sorted files line by line.
+rm		Removes specified files and directories (not by default).
+colrm		Remove columns from the lines of a file.
+paste		Merge lines of files. Write to standard output, TAB-separated lines consisting of sqentially correspnding lines from each file.
+tr		Translate, squeeze, or delete characters from standard input and display on standard output.
+look		Shows any lines in a file containing a given string in the beginning.
+ed		GNU Ed – a line-oriented text editor.
+col		Filter reverse (and half-reverse) line feeds from the input.
+expr		Evaluate expressions and display them on standard output.
+sdiff		Shows two files side-by-side and highlights the differences.
+gawk		Used for pattern scanning and language processing. A GNU implementation of AWK language.
+uniq		Report or omit repeating lines.
+vi		A text editor utility.
+tail		Show the last 10 lines of each specified file(s).
+csplit		Split a file into sections on the basis of context lines.
+mtype		Display contents of an MS-DOS file.
+let		Used to perform integer artithmetic on shell variables.
+cdparanoia		Record audio from CD more reliably using data-verification algorithms.
+column		A utility that formats its input into columns.
+grep		Searches input files for a given pattern and displays the relevant lines.
+cdrdao		Used to write all the content specified to a file to a CD all at once.
+rmdir		Used to remove empty directories.
+tput		Modify terminal-dependent capabilities, color, etc.
+fmt		Used to convert text to a specified width by filling lines and removing new lines, displaying the output.
+echo		Send input string(s) to standard output i.e. display text on the screen.
+make		Utility to maintain groups of programs, recompile them if needed.
+cat		Used to concatenate files and print them on the screen.
+head		Shows first 10 lines from each specified file.
+join		For each pair of input lines, join them using a command field and display on standard output.
+tac		Concatenate and print files in reverse order. Opposite of cat command.
+ispell		A CLI-based spell-check utility.
+fold		Wrap input line to fit in a specified width.
+sed		Stream editor for filtering and transforming text (from a file or a pipe input).

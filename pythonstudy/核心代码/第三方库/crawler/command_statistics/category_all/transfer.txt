@@ -1,0 +1,10 @@
+gpm		It enables cut and paste functionality and a mouse server for the Linux console.
+fsck		Check and repair a Linux file system
+rsync		A versitile to for copying files remotely and locally.
+curl		Used to transfer data from or to a server using supported protocols.
+lpq		Shows current print queue status for a specified printer.
+ftp		File transfer protocol user interface.
+lprm		Cancel print jobs.
+lftp		An FTP utility with extra features.
+tftp		User interface to the internet TFTP (Trivial File Transfer Protocol).
+lpr		Used to submit files for printing.

@@ -1,0 +1,4 @@
+gunzip		A utility to compress/expand files.
+ar		A utility to create/modify/extract from archives.
+gzip		Same as gzip.
+bzip2		A block-sorting file compressor used to shrink given files.

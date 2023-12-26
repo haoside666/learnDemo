@@ -1,0 +1,33 @@
+dig		Domain Information Groper, a DNS lookup utility.
+mail		Utility to compose, receive, send, forward, and reply to emails.
+ifconfig		Used to configure network interfaces.
+netstat		Show network information.
+ping		Send ICMP ECHO_REQUEST to network hosts.
+nc		Netcat utility. Arbitrary TCP and UDP connections and listens.
+ip		Display/manipulate routing, devices, policy, routing and tunnels.
+tracepath		Traces path to a network host discovering MTU (Maximum Transmission Unit) along this path.
+ifup		Starts a network interface.
+iptables		Administration tool for IPv4 packet filtering and NAT.
+host		A utility to perform DNS lookups.
+mailq		Shows to list all emails queued for delivery (sendmail queue).
+telnet		Telnet protocol user interface. Used to interact with another host using telnet.
+rexec		Remote execution client for exec server.
+ss		Display socket statistics, similar to netstat.
+ssh-keyscan		Gather ssh public keys.
+sendmail		It’s a mail router or an MTA (Mail Transfer Agent). sendmail support can send a mail to one or more recepients using necessary protocols.
+showmount		Shows information about NFS server mount on the host.
+ssh		An SSH client for logging in to a remote machine. It provides encrypted communication between the hosts.
+sftp		Secure File Transfer program.
+arp		Used to make changes to the system’s ARP cache
+route		Show/change IP routing table.
+domainname		Show or set the name of current NIS (Network Information Services) domain.
+open		Open a file using its default application.
+mesg		Allow/disallow osends to sedn write messages to your terminal.
+rdate		Set system date and time by fetching information from a remote machine.
+tcpdump		Dump traffic on network. Displays a description of the contents of packets on a network interface that match the boolean expression.
+nslookup		Used performs DNS queries. Read this article for more info.
+sshd		Server for the ssh program.
+rpcinfo		Shows RPC information. Makes an RPC call to an RPC server and reports the findings.
+talk		A two-way screen-oriented communication utility that allows two user to exchange messages simulateneously.
+newaliases		Rebuilds mail alias database.
+ifdown		Stops a network interface.
