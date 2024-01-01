@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多样式</title>
+    <style>
+        /* 
+            内边距 `padding`、外边距 `margin` 、边框 `border` 
+            margin-bottom：-25 表示元素的下边距为-25像素，即元素的下边缘与其下面的元素的上边缘之间将有-25像素的距离。
+        */
+        .injected-text {
+          margin-bottom: -25px;
+          text-align: center;
+        }
+      
+        .box {
+          border-style: solid;
+          border-color: black;
+          border-width: 5px;
+          text-align: center;
+        }
+      
+        .yellow-box {
+          background-color: yellow;
+          padding: 10px;
+        }
+      
+        .red-box {
+          background-color: crimson;
+          color: #fff;
+          padding: 10px;
+        }
+      
+        .blue-box {
+          background-color: blue;
+          color: #fff;
+          padding: 10px;
+        }
+      </style>
+</head>
+<body>
+    <h5 class="injected-text">margin</h5>
+    <div class="box yellow-box">
+        <!-- <h5 class="box red-box">padding</h5>
+        <h5 class="box blue-box">padding</h5> -->
+    </div>
+</body>
+</html>
+  

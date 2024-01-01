@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div
+        {
+            border: 1px solid;
+            width: 300px;
+            /*
+                单独设置 resize 属性是无效的，resize 属性需要与 overflow 属性结合使用才有效，并且 overflow 属性的值需要设置为 auto、hidden 或 scroll；
+                并不是所有的元素都可以设置 resize 属性，比如 img 和 table 属性就没办法使用 resize 属性。
+            */
+            resize: both;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>通过 resize 属性您可以调整元素在水平和垂直方向的大小</div>
+</body>
+</html>

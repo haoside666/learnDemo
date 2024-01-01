@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+        a:link{
+            /* 初始状态：未访问的 */
+            color: yellow;
+        }
+
+        a:visited{
+            /* 访问之后的 */
+            color: red;
+        }
+  
+        a:hover{
+            /* 鼠标移上去 */
+            color: orange;
+        }
+
+        a:active{
+            /* 点击激活颜色 */
+            color: aqua;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div>
+        <a href="http://www.nsddd.top">我的博客</a>
+    </div>
+</body>
+</html>

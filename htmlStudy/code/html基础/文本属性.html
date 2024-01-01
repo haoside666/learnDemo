@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本属性</title>
+    <style>
+        /* 字体属性 */
+        .we{
+            /* 设置字体大小 */
+            font-size: 30px;
+
+            /* 设置字体 */
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 宋体,微软雅黑;
+
+            /* 设置字体的粗细 */
+            font-weight:900;
+
+            /* 设置字体的颜色 */
+            color:#00ff;
+        }
+        /* 对齐方式 */
+        .div2{
+            /* 设置居中对齐 */
+            text-align:center;
+        }
+        .div3{
+            /* 设置右对齐 */
+            text-align:right;
+        }
+        .div4{
+            /* 设置左对齐 */
+            text-align:justify;
+        }
+        /* 文本修饰 */
+        div .p1{
+            /* 下划线 */
+            text-decoration: underline;
+            /* 删除线 */
+            /* text-decoration: line-through; */
+            /* 上划线 */
+            /* text-decoration: overline; */
+        }
+        /* 文本转换 分别为所有字句变成大写或小写字母以及首字母大写*/
+        p.uppercase {text-transform:uppercase;} 
+        p.lowercase {text-transform:lowercase;} 
+        p.capitalize {text-transform:capitalize;}
+        /* 文本缩进 */
+        p.textindent {text-indent:50px;}
+        /* 文本边距 */
+        div .p2{
+            letter-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p class="we">你好，这是修饰后的</p>
+    <p>你好，这是正常的</p>
+    <div class="div2">22222</div>
+    <div class="div3">33333</div>
+    <div class="div4">44444</div>
+    <div>
+        <p class="p1">
+            文本修饰
+        </p>
+    </div>
+    <p class="uppercase">abcedf</p>
+    <p class="lowercase">abcedf</p>
+    <p class="capitalize">abcedf</p>
+    <p class="textindent">aaa</p>
+    <div>
+        <p class="p2">
+            Lorem ipsum dolor
+        </p>
+    </div>
+</body>
+</html>
+
+

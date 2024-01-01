@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可输入框</title>
+</head>
+<body>
+    <form action="./userinfo.php" method="POST">
+        <!-- 
+        将单选框与label相关联
+        <label> 
+            <input type="radio" name="indoor-outdoor">Indoor 
+        </label> 
+
+        最佳实践是在 `label` 元素上设置 `for` 属性，让其值与相关联的 `input` 单选按钮的 `id` 属性值相同。
+        <label for="indoor"> 
+            <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+        </label>
+        -->
+
+        <!-- 普通输入框 -->
+        <label>
+            普通输入框:
+            <input type="text" name="username">
+        </label>
+        <br>
+        <!-- 普通密码框 -->
+        <label>
+            普通密码框:
+            <input type="password" name="password">
+        </label>
+        <br>
+        <!-- 复选框，用户可以选择或取消选择 -->
+        <label>
+            请选择:
+            <input type="checkbox" name="fruit" value="apple">apple
+            <input type="checkbox" name="fruit" value="pear">pear
+            <input type="checkbox" name="fruit" value="orange">orange
+        </label>
+        <br>
+        <!-- 单选按钮，用户只能选择其中一个 -->
+        <label>
+            请选择:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+        <br>
+        <!-- 允许用户选择并上传文件 -->
+        <label>
+            <input type="file" name="fileUpload">
+        </label>
+        <br>
+        <!-- 创建一个隐藏的输入字段，通常用于在表单中存储不可见的数据 -->
+        <label>
+            这是一个隐藏的输入字段!!!
+            <input type="hidden" name="secret" value="hiddenvalue">
+        </label>    
+        <br>
+        <!-- 用于接受数字输入，可以设置最小值和最大值。 -->
+        <label>
+            请输入数字:
+            <input type="number" name="quantity" min="1" max="100">
+        </label>
+        <br>
+        <!-- 用于接受日期输入。 -->
+        <label>
+            请输入日期:
+            <input type="date" name="birthdate">
+        </label>    
+        <br>
+        <!-- 用于接受电子邮件地址。 -->
+        <label>
+            请输入电子邮件:
+            <input type="email" name="useremail">
+        </label>    
+        <br>
+        <!-- 用于接受url地址。 -->
+        <label>
+            请输入url:
+            <input type="url" name="website">
+        </label>
+        <br>
+        <!-- 提交按钮 -->
+        <input type="submit" value="Submit">
+        <br>
+        <!-- 重置按钮 -->
+        <input type="reset" value="Reset">
+        <br>
+    </form>
+</body>
+</html>

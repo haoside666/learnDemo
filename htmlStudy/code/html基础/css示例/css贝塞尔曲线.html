@@ -1,0 +1,39 @@
+<style>
+    .balls{
+      border-radius: 50%;
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      margin-top: 50px;
+      animation-name: bounce;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+    #red {
+      background: red;
+      left: 27%;
+      /* 起点0，1 终点1，1*/
+      /* （x1,y1,x2,y2）  控制点1 x1,y1  控制点2 x2,y2 
+      
+        看斜率 
+        控制点为:  (1, 0, 1, 0)
+            从(0, 0)到(1, 0) 斜率为0，速度为0
+            从(1, 0)到(1,1) 斜率为无穷大，速度无限快
+      */
+      animation-timing-function: cubic-bezier(0, 1, 0.5, 0);
+    }
+    #blue {
+      background: blue;
+      left: 56%;
+    }
+    @keyframes bounce {
+      0% {
+        top: 0px;
+      }
+      100% {
+        top: 500px;
+      }
+    }
+</style>
+<div class="balls" id= "red"></div>
+<div class="balls" id= "blue"></div>

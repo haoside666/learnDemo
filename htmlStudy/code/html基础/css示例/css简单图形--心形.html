@@ -1,0 +1,43 @@
+<style>
+    .heart {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: pink;
+      height: 50px;
+      width: 50px;
+      /* 旋转-45度 */
+      transform: rotate(-45deg);
+    }
+    /*
+        :before 和 :after 是 CSS 伪元素，它们允许你在一个元素的内容之前或之后插入内容。
+        这两个伪元素经常与 content 属性一起使用，以插入一些装饰性的内容或标记 
+    */
+
+    .heart::after {
+      background-color: pink;
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 0px;
+      left: 25px;
+    }
+    /* 创建heart前先创建如下对象 */
+    .heart::before {
+      content: '';
+      background-color: pink;
+      border-radius: 50px;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      /* 绝对定位向上 ，由于这里父对象旋转了，所以这里的向上是斜向下*/
+      top: -25px;
+      left: 0px;
+    }
+</style>
+<div class="heart"></div>

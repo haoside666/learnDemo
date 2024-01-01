@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- 启用Chromium高速渲染模式 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <!-- 禁止百度转码 -->
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <!-- 禁止识别电话号码 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- <link rel="shortcut icon" href="/favicon.ico?v=1.7.07">
+    <link href="/templets/new/style/common.css?v=1.7.07" rel="stylesheet"> -->
+    <title>CSS cursor（鼠标样式）</title>
+    <meta name="description" content="在浏览网页的过程中，当我们将鼠标移动到一些元素上时，鼠标的样式会发生相应的改变，例如当鼠标指向文本时，鼠标的样式会变成类似大写字母 I 的样子；当鼠标指向链接时，鼠标">
+    <!-- <script id="LA_CODELESS" src="https://sdk.51.la/event/js-sdk-event.min.js?u=KDf6QzBhogyQjall" data-la-ev="KDf6QzBhogyQjall" crossorigin="anonymous" charset="UTF-8"></script> -->
+    <base href="https://c.biancheng.net"> 
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th>
+                    属性值</th>
+                <th>
+                    示意图</th>
+                <th>
+                    描述</th>
+            </tr>
+            <tr>
+                <td style="cursor: auto;">
+                    auto</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    默认值，由浏览器根据当前上下文确定要显示的光标样式</td>
+            </tr>
+            <tr>
+                <td style="cursor: default;">
+                    default</td>
+                <td>
+                    <img alt="默认光标" src="/uploads/allimg/210806/150S0N27-0.gif"></td>
+                <td>
+                    默认光标，不考虑上下文，通常是一个箭头</td>
+            </tr>
+            <tr>
+                <td style="cursor: none;">
+                    none</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    不显示光标</td>
+            </tr>
+            <tr>
+                <td style="cursor: initial;">
+                    initial</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    将此属性设置为其默认值</td>
+            </tr>
+            <tr>
+                <td style="cursor: inherit;">
+                    inherit</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    从父元素基础 cursor 属性的值</td>
+            </tr>
+            <tr>
+                <td style="cursor: context-menu;">
+                    context-menu</td>
+                <td>
+                    <img alt="上下文菜单光标" src="/uploads/allimg/210806/150S052A-1.gif"></td>
+                <td>
+                    表示上下文菜单可用</td>
+            </tr>
+            <tr>
+                <td style="cursor: help;">
+                    help</td>
+                <td>
+                    <img alt="帮助光标" src="/uploads/allimg/210806/150S05W2-2.gif"></td>
+                <td>
+                    表示有帮助</td>
+            </tr>
+            <tr>
+                <td style="cursor: pointer;">
+                    pointer</td>
+                <td>
+                    <img alt="指针光标" src="/uploads/allimg/210806/150S045S-3.gif"></td>
+                <td>
+                    表示一个链接</td>
+            </tr>
+            <tr>
+                <td style="cursor: progress;">
+                    progress</td>
+                <td>
+                    <img alt="进度游标" src="/uploads/allimg/210806/150S04130-4.gif"></td>
+                <td>
+                    进度指示器，表示程序正在执行一些处理，但是您仍然可以在该界面进行一些操作（与 wait 不同）</td>
+            </tr>
+            <tr>
+                <td style="cursor: wait;">
+                    wait</td>
+                <td>
+                    <img alt="等待光标" src="/uploads/allimg/210806/150S01548-5.gif"></td>
+                <td>
+                    表示程序繁忙，您应该等待程序指向完成</td>
+            </tr>
+            <tr>
+                <td style="cursor: cell;">
+                    cell</td>
+                <td>
+                    <img alt="单元游标" src="/uploads/allimg/210806/150S050C-6.gif"></td>
+                <td>
+                    表示可以选择一个单元格（或一组单元格）</td>
+            </tr>
+            <tr>
+                <td style="cursor: crosshair;">
+                    crosshair</td>
+                <td>
+                    <img alt="十字准线光标" src="/uploads/allimg/210806/150S03P6-7.gif"></td>
+                <td>
+                    一个简单的十字准线</td>
+            </tr>
+            <tr>
+                <td style="cursor: text;">
+                    text</td>
+                <td>
+                    <img alt="文字游标" src="/uploads/allimg/210806/150S0O53-8.gif"></td>
+                <td>
+                    表示可以选择的文本</td>
+            </tr>
+            <tr>
+                <td style="cursor: vertical-text;">
+                    vertical-text</td>
+                <td>
+                    <img alt="垂直文本光标" src="/uploads/allimg/210806/150S03J2-9.gif"></td>
+                <td>
+                    表示可以选择的垂直文本</td>
+            </tr>
+            <tr>
+                <td style="cursor: alias;">
+                    alias</td>
+                <td>
+                    <img alt="别名光标" src="/uploads/allimg/210806/150S031L-10.gif"></td>
+                <td>
+                    表示要创建别名或快捷方式</td>
+            </tr>
+            <tr>
+                <td style="cursor: copy;">
+                    copy</td>
+                <td>
+                    <img alt="复制光标" src="/uploads/allimg/210806/150S032P-11.gif"></td>
+                <td>
+                    表示可以复制某些内容</td>
+            </tr>
+            <tr>
+                <td style="cursor: move;">
+                    move</td>
+                <td>
+                    <img alt="移动光标" src="/uploads/allimg/210806/150S06019-12.gif"></td>
+                <td>
+                    表示可以移动鼠标下方的对象</td>
+            </tr>
+            <tr>
+                <td style="cursor: no-drop;">
+                    no-drop</td>
+                <td>
+                    <img alt="无丢游标" src="/uploads/allimg/210806/150S04022-13.gif"></td>
+                <td>
+                    表示所拖动的项目不能放置在当前位置</td>
+            </tr>
+            <tr>
+                <td style="cursor: not-allowed;">
+                    not-allowed</td>
+                <td>
+                    <img alt="不允许的游标" src="/uploads/allimg/210806/150S01915-14.gif"></td>
+                <td>
+                    表示无法完成某事</td>
+            </tr>
+            <tr>
+                <td style="cursor: all-scroll;">
+                    all-scroll</td>
+                <td>
+                    <img alt="全滚动光标" src="/uploads/allimg/210806/150S03556-15.gif"></td>
+                <td>
+                    表示对象可以沿任何方向滚动（平移）</td>
+            </tr>
+            <tr>
+                <td style="cursor: col-resize;">
+                    col-resize</td>
+                <td>
+                    <img alt="彩色游标" src="/uploads/allimg/210806/150S02507-16.gif"></td>
+                <td>
+                    表示可以水平调整列的大小</td>
+            </tr>
+            <tr>
+                <td style="cursor: row-resize;">
+                    row-resize</td>
+                <td>
+                    <img alt="行大小调整游标" src="/uploads/allimg/210806/150S03460-17.gif"></td>
+                <td>
+                    表示可以垂直调整行的大小</td>
+            </tr>
+            <tr>
+                <td style="cursor: n-resize;">
+                    n-resize</td>
+                <td>
+                    <img alt="N尺寸游标" src="/uploads/allimg/210806/150S0B57-18.gif"></td>
+                <td>
+                    表示对象的边缘可以向上（向北）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: e-resize;">
+                    e-resize</td>
+                <td>
+                    <img alt="电子调整游标" src="/uploads/allimg/210806/150S05555-19.gif"></td>
+                <td>
+                    表示对象的边缘可以向右（向东）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: s-resize;">
+                    s-resize</td>
+                <td>
+                    <img alt="S调整游标" src="/uploads/allimg/210806/150S023U-20.gif"></td>
+                <td>
+                    表示对象的边缘可以向下（向南）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: w-resize;">
+                    w-resize</td>
+                <td>
+                    <img alt="W尺寸游标" src="/uploads/allimg/210806/150S05b3-21.gif"></td>
+                <td>
+                    表示对象的边缘可以向左（向西）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: ne-resize;">
+                    ne-resize</td>
+                <td>
+                    <img alt="NE调整大小的游标" src="/uploads/allimg/210806/150S064O-22.gif"></td>
+                <td>
+                    表示对象的边缘可以向上和向右（北/东）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: nw-resize;">
+                    nw-resize</td>
+                <td>
+                    <img alt="NW调整游标" src="/uploads/allimg/210806/150S01250-23.gif"></td>
+                <td>
+                    表示对象的边缘可以向上和向左（北/西）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: se-resize;">
+                    se-resize</td>
+                <td>
+                    <img alt="SE调整游标" src="/uploads/allimg/210806/150S01212-24.gif"></td>
+                <td>
+                    表示对象的边缘可以向下和向右（向南/向东）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: sw-resize;">
+                    sw-resize</td>
+                <td>
+                    <img alt="SW调整游标" src="/uploads/allimg/210806/150S04439-25.gif"></td>
+                <td>
+                    表示对象的边缘可以向下和向左（南/西）移动</td>
+            </tr>
+            <tr>
+                <td style="cursor: ew-resize;">
+                    ew-resize</td>
+                <td>
+                    <img alt="EW调整游标" src="/uploads/allimg/210806/150S033E-26.gif"></td>
+                <td rowspan="4">
+                    表示可以双向调整对象大小的光标</td>
+            </tr>
+            <tr>
+                <td style="cursor: ns-resize;">
+                    ns-resize</td>
+                <td>
+                    <img alt="NS调整大小的游标" src="/uploads/allimg/210806/150S05346-27.gif"></td>
+            </tr>
+            <tr>
+                <td style="cursor: nesw-resize;">
+                    nesw-resize</td>
+                <td>
+                    <img alt="NESW调整大小的游标" src="/uploads/allimg/210806/150S044L-28.gif"></td>
+            </tr>
+            <tr>
+                <td style="cursor: nwse-resize;">
+                    nwse-resize</td>
+                <td>
+                    <img alt="NWSE调整大小的游标" src="/uploads/allimg/210806/150S033B-29.gif"></td>
+            </tr>
+            <tr>
+                <td style="cursor: zoom-in;">
+                    zoom-in</td>
+                <td>
+                    <img alt="放大光标" src="/uploads/allimg/210806/150S05K0-30.gif"></td>
+                <td>
+                    表示可以放大某些内容</td>
+            </tr>
+            <tr>
+                <td style="cursor: zoom-out;">
+                    zoom-out</td>
+                <td>
+                    <img alt="缩小光标" src="/uploads/allimg/210806/150S05118-31.gif"></td>
+                <td>
+                    表示可以缩小某些内容</td>
+            </tr>
+            <tr>
+                <td style="cursor: grab;">
+                    grab</td>
+                <td>
+                    <img alt="抓取光标" src="/uploads/allimg/210806/150S03b0-32.gif"></td>
+                <td>
+                    表示可以抓取（拖动）某些东西</td>
+            </tr>
+            <tr>
+                <td style="cursor: grabbing;">
+                    grabbing</td>
+                <td>
+                    <img alt="抓取光标" src="/uploads/allimg/210806/150S05K4-33.gif"></td>
+                <td>
+                    表示已经抓取到某些东西</td>
+            </tr>
+            <tr>
+                <td>
+                    url("")&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    自定义光标的样式，括号中的内容为光标图像的源文件路径</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

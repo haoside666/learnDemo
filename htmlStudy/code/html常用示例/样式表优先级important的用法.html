@@ -1,0 +1,18 @@
+<style>
+    body {
+      background-color: black;
+      font-family: monospace;
+      color: green;
+    }
+    #orange-text {
+      color: orange;
+    }
+    .pink-text {
+      /* !important 是一个修饰符，用于增加一个声明的优先级。当一个声明被标记为 !important，它具有最高优先级，它将会覆盖页面内其他任何冲突的声明。 */  
+      color: pink !important;
+    }
+    .blue-text {
+      color: blue;
+    }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>

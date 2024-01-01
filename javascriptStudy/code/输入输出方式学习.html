@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>输入输出语句学习</title>
+    <script>
+        //alert("内嵌式js")
+        alert("hello,这是一个提示框");
+
+        var res = window.confirm("这里是要显示的内容");
+        if(res == true){
+            alert("你点击了“确定”按钮");
+        }else{
+            alert("你点击了“取消”按钮");
+        }
+
+        var email = "3293172751nss@gmail.com";
+        console.log(email);
+
+        document.write("email:"+email);  
+
+        //输入
+        var uemail = prompt("请输入你的Emile");
+        alert(uemail);
+
+        var a = prompt("是否选择修改邮箱? Y or N")
+        if(a == 'Y' && a == 'y' && a == 'yes'){
+            var email = prompt("需要修改的邮箱号码")
+            alert("email:"+email); 
+        }else{
+            alert("email:"+email); 
+        }
+
+    </script>
+    <!-- 外部js写法 -->
+    <!-- <script src="1.js"></script>   -->
+</head>
+<body>
+    <!-- 1. 行内式js直接写 -->
+    <input type="button" value="你好啊" onclick="alert('点击了按钮。')">
+</body>
+</html>

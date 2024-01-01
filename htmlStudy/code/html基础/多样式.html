@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多样式</title>
+    <style>
+        .smaller-image {
+            border-color: blue;
+            border-width: 1px;
+            border-style: solid;
+            width: 200px;
+            height: 150px;
+        }
+
+        .thick-green-border {
+            border-color: green;
+            border-width: 10px;
+            border-style: solid;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">
+        <!-- 
+            一个class可以有多个样式，如果重复，以最后一个样式为主。
+            由于在上诉style中.thick-green-border在.smaller-image的后面，故相同style以.thick-green-border中定义的为主
+            故最后的风格为：
+                border-color: green;
+                border-width: 10px;
+                border-style: solid;
+                width: 100px;
+                height: 150px;
+        -->
+        <img class="thick-green-border smaller-image" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" 
+            alt="A cute orange cat lying on its back."></a>
+</body>
+</html>

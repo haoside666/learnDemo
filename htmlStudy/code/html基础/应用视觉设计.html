@@ -1,0 +1,41 @@
+<!--
+    如果不写 <body> 和 <head> 元素，浏览器会尝试猜测并解析文档的结构。
+    通常，浏览器会假定缺失的 <head> 和 <body> 部分，并尝试将文档内容放入 <body> 中，而将其他元素（如 <title>、<link>、<meta>、<style>等）放入 <head> 中。
+    这种自动纠正是为了确保文档能够在浏览器中正常渲染。
+-->
+<style>
+h4 {
+    text-align: center;
+}
+p {
+    /* 将文本隔开，使每行的宽度相等。 */
+    text-align: justify;
+}
+.links {
+    margin-right: 20px;
+
+}
+.fullCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /*外边距 上下边距为100px 左右边距为50px*/
+    margin: 100px 50px;
+    /*内边距 为4px*/
+    padding: 4px;
+}
+.cardContent {
+    padding: 10px;
+}
+</style>
+<div class="fullCard">
+    <div class="cardContent">   <!--可以有继承关系！！！ -->
+        <div class="cardText">
+            <h4>Google</h4>
+            <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+            </div>
+            <div class="cardLinks">
+            <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
+            <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+        </div>
+    </div>
+</div>

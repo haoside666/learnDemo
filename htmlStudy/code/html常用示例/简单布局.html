@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 样式清除 */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body {
+            height: 100%;
+        }
+
+        header,footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: orange;
+        }
+
+        section{
+            /* 注意空格 */
+            height: calc(100% - 100px);
+        }
+
+        nav,aside{
+            width: 100px;
+            height: 100%;
+            background-color: #ccc;
+            /* 注意浮动起来 */
+            float: left;
+        }
+        main {
+            /* 需要设置高度为100% */
+            height: 100%;
+            float: left;
+            width: calc(100% - 200px);
+            background-color: #fff;
+        }
+    
+        aside,main p{
+            font-size: 25px;
+            color: aqua;
+        }
+        aside p{
+            font-size: 8px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 这个是头部 -->
+    <header>header</header>
+    <section>   
+        <!-- 左边nav -->
+        <nav>
+            <!-- 可以用figure标签 -->
+            <figure>nav</figure>
+            <ul>
+                <li>111</li>
+                <li>222</li>
+                <li>333</li>
+            </ul>
+        </nav>
+        <!-- 主体部分 -->
+        <main>
+            <p> 这是主体部分</p>
+        </main>
+        <!-- 右边asize -->
+        <aside>
+            <figure>asize</figure>
+            <p>this is a simple text!</p>
+            
+        </aside>
+    </section>
+    <footer>footer</footer>
+</body>
+</html>

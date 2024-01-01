@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* selection伪元素选择器，用于选择用户在div元素内选择的文本 */
+        div::selection { 
+            /* 选择文字 的属性 */
+            background: #F00; 
+            color: #FFF; 
+        }
+        /* 仅用于Mozilla Firefox浏览器 */
+        div::-moz-selection { 
+            /* 选择文字 的属性 */
+            background: #F00; 
+            color: #FFF; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed deserunt reiciendis placeat voluptatibus possimus, cumque neque laborum delectus cum quam, perspiciatis accusantium magni aut sit error tenetur numquam natus ea!
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>循环语句.html</title>
+    <script>
+        // while循环
+        var i=1;
+        var sum=0;
+        while (i <= 100){
+            sum += i;
+            i++;
+        }
+        document.write("1 + 2 + 3 + ... + 98 + 99 + 100 = " + sum)
+
+        // for循环
+        for(var i=0;i<3;i++){
+            console.log("-------判断润年--------");
+            var year = prompt("请输入你需要输入的年份");
+            isLeapYear(year)
+        }
+
+        function isLeapYear(year){
+            if((year % 4 == 0 && year % 100 != 0)|| year % 400 == 0){
+                alert("你输入的年份是闰年");
+            }else{
+                alert("你输入的年份不是闰年");
+            } 
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
