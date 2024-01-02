@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>var与let的区别.html</title>
+    <script>
+        /*
+            作用域 (Scope)：
+                var 声明的变量具有函数作用域，意味着变量在声明它的函数内可见。
+                let 声明的变量具有块级作用域，意味着变量在包含它的任何块（例如，if语句、for循环、函数等）内可见
+                if (true) {
+                    let y = 20;
+                }
+                console.log(y); // 报错，let 具有块级作用域，在 if 块外不可见
+
+            重复声明：
+                使用 var 可以重复声明同一变量名而不会引发错误。
+                使用 let 在同一作用域内重复声明同一变量名会引发错误。
+                var x = 5;
+                var x = 10; // 合法
+                console.log(x); // 10
+
+                let y = 15;
+                let y = 20; // 报错
+        */
+        //定义变量
+        var str;  //用来存储字符串
+        var a, b, c;    // 同时声明多个变量
+        //定义变量并赋值
+        var num = 1;                // 定义一个变量 num 并将其赋值为 1
+        var a = 2, b = 3, c = 4;    // 同时定义 a、b、c 三个变量并分别赋值为 2、3、4
+        //定义变量并赋值        
+        let a=1;
+        
+    </script>
+</head>
+<body>
+</body>
+</html>

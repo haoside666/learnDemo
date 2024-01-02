@@ -8,10 +8,57 @@
     <title>基本数据结构.html</title>
     <script>
         // 数组
+        //方式一:
+        var arr=new Array("Saab","Volvo","BMW");
+        //方式二:
         var list = [1,2,3,4,5,6,7,8]
         console.log(list)
-        list.forEach((x) => x + 1)
+        list=list.map((x) => x + 1)
         console.log(list)
+        //对象
+        let obj = { key1: 'value1', key2: 'value2' };
+        //集合
+        let set = new Set([1, 2, 3, 4, 1]);
+        //映射
+        /*
+            对象和映射的区别:
+                键的类型：
+                    对象： 对象的键只能是字符串或符号。
+                    映射： 映射的键可以是任意数据类型，包括基本数据类型、对象和函数等。
+                键值对的顺序：
+                    对象： 对象的属性顺序不是严格按照插入顺序的，因此不能保证属性的顺序。
+                    映射： 映射保留键值对的插入顺序。
+                键值对的数量获取：
+                    对象： 获取对象键值对的数量，需要通过手动计算。
+                    let obj = { key1: 'value1', key2: 'value2' };
+                    let objSize = Object.keys(obj).length;
+                    映射： 可以使用 size 属性直接获取映射中键值对的数量。
+                    let map = new Map();
+                    map.set('key1', 'value1');
+                    map.set('key2', 'value2');
+                    let mapSize = map.size;
+                继承：
+                    对象： 所有对象都继承自 Object.prototype，它具有一些默认的属性和方法。
+                    映射： 映射是一个独立的数据结构，不继承自其他对象，因此没有额外的默认属性或方法。 
+                    // 对象继承自 Object.prototype
+                    let obj = { key: 'value' };
+                    console.log(obj.toString()); // [object Object]
+                    // 映射是独立的数据结构，没有额外的默认属性或方法   
+        */
+        let map = new Map();
+        map.set('key1', 'value1');
+        map.set('key2', 'value2');
+        //队列
+        let queue = [];
+        queue.push(1);
+        queue.push(2);
+        // shift 删除并返回数组的第一个元素
+        var item = queue.shift();
+        //栈
+        let stack = [];
+        stack.push(1);
+        stack.push(2);
+        var item = stack.pop(); // 2
     </script>
 </head>
 <body>

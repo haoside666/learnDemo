@@ -1,0 +1,91 @@
+<!--
+    JS中一共分成六种数据类型 5个基本数据类型+object  
+        String 字符串  
+        Number 数值  
+        Boolean 布尔值  
+        Null 空值  
+        Undefined 未定义  
+        Object 对象 ->可以查看基本数据结构了解常用结构的用法
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六种数据类型.html</title>
+    <script>
+        // 其他类型转化为string类型
+        //#### 方式一（强制类型转换）  ---> 调用被转换数据的toString()方法
+        //  注意：**这个方法不适用于null和undefined**  
+        // 由于这两个类型的数据中没有方法，所以调用toString()时会报错 
+        var a = 123;  
+        a = a.toString();  
+        //#### 方式二（强制类型转换） 
+        // 原理：**对于Number Boolean String都会调用他们的toString()方法来将其转换为字符串，对于null值，直接转换为字符串"null"。对于undefined直接转换为字符串"undefined"**  
+        var a = 123;  
+        a = String(a);  
+        //#### 方式三（隐式的类型转换）  原理同tostring
+        var a = true;  
+        a = a + ""; 
+    </script>
+    <script>
+        //其他类型转换为Number
+        // #### 方式一: 调用Number()函数
+        /*
+            1. 字符串 > 数字    
+                如果字符串是一个合法的数字，则直接转换为对应的数字  
+                如果字符串是一个非法的数字，则转换为NaN  
+                如果是一个空串或纯空格的字符串，则转换为0  
+            2. 布尔值 > 数字     
+                true转换为1  
+                false转换为0  
+            3. 空值 > 数字     
+                null转换为0  
+            4. 未定义 > 数字    
+                undefined 转换为NaN 
+        */
+        var s = "123";  
+        s = Number(s); 
+
+        var s = "qiew121"
+        s = Number(s);
+        // #### 方式二: 强制类型转换
+        /*
+            调用parseInt()或parseFloat()  
+            这两个函数专门用来将一个字符串转换为数字的  
+
+            如果对非String使用parseInt()或parseFloat()，它会先将其转换为String然后在操作 parseInt()  
+            可以将**一个字符串中的有效的整数位**提取出来，并转换为Number    
+        */
+        var a = "123.456px";  
+        a = parseFloat(a); //123.456 
+        // #### 方式三（隐式的类型转换）
+        //  使用一元的+来进行隐式的类型转换
+        var a = "123";  
+        a = +a;  
+    </script>
+    <script>
+        //其他类型转换为布尔值
+        // #### 方式一: 调用Boolean()函数
+        /*
+            + 字符串 > 布尔  
+                除了空串其余全是true  
+            + 数值 > 布尔  
+                除了0和NaN其余的全是true  
+            + null、undefined > 布尔  
+                都是false  
+            + 对象 > 布尔  
+                都是true
+        */
+        var s = "false";  
+        s = Boolean(s); //true 
+        // #### 方式二: 隐式类型转换
+        // 为任意的数据类型做两次非运算，即可将其转换为布尔值 
+        var a = "hello";  
+        a = !!a; //true 
+    </script>
+</head>
+<body>
+</body>
+</html>
