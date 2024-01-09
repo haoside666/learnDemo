@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Parent() {
+            this.property = "parentProperty";
+        }
+
+        Parent.prototype.say = function () {
+            console.log("Parent say");
+        };
+
+        function Child() {
+            this.childProperty = "childProperty";
+        }
+
+        // 修改 Child 的 prototype 属性指向 Parent 实例对象，那么 Child 实例对象的 __proto__ 就会指向其构造函数 Child 的 prototype 属性（即Parent 实例对象）
+        // 修改了 Child.prototype 的指向后，那么原来 Child.prototype 指向的对象由于被没有引用，就会被回收。
+        Child.prototype = new Parent();
+        const childInstance = new Child();
+        console.log(childInstance.property); // 输出 'parentProperty'
+        childInstance.say();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+

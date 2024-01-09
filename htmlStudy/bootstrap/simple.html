@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://fonts.loli.net/css?family=Lobster" rel="stylesheet" type="text/css"/>
+    <style>
+        .red-text {
+            color: red;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        h2 {
+            font-family: Lobster, monospace;
+        }
+
+        .smaller-image {
+            width: 150px;
+            height: 150px;
+        }
+
+        .img-border {
+            border-style: solid;
+            border-color: blue;
+            border-width: 6px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2 class="red-text text-center">RabbitAPP</h2>
+        <img class="smaller-image img-border" src="https://atts.w3cschool.cn/whiterabbit280x280.png" alt="白色的兔子"/>
+        <img class="img-fluid" src="https://atts.w3cschool.cn/litter_girl820x820.png"/>
+        <p>兔子喜欢的三种食物:</p>
+        <ul>
+            <li>胡萝卜</li>
+            <li>红薯叶</li>
+            <li>白菜</li>
+        </ul>
+
+        <p>兔子不喜欢三个动物:</p>
+        <ol>
+            <li>狼</li>
+            <li>狐狸</li>
+            <li>老虎</li>
+        </ol>
+        <form action="https://www.w3cschool.cn/statics/demosource/demo-form.php">
+            <input type="text" name="FirstName" placeholder="First Name" required/><br>
+            <p>你喜欢哪个水果？</p>
+            <label><input name="fruit" type="radio" value="苹果" checked/>苹果 </label>
+            <label><input name="fruit" type="radio" value="梨"/>梨 </label>
+            <br/>
+            <p>你喜欢的蔬菜有哪些？</p>
+            <label><input name="vegetables" type="checkbox" value="菠菜" checked/>菠菜 </label>
+            <label><input name="vegetables" type="checkbox" value="空心菜"/>空心菜 </label>
+            <label><input name="vegetables" type="checkbox" value="花菜"/>花菜 </label>
+            <br/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
