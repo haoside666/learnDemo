@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/dicts/names_boys_double.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/dicts/names_boys_single.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/dicts/names_girls_double.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/dicts/names_girls_single.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/outputs/names_boys_source_wgl_hasguang.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/chinese-name-score/main/outputs/names_boys_source_wgl_noguang.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/main/dicts/names_girls_double.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/main/dicts/names_girls_single.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/main/outputs/names_boys_source_wgl_hasguang.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/main/outputs/names_boys_source_wgl_noguang.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chinese-name-score/main/outputs/names_girls_source_zxx.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/crawler_wenxuewang/output/楔子.txt" charset="GBK" />
+  </component>
+</project>
